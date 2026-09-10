@@ -112,6 +112,72 @@ html, body {
   outline-offset: 2px;
 }
 
+/* ---- User pin + location bar ---- */
+.user-pin {
+  font-size: 34px;
+  line-height: 1;
+  filter: drop-shadow(0 3px 4px rgba(53, 50, 62, 0.4));
+  cursor: grab;
+}
+.locbar {
+  margin-bottom: 16px;
+  padding-bottom: 14px;
+  border-bottom: 2px dashed var(--cream);
+}
+.locbar__row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.locbar__row input[type="search"] {
+  flex: 1;
+  min-width: 0;
+  font: inherit;
+  font-size: 14px;
+  padding: 9px 12px;
+  border: 2px solid var(--sunny);
+  border-radius: 12px;
+  background: var(--white);
+  color: var(--ink);
+}
+.locbar__row input[type="search"]:focus-visible {
+  outline: 3px solid var(--teal);
+  outline-offset: 1px;
+}
+.locbar__row button[type="submit"] {
+  border: 0;
+  background: var(--sunny);
+  border-radius: 12px;
+  font-size: 16px;
+  padding: 0 14px;
+  cursor: pointer;
+  min-height: 40px;
+}
+.locbar__pin,
+.locbar__clear {
+  flex: 1;
+  border: 2px solid var(--teal);
+  background: var(--white);
+  color: var(--ink);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 12px;
+  padding: 8px 10px;
+  cursor: pointer;
+  min-height: 40px;
+}
+.locbar__pin--armed {
+  background: var(--teal);
+  color: var(--white);
+}
+.locbar__clear { border-color: var(--coral); color: var(--coral); }
+.filter__hint {
+  font-size: 12px;
+  color: var(--ink-soft);
+  margin: 6px 0 0;
+}
+
 /* ---- Filters: bottom sheet on mobile ---- */
 .filters {
   position: fixed;
@@ -311,6 +377,17 @@ html, body {
 .fact--type-cooperative { background: #ffe3e3; color: #b23b3b; }
 .fact--type-private { background: #ece7fb; color: #5f4bb6; }
 .fact--type-public { background: #dff5f2; color: #0b7c6f; }
+.detail__travel {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.fact--link {
+  text-decoration: none;
+  background: var(--lilac);
+  color: var(--white);
+}
 .detail__note {
   font-size: 13px;
   color: var(--ink-soft);

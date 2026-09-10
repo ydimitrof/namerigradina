@@ -1,7 +1,23 @@
 /* Config-driven filter engine.
  * Each filter type defines how to render its control and how to test a place.
- * Adding a new filter is a filters.json edit; adding a new TYPE is one entry here. */
+ * Adding a new filter is a filters.json edit; adding a new TYPE is one entry here.
+ * Types may read shared context (e.g. the user's pin) via ctx and can expose
+ * an update(ctx) hook, called when the context changes. */
 "use strict";
+
+/* Walking-time estimate: haversine distance with a 1.35 street-detour
+ * factor at ~4.7 km/h. Shared by the distance filter and the detail card. */
+function walkingMinutes(a, b) {
+  const R = 6371000;
+  const toRad = (d) => (d * Math.PI) / 180;
+  const dLat = toRad(b[1] - a[1]);
+  const dLng = toRad(b[0] - a[0]);
+  const s =
+    Math.sin(dLat / 2) ** 2 +
+    Math.cos(toRad(a[1])) * Math.cos(toRad(b[1])) * Math.sin(dLng / 2) ** 2;
+  const meters = 2 * R * Math.asin(Math.sqrt(s));
+  return (meters * 1.35) / 78.3;
+}
 
 const Filters = (() => {
   const TYPES = {
@@ -99,6 +115,66 @@ const Filters = (() => {
       },
     },
 
+    "distance": {
+      render(filter, container, onChange, ctx) {
+        const wrap = document.createElement("div");
+        wrap.className = "filter__range";
+        const input = document.createElement("input");
+        input.type = "range";
+        input.min = "5";
+        input.max = String(filter.max ?? 30);
+        input.step = "5";
+        input.value = input.max;
+        input.setAttribute("aria-label", filter.label);
+        const out = document.createElement("output");
+        const clearBtn = document.createElement("button");
+        clearBtn.type = "button";
+        clearBtn.className = "filter__range-clear";
+        clearBtn.textContent = "✕";
+        clearBtn.setAttribute("aria-label", "Изчисти " + filter.label.toLowerCase());
+        const hint = document.createElement("p");
+        hint.className = "filter__hint";
+        hint.textContent = "Първо посочи адрес или пин на картата.";
+        let active = false;
+        const show = () => {
+          const hasPin = !!(ctx && ctx.getPin && ctx.getPin());
+          input.disabled = !hasPin;
+          hint.hidden = hasPin;
+          out.textContent = active && hasPin ? `до ${input.value} мин` : "всички";
+          clearBtn.hidden = !(active && hasPin);
+        };
+        input.addEventListener("input", () => {
+          active = true;
+          show();
+          onChange();
+        });
+        clearBtn.addEventListener("click", () => {
+          active = false;
+          input.value = input.max;
+          show();
+          onChange();
+        });
+        show();
+        wrap.append(input, out, clearBtn);
+        container.append(wrap, hint);
+        return {
+          isActive: () => active && !!(ctx && ctx.getPin && ctx.getPin()),
+          test(place) {
+            const pin = ctx && ctx.getPin && ctx.getPin();
+            if (!active || !pin) return true;
+            if (!Array.isArray(place.coords) || place.coords.length < 2) return true;
+            return walkingMinutes(pin, place.coords) <= Number(input.value);
+          },
+          clear() {
+            active = false;
+            input.value = input.max;
+            show();
+          },
+          update: show,
+        };
+      },
+    },
+
     "toggle": {
       render(filter, container, onChange) {
         const label = document.createElement("label");
@@ -118,8 +194,9 @@ const Filters = (() => {
     },
   };
 
-  /* Builds all controls into `root`; returns {apply, activeCount, clearAll}. */
-  function build(config, root, onChange) {
+  /* Builds all controls into `root`; returns {apply, activeCount, clearAll,
+   * contextChanged}. `ctx` is shared read-only state for context-aware types. */
+  function build(config, root, onChange, ctx) {
     const controls = [];
     for (const filter of config.filters || []) {
       const type = TYPES[filter.type];
@@ -135,13 +212,14 @@ const Filters = (() => {
         lbl.textContent = filter.label;
         box.appendChild(lbl);
       }
-      controls.push(type.render(filter, box, onChange));
+      controls.push(type.render(filter, box, onChange, ctx));
       root.appendChild(box);
     }
     return {
       apply: (places) => places.filter((p) => controls.every((c) => c.test(p))),
       activeCount: () => controls.filter((c) => c.isActive()).length,
       clearAll: () => controls.forEach((c) => c.clear()),
+      contextChanged: () => controls.forEach((c) => c.update && c.update()),
     };
   }
 

@@ -24,6 +24,9 @@ const PlaceMap = (() => {
   let activeId = null;
   let clusterIndex = new Map(); // place.id -> place, for layer click lookup
   let clusterSelectHandler = null;
+  let userMarker = null;
+  let pinPlacementCb = null; // when set, the next map click places the user pin
+  let userPinMovedCb = null;
 
   function init(onReady) {
     map = new maplibregl.Map({
@@ -41,6 +44,52 @@ const PlaceMap = (() => {
     map.on("error", (e) => {
       console.warn("Грешка при зареждане на картата:", e.error ? e.error.message : e);
     });
+    map.on("click", (e) => {
+      if (!pinPlacementCb) return;
+      const cb = pinPlacementCb;
+      endPinPlacement();
+      cb([e.lngLat.lng, e.lngLat.lat]);
+    });
+  }
+
+  /* ---- User pin (draggable "my address" marker) ---- */
+
+  function setUserPin(coords, onMoved) {
+    userPinMovedCb = onMoved || userPinMovedCb;
+    if (!coords) {
+      if (userMarker) { userMarker.remove(); userMarker = null; }
+      return;
+    }
+    if (!userMarker) {
+      const wrapper = document.createElement("div");
+      const el = document.createElement("div");
+      el.className = "user-pin";
+      el.textContent = "🏠";
+      wrapper.appendChild(el);
+      userMarker = new maplibregl.Marker({ element: wrapper, anchor: "bottom", draggable: true })
+        .setLngLat(coords)
+        .addTo(map);
+      userMarker.on("dragend", () => {
+        const p = userMarker.getLngLat();
+        if (userPinMovedCb) userPinMovedCb([p.lng, p.lat]);
+      });
+    } else {
+      userMarker.setLngLat(coords);
+    }
+  }
+
+  function beginPinPlacement(cb) {
+    pinPlacementCb = cb;
+    map.getCanvas().style.cursor = "crosshair";
+  }
+
+  function endPinPlacement() {
+    pinPlacementCb = null;
+    map.getCanvas().style.cursor = "";
+  }
+
+  function isPlacingPin() {
+    return !!pinPlacementCb;
   }
 
   function addClusterLayers() {
@@ -88,6 +137,7 @@ const PlaceMap = (() => {
       },
     });
     map.on("click", "place-points", (e) => {
+      if (pinPlacementCb) return; // pin placement takes priority over selection
       const f = e.features && e.features[0];
       if (!f) return;
       const place = clusterIndex.get(f.properties.id);
@@ -148,6 +198,7 @@ const PlaceMap = (() => {
       el.appendChild(icon);
       el.addEventListener("click", (e) => {
         e.stopPropagation();
+        if (pinPlacementCb) return;
         setActive(place.id);
         onSelect(place);
       });
@@ -185,5 +236,8 @@ const PlaceMap = (() => {
     map.flyTo({ center: place.coords, zoom: Math.max(map.getZoom(), 13.5), duration: 500 });
   }
 
-  return { init, setPlaces, setClustered, setActive, fitTo, panTo };
+  return {
+    init, setPlaces, setClustered, setActive, fitTo, panTo,
+    setUserPin, beginPinPlacement, endPinPlacement, isPlacingPin,
+  };
 })();

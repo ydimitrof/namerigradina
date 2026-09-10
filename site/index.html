@@ -28,6 +28,19 @@
       <span class="filters__chevron" aria-hidden="true">▾</span>
     </button>
     <div id="filters-body" class="filters__body">
+      <div class="locbar" aria-label="Твоят адрес">
+        <span class="filter__label">Твоят адрес</span>
+        <form id="loc-form" class="locbar__row">
+          <input id="loc-input" type="search" placeholder="ул. Пример 1, София…"
+                 autocomplete="street-address" enterkeyhint="search">
+          <button type="submit" aria-label="Търси адрес">🔍</button>
+        </form>
+        <div class="locbar__row">
+          <button type="button" id="loc-pin-btn" class="locbar__pin">📍 Посочи на картата</button>
+          <button type="button" id="loc-clear" class="locbar__clear" hidden>✕ Махни пина</button>
+        </div>
+        <p id="loc-status" class="filter__hint" hidden></p>
+      </div>
       <div id="filters-controls"></div>
       <button id="filters-clear" class="filters__clear" hidden>Изчисти филтрите</button>
     </div>

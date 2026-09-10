@@ -159,6 +159,12 @@
       ]
     },
     {
+      "key": "walk",
+      "label": "Пеша от моя адрес",
+      "type": "distance",
+      "max": 30
+    },
+    {
       "key": "ages",
       "label": "Възраст на детето",
       "type": "range",
