@@ -1,6 +1,6 @@
 {
  "version": 3,
- "updated": "2026-09-10",
+ "updated": "2026-09-11",
  "attribution": "Данни за общинските градини: Столична община / ИСОДЗ (kg.sofia.bg) и arcgis.sofia.bg, извлечени 2026-09-10.",
  "places": [
   {
@@ -7187,6 +7187,1711 @@
     "website": null
    },
    "approxLocation": true
+  },
+  {
+   "id": "chdg-2200010",
+   "type": "private",
+   "name": "ЧДГ „Таткова Градина“",
+   "coords": [
+    23.3398,
+    42.63837
+   ],
+   "address": "район Панчарево, ж. к. Малинова Долина, ул. \"Първа\" № 24",
+   "district": "pancharevo",
+   "contacts": {
+    "phone": "0878607300",
+    "email": "info@tatkovagradina.eu",
+    "facebook": null,
+    "website": "https://www.tatkovagradina.eu"
+   }
+  },
+  {
+   "id": "chdg-2200016",
+   "type": "private",
+   "name": "ЧДГ „Слънчев Ангел“",
+   "coords": [
+    23.33419,
+    42.67211
+   ],
+   "address": "район Витоша, ж. к. Симеоново, ул. \"Шумако\" № 29 (нов № 47)",
+   "district": "vitosha",
+   "contacts": {
+    "phone": "0889828647",
+    "email": "office@sunnyangel.bg",
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdg-2200033",
+   "type": "private",
+   "name": "ЧДГ „Частна Детска Градина Бобче Топче“",
+   "coords": [
+    23.31188,
+    42.64009
+   ],
+   "address": "район Витоша, ж.к. Драгалевци, ул. \"Ваклинец\" № 36",
+   "district": "vitosha",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdg-2201080",
+   "type": "private",
+   "name": "ЧДГ „Частна Детска Градина Момо“",
+   "coords": [
+    23.32306,
+    42.70372
+   ],
+   "address": "Район Възраждане, ул. \"Поп Богомил\" № 47",
+   "district": null,
+   "contacts": {
+    "phone": "0899947663",
+    "email": "admin@gradinamomo.com",
+    "facebook": null,
+    "website": "https://www.gradinamomo.com"
+   }
+  },
+  {
+   "id": "chdg-2201082",
+   "type": "private",
+   "name": "ЧДГ „Бръмбазък“",
+   "coords": [
+    23.32623,
+    42.70341
+   ],
+   "address": "район Оборище, ул. \"Бачо Киро\" № 66",
+   "district": "oborishte",
+   "contacts": {
+    "phone": "0898902552",
+    "email": "info@brambazak.bg",
+    "facebook": null,
+    "website": "https://www.brambazak.bg"
+   }
+  },
+  {
+   "id": "chdg-2202352",
+   "type": "private",
+   "name": "ЧДГ „Маргаритка“",
+   "coords": [
+    23.27446,
+    42.66138
+   ],
+   "address": "район Витоша, ж. к. Манастирски ливади, ул. \"Ген. Стефан Тошев\" № 96",
+   "district": "vitosha",
+   "contacts": {
+    "phone": "0888414940",
+    "email": "info-2202352@edu.mon.bg",
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdg-2202619",
+   "type": "private",
+   "name": "ЧДГ „Мила“",
+   "coords": [
+    23.2737,
+    42.65992
+   ],
+   "address": "район Витоша, кв. \"Манастирски ливади - запад\", ул. \"Майстор Павел от Кримин\" № 3",
+   "district": "vitosha",
+   "contacts": {
+    "phone": "0888669914",
+    "email": "smehuran4eta@abv.bg",
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdg-2202656",
+   "type": "private",
+   "name": "ЧДГ „Веселото Гардже“",
+   "coords": [
+    23.36595,
+    42.62073
+   ],
+   "address": "район Витоша, ж. к. София парк, Търговска зона, бл. 16 - 3",
+   "district": "vitosha",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdg-2202675",
+   "type": "private",
+   "name": "ЧДГ „Българанче“",
+   "coords": [
+    23.262,
+    42.66088
+   ],
+   "address": "район Витоша, ул. \"Прохлада\" № 10",
+   "district": "vitosha",
+   "contacts": {
+    "phone": "0885555621",
+    "email": "agerenska@gmail.com",
+    "facebook": null,
+    "website": "https://www.facebook.com/balgaranche"
+   }
+  },
+  {
+   "id": "chdg-2202689",
+   "type": "private",
+   "name": "ЧДГ „Веселите Камбанки“",
+   "coords": [
+    23.33244,
+    42.65077
+   ],
+   "address": "район Лозенец, кв. Витоша, ул. \"Данаил Крапчев\" № 17",
+   "district": "lozenets",
+   "contacts": {
+    "phone": "087 8610822",
+    "email": "veselitekambanki@detskagradina.org",
+    "facebook": null,
+    "website": "https://www.detskagradina.org"
+   }
+  },
+  {
+   "id": "chdg-2202745",
+   "type": "private",
+   "name": "ЧДГ „Германи“",
+   "coords": [
+    23.36944,
+    42.61585
+   ],
+   "address": "район Витоша, в. з. Малинова долина, ул. \"16\" № 2Б",
+   "district": "vitosha",
+   "contacts": {
+    "phone": "0887094820",
+    "email": "office@germani.bg",
+    "facebook": null,
+    "website": "https://www.germani.bg"
+   }
+  },
+  {
+   "id": "chdg-2202747",
+   "type": "private",
+   "name": "ЧДГ „Монтесори Къща На Децата“",
+   "coords": [
+    23.27791,
+    42.65937
+   ],
+   "address": "район Витоша, ул. \"Българска легия\" № 17",
+   "district": "vitosha",
+   "contacts": {
+    "phone": "0897995888",
+    "email": "info@montessorisofia.com",
+    "facebook": null,
+    "website": "https://www.casadeibambini.bg"
+   }
+  },
+  {
+   "id": "chdg-2202748",
+   "type": "private",
+   "name": "ЧДГ „Ежко Бежко“",
+   "coords": [
+    23.3069,
+    42.63822
+   ],
+   "address": "район Витоша, ж. к. Драгалевци, ул. \"Проф. Александър Райчев\" № 8",
+   "district": "vitosha",
+   "contacts": {
+    "phone": "0887464294",
+    "email": "ezhko_bezhko88@abv.bg",
+    "facebook": null,
+    "website": "https://www.ezhko- bezhko.net"
+   }
+  },
+  {
+   "id": "chdg-2202756",
+   "type": "private",
+   "name": "ЧДГ „Звездичка“",
+   "coords": [
+    23.26406,
+    42.66581
+   ],
+   "address": "район Витоша, ул. \"Ветрушка\" № 5а",
+   "district": "vitosha",
+   "contacts": {
+    "phone": "0888545488",
+    "email": "megned@abv.bg",
+    "facebook": null,
+    "website": "https://www.zvezdichka-sofia.com"
+   }
+  },
+  {
+   "id": "chdg-2202765",
+   "type": "private",
+   "name": "ЧДГ „Сияние“",
+   "coords": [
+    23.26712,
+    42.64785
+   ],
+   "address": "район Витоша, кв. Бояна, ул. \"Белите брези\" № 1",
+   "district": "vitosha",
+   "contacts": {
+    "phone": "0897958561",
+    "email": "office@sianie-bg.com",
+    "facebook": null,
+    "website": "https://www.sianie-bg.com"
+   }
+  },
+  {
+   "id": "chdg-2202767",
+   "type": "private",
+   "name": "ЧДГ „Елхица“",
+   "coords": [
+    23.33252,
+    42.61322
+   ],
+   "address": "район Витоша, кв. Симеоново, ул. \"Мишова орница\" № 5",
+   "district": "vitosha",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdg-2202779",
+   "type": "private",
+   "name": "ЧДГ „Немо“",
+   "coords": [
+    23.31188,
+    42.64009
+   ],
+   "address": "район Витоша, ж. к. Драгалевци, ул. \"Маточина\" № 2а",
+   "district": "vitosha",
+   "contacts": {
+    "phone": "0889 599 118",
+    "email": "nemocenter@nemo-bg.com",
+    "facebook": null,
+    "website": "https://www.nemo-bg.com"
+   }
+  },
+  {
+   "id": "chdg-2202784",
+   "type": "private",
+   "name": "ЧДГ „Златно Зрънце“",
+   "coords": [
+    23.31804,
+    42.6727
+   ],
+   "address": "район Лозенец, ул. \"Червена стена\" № 34",
+   "district": "lozenets",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdg-2202835",
+   "type": "private",
+   "name": "ЧДГ „Палави Крачета“",
+   "coords": [
+    23.29719,
+    42.63832
+   ],
+   "address": "район Витоша, ул. \"Боянска\" № 20",
+   "district": "vitosha",
+   "contacts": {
+    "phone": "0884432343",
+    "email": "palavikracheta20@gmail.com",
+    "facebook": null,
+    "website": "https://palavikracheta.com"
+   }
+  },
+  {
+   "id": "chdg-2203707",
+   "type": "private",
+   "name": "ЧДГ „Приятелска Къща“",
+   "coords": [
+    23.2752,
+    42.66099
+   ],
+   "address": "ул. \"Българска легия\" № 2",
+   "district": null,
+   "contacts": {
+    "phone": "0898 52 17 50",
+    "email": "info-2203707@edu.mon.bg",
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdg-2203772",
+   "type": "private",
+   "name": "ЧДГ „Арлекино“",
+   "coords": [
+    23.25068,
+    42.71602
+   ],
+   "address": "район Връбница, ж. к. \"Обеля\", ул. 18, №3",
+   "district": "vrabnitsa",
+   "contacts": {
+    "phone": "/0896676130",
+    "email": "ioannalichkova@gmail.com",
+    "facebook": null,
+    "website": "https://arlekino.info"
+   }
+  },
+  {
+   "id": "chdg-2205771",
+   "type": "private",
+   "name": "ЧДГ „Детска Академия“",
+   "coords": [
+    23.36674,
+    42.66878
+   ],
+   "address": "район Изгрев, бул. \"Цариградско шосе\" № 32",
+   "district": "izgrev",
+   "contacts": {
+    "phone": "0898455375",
+    "email": "toddlersacademykindergarten@gmail.com",
+    "facebook": null,
+    "website": "https://www.toddlersacademy.eu/bg"
+   }
+  },
+  {
+   "id": "chdg-2209755",
+   "type": "private",
+   "name": "ЧДГ „101 Защо“",
+   "coords": [
+    23.30472,
+    42.72876
+   ],
+   "address": "район Красно село, ул. 656 № 8",
+   "district": "krasno-selo",
+   "contacts": {
+    "phone": "0888643847",
+    "email": "zashto101@abv.bg",
+    "facebook": null,
+    "website": "https://www.101dg.org"
+   }
+  },
+  {
+   "id": "chdg-2211678",
+   "type": "private",
+   "name": "ЧДГ „Патета“",
+   "coords": [
+    23.27956,
+    42.66167
+   ],
+   "address": "район Витоша, ж. к. Mанастирски ливади-запад, ул. \"Бяло поле\" № 9Б",
+   "district": "vitosha",
+   "contacts": {
+    "phone": "0878630550",
+    "email": "office@pateta.bg",
+    "facebook": null,
+    "website": "https://www.pateta.bg"
+   }
+  },
+  {
+   "id": "chdg-2212775",
+   "type": "private",
+   "name": "ЧДГ „Чудната Къщичка“",
+   "coords": [
+    23.24766,
+    42.72945
+   ],
+   "address": "район Люлин, ж. к. Люлин 2, ул. \"Александър Станишев\" № 37",
+   "district": "lyulin",
+   "contacts": {
+    "phone": "02/+359887742661",
+    "email": "info@wonderhouse-bg.com",
+    "facebook": null,
+    "website": "https://www.wonderhouse-bg.com"
+   }
+  },
+  {
+   "id": "chdg-2213625",
+   "type": "private",
+   "name": "ЧДГ „Еко Дара“",
+   "coords": [
+    23.36398,
+    42.61108
+   ],
+   "address": "район Панчарево (в. з. Малинова Долина), ул. \"Любаш\" № 2",
+   "district": null,
+   "contacts": {
+    "phone": "0886535656",
+    "email": "info@ecodara.com",
+    "facebook": null,
+    "website": "https://www.ecodara.com"
+   }
+  },
+  {
+   "id": "chdg-2213699",
+   "type": "private",
+   "name": "ЧДГ „Детски Оазис“",
+   "coords": [
+    23.37654,
+    42.65238
+   ],
+   "address": "ул. Димитър Доспевски №9",
+   "district": null,
+   "contacts": {
+    "phone": "0887393801",
+    "email": "kinderoase_sofia@yahoo.de",
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdg-2216760",
+   "type": "private",
+   "name": "ЧДГ „Къщата На Алиса И Приятели“",
+   "coords": [
+    23.34406,
+    42.69459
+   ],
+   "address": "район Оборище, ул. \"Асен Златаров\" № 18",
+   "district": "oborishte",
+   "contacts": {
+    "phone": "0899064119",
+    "email": "dveleva@alisahouse.org",
+    "facebook": null,
+    "website": "http//www.alisahouse.org"
+   }
+  },
+  {
+   "id": "chdg-2218997",
+   "type": "private",
+   "name": "ЧДГ „Слънчогледи“",
+   "coords": [
+    23.42444,
+    42.59676
+   ],
+   "address": "район Панчарево, местност Ширините № 1А",
+   "district": "pancharevo",
+   "contacts": {
+    "phone": "0896717316",
+    "email": "chdg@slanchogledi.bg",
+    "facebook": null,
+    "website": "https://www.slanchogledi.bg"
+   },
+   "approxLocation": true
+  },
+  {
+   "id": "chdg-2220651",
+   "type": "private",
+   "name": "ЧДГ „Успение На Пресвета Богородица“",
+   "coords": [
+    23.42953,
+    42.761
+   ],
+   "address": "район Сердика, ул. \"Училищна\" № 8",
+   "district": "serdika",
+   "contacts": {
+    "phone": "0876 876 821",
+    "email": "jito10@abv.bg",
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdg-2220764",
+   "type": "private",
+   "name": "ЧДГ „Веда“",
+   "coords": [
+    23.32646,
+    42.71819
+   ],
+   "address": "район Сердика, ул. \"Марин Дочев Христов\" № 18",
+   "district": "serdika",
+   "contacts": {
+    "phone": "0899889596",
+    "email": "kindergarten@wedaschule.com",
+    "facebook": null,
+    "website": "https://www.wedaschule.com"
+   },
+   "approxLocation": true
+  },
+  {
+   "id": "chdg-2224781",
+   "type": "private",
+   "name": "ЧДГ „Мария Магдалена“",
+   "coords": [
+    23.29124,
+    42.66652
+   ],
+   "address": "район Триадица, ул. \"Ген. Кирил Ботев\" № 26Е",
+   "district": "triaditsa",
+   "contacts": {
+    "phone": "0889518239",
+    "email": "roza_nik@abv.bg",
+    "facebook": null,
+    "website": "https://www.mmagdalena-bg.com"
+   }
+  },
+  {
+   "id": "chdg-2204785",
+   "type": "private",
+   "name": "ЧДГ „Куест“",
+   "coords": [
+    23.40072,
+    42.6608
+   ],
+   "address": "ж. к. Дружба 1, ул. \"Тирана\" № 63",
+   "district": null,
+   "contacts": {
+    "phone": "0897881359",
+    "email": "office@questjunior.bg",
+    "facebook": null,
+    "website": "https://questjunior.bg/"
+   }
+  },
+  {
+   "id": "chdg-2217618",
+   "type": "private",
+   "name": "ЧДГ „Светлина“",
+   "coords": [
+    23.33665,
+    42.64907
+   ],
+   "address": "район Студентски, ул. \"Йозеф Валдхард\" № 3",
+   "district": "studentski",
+   "contacts": {
+    "phone": "0894738042",
+    "email": "m.georgieva@svetlina.net",
+    "facebook": null,
+    "website": "https://www.svetlina.net"
+   }
+  },
+  {
+   "id": "chdg-2216353",
+   "type": "private",
+   "name": "ЧДГ „Арти“",
+   "coords": [
+    23.35543,
+    42.69362
+   ],
+   "address": "район Оборище, ул. \"Оборище\" № 5",
+   "district": "oborishte",
+   "contacts": {
+    "phone": "0895418615",
+    "email": "dg@arty.bg",
+    "facebook": null,
+    "website": "https://www.arty.bg"
+   }
+  },
+  {
+   "id": "chdg-2200036",
+   "type": "private",
+   "name": "ЧДГ „Бизиленд“",
+   "coords": [
+    23.31834,
+    42.7085
+   ],
+   "address": "София, р-н Сердика, ул. \"Сулина\" № 13",
+   "district": null,
+   "contacts": {
+    "phone": "02/02 8978997",
+    "email": "kindergarten@busy-bg.com",
+    "facebook": null,
+    "website": "https//busy-land.com/"
+   }
+  },
+  {
+   "id": "chdg-2202687",
+   "type": "private",
+   "name": "ЧДГ „Екомалчовци“",
+   "coords": [
+    23.24227,
+    42.67009
+   ],
+   "address": "район Витоша, кв. Княжево, ул. \"Княжевска\" № 63",
+   "district": "vitosha",
+   "contacts": {
+    "phone": "0888604540",
+    "email": "info-2202687@edu.mon.bg",
+    "facebook": null,
+    "website": "https://www.ecomalchovci.com"
+   }
+  },
+  {
+   "id": "chdg-2200025",
+   "type": "private",
+   "name": "ЧДГ „Професор Николай Райнов“",
+   "coords": [
+    23.31615,
+    42.67259
+   ],
+   "address": "район Лозенец, ул. \"Горски пътник\" № 44",
+   "district": "lozenets",
+   "contacts": {
+    "phone": "0884262712",
+    "email": "cdgw@waldorf.bg",
+    "facebook": null,
+    "website": "http//www.waldorf.bg/"
+   }
+  },
+  {
+   "id": "chdg-2212653",
+   "type": "private",
+   "name": "ЧДГ „Британика“",
+   "coords": [
+    23.31452,
+    42.63513
+   ],
+   "address": "кв. Драгалевци, ул. \"Момино венче\" № 27",
+   "district": null,
+   "contacts": {
+    "phone": "0895797333",
+    "email": "info-22126532@edu.mon.bg",
+    "facebook": null,
+    "website": "https://www.thecastle.bg"
+   }
+  },
+  {
+   "id": "chdg-2200041",
+   "type": "private",
+   "name": "ЧДГ „Монтесори Къща Алис“",
+   "coords": [
+    23.33289,
+    42.65493
+   ],
+   "address": "кв. Витоша, ул. \"Прохода Маказа\" № 2",
+   "district": null,
+   "contacts": {
+    "phone": "0884581972",
+    "email": "info-2200041@edu.mon.bg",
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdg-2216650",
+   "type": "private",
+   "name": "ЧДГ „Славейче“",
+   "coords": [
+    23.27553,
+    42.78792
+   ],
+   "address": "район Оборище, ул. \"Росица\" № 12",
+   "district": "oborishte",
+   "contacts": {
+    "phone": "0888636329",
+    "email": "info-2216650@edu.mon.bg",
+    "facebook": null,
+    "website": "https://www.slaveiche.com"
+   }
+  },
+  {
+   "id": "chdg-2213783",
+   "type": "private",
+   "name": "ЧДГ „Меридиан 22“",
+   "coords": [
+    23.37215,
+    42.64476
+   ],
+   "address": "район Младост, ж. к. Младост 2, до бл. 227",
+   "district": "mladost",
+   "contacts": {
+    "phone": "0889727143",
+    "email": "info-2213783@edu.mon.bg",
+    "facebook": null,
+    "website": "https://www.meridian22-bg.com"
+   }
+  },
+  {
+   "id": "chdg-2202698",
+   "type": "private",
+   "name": "ЧДГ „Росица“",
+   "coords": [
+    23.36151,
+    42.69608
+   ],
+   "address": "кв. Бояна, ул. \"Букара\" № 15",
+   "district": null,
+   "contacts": {
+    "phone": "+359/0885706805",
+    "email": "anita.goneva@gradinarosica.com",
+    "facebook": null,
+    "website": "https://www.gradinarosica.com"
+   }
+  },
+  {
+   "id": "chdg-2202693",
+   "type": "private",
+   "name": "ЧДГ „Детски Свят“",
+   "coords": [
+    23.27469,
+    42.66905
+   ],
+   "address": "район Витоша, ул. \"Казбек\" № 55, партер",
+   "district": "vitosha",
+   "contacts": {
+    "phone": "0893314115",
+    "email": "2202693@edu.mon.bg",
+    "facebook": null,
+    "website": "https://www.detski-sviat.info"
+   }
+  },
+  {
+   "id": "chdg-2217654",
+   "type": "private",
+   "name": "ЧДГ „Монтесори Хай“",
+   "coords": [
+    23.24219,
+    42.68351
+   ],
+   "address": "район Овча купел, ж. к. Горна баня, ул. \"Синьо езеро\" № 9а",
+   "district": "ovcha-kupel",
+   "contacts": {
+    "phone": "0888723366",
+    "email": "hi@montessori-high.com",
+    "facebook": null,
+    "website": "https://www.montessori-high.com/"
+   }
+  },
+  {
+   "id": "chdg-2200049",
+   "type": "private",
+   "name": "ЧДГ „Палавите Малчугани“",
+   "coords": [
+    23.31538,
+    42.6664
+   ],
+   "address": "ул. \"Босилек\" № 5",
+   "district": null,
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdg-2200009",
+   "type": "private",
+   "name": "ЧДГ „Албертино“",
+   "coords": [
+    23.35221,
+    42.65774
+   ],
+   "address": "ул. \"Баку\" № 3",
+   "district": null,
+   "contacts": {
+    "phone": "0890 115 116",
+    "email": "info@albertino.bg",
+    "facebook": null,
+    "website": "https://www.albertino.bg"
+   }
+  },
+  {
+   "id": "chdg-2200043",
+   "type": "private",
+   "name": "ЧДГ „Частна Детска Градина Авсландия“",
+   "coords": [
+    23.33219,
+    42.67924
+   ],
+   "address": "бул. \"Христо Смирненски\" № 27",
+   "district": null,
+   "contacts": {
+    "phone": "0889809655",
+    "email": "skpopova@abckinder.org",
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdg-2202617",
+   "type": "private",
+   "name": "ЧДГ „Цветен Ден“",
+   "coords": [
+    23.36906,
+    42.82737
+   ],
+   "address": "ул. \"Иван Радоев\" № 23",
+   "district": null,
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdg-2202758",
+   "type": "private",
+   "name": "ЧДГ „Рай“",
+   "coords": [
+    23.30058,
+    42.72888
+   ],
+   "address": "ж. к. Надежда 2, ул. \"Кубадин\" № 5",
+   "district": null,
+   "contacts": {
+    "phone": "02/9611333",
+    "email": "gradinarai@abv.bg",
+    "facebook": null,
+    "website": "https://gradina-rai.com"
+   }
+  },
+  {
+   "id": "chdg-2211354",
+   "type": "private",
+   "name": "ЧДГ „Д-р Петър Берон“",
+   "coords": [
+    23.31515,
+    42.67082
+   ],
+   "address": "бул. \"Джеймс Баучер\" № 116, ет. 1, ап. 1",
+   "district": null,
+   "contacts": {
+    "phone": "0888774050",
+    "email": "info-2211354@edu.mon.bg",
+    "facebook": null,
+    "website": "https://www.pberon.com"
+   }
+  },
+  {
+   "id": "chdg-2221691",
+   "type": "private",
+   "name": "ЧДГ „Мечо Пух“",
+   "coords": [
+    23.14432,
+    42.71166
+   ],
+   "address": "ул. \"Стара планина\" № 16",
+   "district": null,
+   "contacts": {
+    "phone": "087 8881221",
+    "email": "office@mechopuh.bg",
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdg-2224676",
+   "type": "private",
+   "name": "ЧДГ „Мечтател“",
+   "coords": [
+    23.33371,
+    42.67826
+   ],
+   "address": "ул. „Арх. Миланов” № 2, ап. 11",
+   "district": null,
+   "contacts": {
+    "phone": "0885707678",
+    "email": "mechtatel07@abv.bg",
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdg-2202753",
+   "type": "private",
+   "name": "ЧДГ „Свети Георги“",
+   "coords": [
+    23.32356,
+    42.6661
+   ],
+   "address": "бул. Никола Вапцаров № 47",
+   "district": null,
+   "contacts": {
+    "phone": "/0885 160742",
+    "email": "sgp.reception@stgeorgeschool.eu",
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdg-2200052",
+   "type": "private",
+   "name": "ЧДГ „Частна Детска Градина Канадско Мече“",
+   "coords": [
+    23.33236,
+    42.64913
+   ],
+   "address": "кв. Витоша, ул. \"Йордан Стубел\" № 16",
+   "district": null,
+   "contacts": {
+    "phone": "0888787792",
+    "email": "suzana.stepanova@sofia.maplebear-cee.com",
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdg-2211652",
+   "type": "private",
+   "name": "ЧДГ „Частна Детска Градина Тути 2011“",
+   "coords": [
+    23.31847,
+    42.67295
+   ],
+   "address": "ул. \"Червена стена\" № 28",
+   "district": null,
+   "contacts": {
+    "phone": "0876 999 030",
+    "email": "tuti@tuti-bg.com",
+    "facebook": null,
+    "website": "https://www.tuti-bg.com"
+   }
+  },
+  {
+   "id": "chdg-2211782",
+   "type": "private",
+   "name": "ЧДГ „Малкото Школо“",
+   "coords": [
+    23.36788,
+    42.63618
+   ],
+   "address": "район Младост, ж. к. Младост 2, ул. \"Генерал Майор Васил Делов\" № 10",
+   "district": "mladost",
+   "contacts": {
+    "phone": "/0889108519",
+    "email": "detska_gradina@bgshkolo.com",
+    "facebook": null,
+    "website": "http//bgshkolo.com/"
+   }
+  },
+  {
+   "id": "chdg-2200019",
+   "type": "private",
+   "name": "ЧДГ „Щастливо Детство“",
+   "coords": [
+    23.3122,
+    42.64061
+   ],
+   "address": "кв. Драгалевци, бул. \"Черни връх\" № 189д",
+   "district": null,
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   },
+   "note": "По регистъра на МОН: не провежда учебен процес през текущата година."
+  },
+  {
+   "id": "chdg-2213696",
+   "type": "private",
+   "name": "ЧДГ „Аника“",
+   "coords": [
+    23.37312,
+    42.63497
+   ],
+   "address": "ж.к. Младост 4, бул. \"Александър Малинов\" № 79 Б",
+   "district": null,
+   "contacts": {
+    "phone": "0885727611",
+    "email": "gradina.anika@gmail.com",
+    "facebook": null,
+    "website": "https://www.gradinaanika.com"
+   }
+  },
+  {
+   "id": "chdg-2202615",
+   "type": "private",
+   "name": "ЧДГ „Малки Стъпки - Литъл Степс“",
+   "coords": [
+    23.36381,
+    42.66445
+   ],
+   "address": "ж.к. Мусагеница, ул. \"Арх. Виктория Ангелова-Винарова\" № 1",
+   "district": null,
+   "contacts": {
+    "phone": "0884 195 883",
+    "email": "littlesteps@azbuki-school.bg",
+    "facebook": null,
+    "website": "https://www.littlesteps.bg"
+   }
+  },
+  {
+   "id": "chdg-2202774",
+   "type": "private",
+   "name": "ЧДГ „Частна Детска Градина Немо - Бояна“",
+   "coords": [
+    23.26515,
+    42.6578
+   ],
+   "address": "ул. \"Александър Пушкин\" № 63",
+   "district": null,
+   "contacts": {
+    "phone": "/0882 423 552",
+    "email": "nemoboyana@nemo-bg.com",
+    "facebook": null,
+    "website": "https://www.nemo-bg.com"
+   }
+  },
+  {
+   "id": "chdg-2211681",
+   "type": "private",
+   "name": "ЧДГ „Камелини Монтесори“",
+   "coords": [
+    23.2506,
+    42.65917
+   ],
+   "address": "ул. \"Студен кладенец\" № 8",
+   "district": null,
+   "contacts": {
+    "phone": "0892296595",
+    "email": "2211681@edu.mon.bg",
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdg-2200030",
+   "type": "private",
+   "name": "ЧДГ „Дружба-софия“",
+   "coords": [
+    23.26968,
+    42.73622
+   ],
+   "address": "ж. к. Обеля 2, ул. \"106\" № 3",
+   "district": null,
+   "contacts": {
+    "phone": "0893 372 452",
+    "email": "2200030@edu.mon.bg",
+    "facebook": null,
+    "website": "https//drujba.org/"
+   }
+  },
+  {
+   "id": "chdg-2200056",
+   "type": "private",
+   "name": "ЧДГ „Слънчеви Приказки“",
+   "coords": [
+    23.31018,
+    42.67697
+   ],
+   "address": "бул. \"Витоша\" № 111",
+   "district": null,
+   "contacts": {
+    "phone": "0896283443",
+    "email": "sluncheviprikazki@abv.bg",
+    "facebook": null,
+    "website": "https://www.sluncheviprikazki.com"
+   }
+  },
+  {
+   "id": "chdg-2202694",
+   "type": "private",
+   "name": "ЧДГ „Откривател“",
+   "coords": [
+    23.33906,
+    42.69904
+   ],
+   "address": "ул. \"Сири дол\" № 15В",
+   "district": null,
+   "contacts": {
+    "phone": "0885500105",
+    "email": "hello@montessorischools.bg",
+    "facebook": null,
+    "website": "https://www.montessrischools.bg"
+   }
+  },
+  {
+   "id": "chdg-2212754",
+   "type": "private",
+   "name": "ЧДГ „Ерих Кестнер“",
+   "coords": [
+    23.33182,
+    42.72139
+   ],
+   "address": "ул. \"Снежник\" № 4",
+   "district": null,
+   "contacts": {
+    "phone": "0893464046",
+    "email": "erichkaestner.bg@gmail.com",
+    "facebook": null,
+    "website": "https://erichkaestner.bg/"
+   }
+  },
+  {
+   "id": "chdg-2211789",
+   "type": "private",
+   "name": "ЧДГ „Никатор“",
+   "coords": [
+    23.33607,
+    42.64333
+   ],
+   "address": "ул. \"Проф. д-р Иван Странски\" № 15",
+   "district": null,
+   "contacts": {
+    "phone": "0888 72 11 01",
+    "email": "info-2211789@edu.mon.bg",
+    "facebook": null,
+    "website": "https://www.ruliceum.org"
+   }
+  },
+  {
+   "id": "chdg-2200028",
+   "type": "private",
+   "name": "ЧДГ „Кидсвил“",
+   "coords": [
+    23.30837,
+    42.62487
+   ],
+   "address": "район Витоша, ул. \"Акад. Сандерс\" № 14 Е",
+   "district": "vitosha",
+   "contacts": {
+    "phone": "+359878972060",
+    "email": "welcome@kidsville.space",
+    "facebook": null,
+    "website": "https://www.kidsville.space"
+   }
+  },
+  {
+   "id": "chdg-2211761",
+   "type": "private",
+   "name": "ЧДГ „Жирафче“",
+   "coords": [
+    23.33068,
+    42.67188
+   ],
+   "address": "ул. \"Бабуна планина\" № 2а, ет. 2",
+   "district": null,
+   "contacts": {
+    "phone": "0898569867",
+    "email": "info@giraffche.com",
+    "facebook": null,
+    "website": "https://www.giraffche.com"
+   }
+  },
+  {
+   "id": "chdg-2200064",
+   "type": "private",
+   "name": "ЧДГ „Частна Детска Градина Маариф София“",
+   "coords": [
+    23.32333,
+    42.69476
+   ],
+   "address": "ул. \"Леге\" № 1",
+   "district": null,
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdg-2200066",
+   "type": "private",
+   "name": "ЧДГ „Приказно Синьо“",
+   "coords": [
+    23.23754,
+    42.67976
+   ],
+   "address": "кв. \"Горна баня\", ул. \"Синьо езеро\" № 9А",
+   "district": null,
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdg-2211655",
+   "type": "private",
+   "name": "ЧДГ „Фънки Мънки“",
+   "coords": [
+    23.2959,
+    42.69122
+   ],
+   "address": "ул. \"Гюешево\" № 14",
+   "district": null,
+   "contacts": {
+    "phone": "0882103840",
+    "email": "contact@funkymonkey.bg",
+    "facebook": null,
+    "website": "https://www.funkymonkey.bg"
+   }
+  },
+  {
+   "id": "chdg-2217766",
+   "type": "private",
+   "name": "ЧДГ „Монтесори“",
+   "coords": [
+    23.23271,
+    42.67571
+   ],
+   "address": "ж. к. Горна баня, ул. \"Вечерница\" № 21",
+   "district": null,
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   },
+   "note": "По регистъра на МОН: не провежда учебен процес през текущата година."
+  },
+  {
+   "id": "chdg-2200044",
+   "type": "private",
+   "name": "ЧДГ „Приказка Без Край 1“",
+   "coords": [
+    23.26193,
+    42.71701
+   ],
+   "address": "ж.к. Люлин-9, бл. 964",
+   "district": null,
+   "contacts": {
+    "phone": "0888387436",
+    "email": "prikazkabezkraj@abv.bg",
+    "facebook": null,
+    "website": "https://prikazka.net"
+   }
+  },
+  {
+   "id": "chdg-2202776",
+   "type": "private",
+   "name": "ЧДГ „Увекинд“",
+   "coords": [
+    23.32191,
+    42.6789
+   ],
+   "address": "ул. \"Крум Попов\" № 69",
+   "district": null,
+   "contacts": {
+    "phone": "02/857-51-00",
+    "email": "info@uwekind.bg",
+    "facebook": null,
+    "website": "https://www.uwekind.com"
+   }
+  },
+  {
+   "id": "chdg-2200062",
+   "type": "private",
+   "name": "ЧДГ „Бисерче Вълшебно“",
+   "coords": [
+    23.32899,
+    42.65313
+   ],
+   "address": "ул. \"Ради Радев\" № 18",
+   "district": null,
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   },
+   "note": "По регистъра на МОН: не провежда учебен процес през текущата година."
+  },
+  {
+   "id": "chdg-2200070",
+   "type": "private",
+   "name": "ЧДГ „Частна Детска Градина - Децата София“",
+   "coords": [
+    23.29322,
+    42.63092
+   ],
+   "address": "ж.к. \"Драгалевци\", ул. \"Цоньо Калчев\" № 6",
+   "district": null,
+   "contacts": {
+    "phone": "0889577713",
+    "email": "lacasadeibimbioffice@gmail.com",
+    "facebook": null,
+    "website": "https://lacasadeibimbi.eu"
+   }
+  },
+  {
+   "id": "chdg-2200027",
+   "type": "private",
+   "name": "ЧДГ „Космически Деца“",
+   "coords": [
+    23.29712,
+    42.63294
+   ],
+   "address": "район Витоша, ул. \"Георги Георгиев - ГЕЦ\" № 48",
+   "district": "vitosha",
+   "contacts": {
+    "phone": "0884948069",
+    "email": "cosmoskids@gmail.com",
+    "facebook": null,
+    "website": "http//cosmos-kids.org/"
+   }
+  },
+  {
+   "id": "chdg-2213771",
+   "type": "private",
+   "name": "ЧДГ „Джани Родари“",
+   "coords": [
+    23.38102,
+    42.67959
+   ],
+   "address": "ж. к. Слатина, ул. \"Гео Милев\" № 158, ВТУ \"Т. Каблешков\", корпус 6",
+   "district": null,
+   "contacts": {
+    "phone": "02/9709490",
+    "email": "info-2213771@edu.mon.bg",
+    "facebook": null,
+    "website": "https://www.djanirodari.org"
+   }
+  },
+  {
+   "id": "chdg-2223684",
+   "type": "private",
+   "name": "ЧДГ „Детска Къща Монтесори“",
+   "coords": [
+    23.33429,
+    42.65176
+   ],
+   "address": "Район Лозенец, ж. к. Витоша, ул. Яна Язова\" № 6",
+   "district": "lozenets",
+   "contacts": {
+    "phone": "0887 923 482",
+    "email": "info-2223684@edu.mon.bg",
+    "facebook": null,
+    "website": "https://montessori-bulgaria.com"
+   }
+  },
+  {
+   "id": "chdg-2221616",
+   "type": "private",
+   "name": "ЧДГ „Доверие“",
+   "coords": [
+    23.36407,
+    42.68966
+   ],
+   "address": "ж. к. Редута, ул. \"Калиманци\" № 43",
+   "district": "slatina",
+   "contacts": {
+    "phone": "0888 985815",
+    "email": "info@doverie-bg.net",
+    "facebook": null,
+    "website": "https://www. doverie-bg.net"
+   }
+  },
+  {
+   "id": "chdg-2200032",
+   "type": "private",
+   "name": "ЧДГ „Пчелното Кошерче“",
+   "coords": [
+    23.28129,
+    42.65976
+   ],
+   "address": "София 1618, район Витоша, ул. Ралевица № 80А",
+   "district": "lozenets",
+   "contacts": {
+    "phone": "0882334483",
+    "email": "office@thebeehive.bg",
+    "facebook": null,
+    "website": "https://thebeehive.bg"
+   }
+  },
+  {
+   "id": "chdg-2200038",
+   "type": "private",
+   "name": "ЧДГ „Малките Принцове“",
+   "coords": [
+    23.31047,
+    42.62967
+   ],
+   "address": "София, р-н Витоша, ж.к. Драгалевци, ул. \"Бела Дона\" №8",
+   "district": "vitosha",
+   "contacts": {
+    "phone": "0884133580",
+    "email": "office@lespetitsprinces.bg",
+    "facebook": null,
+    "website": "https://www.lespetitsprinces.bg"
+   }
+  },
+  {
+   "id": "chdg-2200035",
+   "type": "private",
+   "name": "ЧДГ „Под 1 Покрив“",
+   "coords": [
+    23.3002,
+    42.71177
+   ],
+   "address": "София, район Витоша, ж.к. Драгалевци, ул. \"Свети Горазд\" № 13",
+   "district": "vitosha",
+   "contacts": {
+    "phone": "0884509670",
+    "email": "info@under1roof.bg",
+    "facebook": null,
+    "website": "https://www.under1roof.bg"
+   }
+  },
+  {
+   "id": "chdg-2200003",
+   "type": "private",
+   "name": "ЧДГ „Усмивка“",
+   "coords": [
+    23.28965,
+    42.7088
+   ],
+   "address": "ж. к. Света Троица, бл. 306, вх. А, ет. 2, ап. 3",
+   "district": "ilinden",
+   "contacts": {
+    "phone": "0898236325",
+    "email": "elina@usmivkabg.com",
+    "facebook": null,
+    "website": "https://www.usmivkabg.com"
+   }
+  },
+  {
+   "id": "chdg-2200020",
+   "type": "private",
+   "name": "ЧДГ „Детската“",
+   "coords": [
+    23.30377,
+    42.67132
+   ],
+   "address": "ж. к. Стрелбище, бул. \"П. Ю. Тодоров\", бл. 10, вх. Ж, ет. 2, ап. 107",
+   "district": "triaditsa",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdg-2201083",
+   "type": "private",
+   "name": "ЧДГ „Йор Кидс“",
+   "coords": [
+    23.32682,
+    42.67178
+   ],
+   "address": "ул. \"Кораб планина\" № 34, ет. 3, ап. 6",
+   "district": "lozenets",
+   "contacts": {
+    "phone": "0887116834",
+    "email": "office@yourkidsbg.com",
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdg-2202670",
+   "type": "private",
+   "name": "Частна детска градина ЛИДИ",
+   "coords": [
+    23.34141,
+    42.6557
+   ],
+   "address": "ул. \"Проф. Христо Вакарелски\" № 10, вх. Б, ет. 3, ап. 7",
+   "district": null,
+   "contacts": {
+    "phone": "02/9592292",
+    "email": "info@dg-lidi.com",
+    "facebook": null,
+    "website": "https://www.dg-lidi.com"
+   }
+  },
+  {
+   "id": "chdg-2224773",
+   "type": "private",
+   "name": "ЧДГ „Пролет“",
+   "coords": [
+    23.30328,
+    42.66164
+   ],
+   "address": "ж.к. Гоце Делчев, бл. 257Аа, вх. Б, ет. 2, ап. 3",
+   "district": "triaditsa",
+   "contacts": {
+    "phone": "02/02/8685285",
+    "email": "prolet_2006_07@abv.bg",
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdg-2213680",
+   "type": "private",
+   "name": "ЧДГ „Ян Бибиян“",
+   "coords": [
+    23.37624,
+    42.62926
+   ],
+   "address": "ж.к. Младост 4, бл. 456, вх. 1, ап. 7",
+   "district": "mladost",
+   "contacts": {
+    "phone": "0884720078",
+    "email": "yanbibiyan@mail.bg",
+    "facebook": null,
+    "website": "http/janbibijan.com"
+   }
+  },
+  {
+   "id": "chdg-2201079",
+   "type": "private",
+   "name": "ЧДГ „Вълшебно Борче“",
+   "coords": [
+    23.35899,
+    42.71051
+   ],
+   "address": "ж. к. Полигона, бл. 40, партер",
+   "district": "izgrev",
+   "contacts": {
+    "phone": "0899709737",
+    "email": "team@borche.org",
+    "facebook": null,
+    "website": "https://www.Borche.org"
+   }
+  },
+  {
+   "id": "chdg-2211702",
+   "type": "private",
+   "name": "ЧДГ „Кристофър Робин“",
+   "coords": [
+    23.32878,
+    42.68477
+   ],
+   "address": "ул. \"Момин кладенец\" № 1, партер, офис 1",
+   "district": null,
+   "contacts": {
+    "phone": "0888 404 151",
+    "email": "info-2211702@edu.mon.bg",
+    "facebook": null,
+    "website": "https://c-robinkids.com"
+   }
+  },
+  {
+   "id": "chdg-2200060",
+   "type": "private",
+   "name": "Частна детска градина ''Ягодина'' ",
+   "coords": [
+    23.32174,
+    42.6977
+   ],
+   "address": "ул. \"21-ви век\" № 30, ет. 5, ап. 65",
+   "district": null,
+   "contacts": {
+    "phone": "+359894935879",
+    "email": "info@yagodina.bg",
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdg-2200048",
+   "type": "private",
+   "name": "ЧДГ „Детска Мечта“",
+   "coords": [
+    23.31325,
+    42.63034
+   ],
+   "address": "в. з. Симеоново - Драгалевци, ул. \"Проф. Боян Ничев\" № 2",
+   "district": "vitosha",
+   "contacts": {
+    "phone": "+359892333444",
+    "email": "detskamechta@gmail.com",
+    "facebook": null,
+    "website": "https://detskamechta-bg.com/"
+   }
+  },
+  {
+   "id": "chdg-2211752",
+   "type": "private",
+   "name": "ЧДГ „Алиса“",
+   "coords": [
+    23.32276,
+    42.67071
+   ],
+   "address": "ул. \"Кричим\" № 9, вх. Б, ет. 2, ап. 21",
+   "district": null,
+   "contacts": {
+    "phone": "0888853525",
+    "email": "detskagradina.alissa@gmail.com",
+    "facebook": null,
+    "website": "https://www.alissa-bg.com"
+   }
+  },
+  {
+   "id": "chdg-2200063",
+   "type": "private",
+   "name": "ЧДГ „Гбс Кидс“",
+   "coords": [
+    23.24789,
+    42.66612
+   ],
+   "address": "ж.к. \"Карпузица\", ул. \"Огнеборец\" № 3",
+   "district": "vitosha",
+   "contacts": {
+    "phone": "0888010469",
+    "email": "gbs.kids@gbs-bg.com",
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdg-2200067",
+   "type": "private",
+   "name": "ЧДГ „Растеж“",
+   "coords": [
+    23.3324,
+    42.68864
+   ],
+   "address": "ул. \"Юрий Венелин\" № 23, ет. 2, ап. 6",
+   "district": null,
+   "contacts": {
+    "phone": "0889336916",
+    "email": "growersdaycare@gmail.com",
+    "facebook": null,
+    "website": "https://growers.bg"
+   }
+  },
+  {
+   "id": "chdg-2200046",
+   "type": "private",
+   "name": "ЧДГ „София“",
+   "coords": [
+    23.34476,
+    42.65639
+   ],
+   "address": "ул. \"Проф. Христо Данов\" № 17, ап. 46",
+   "district": null,
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdg-2211790",
+   "type": "private",
+   "name": "ЧДГ „Щастливата Къща“",
+   "coords": [
+    23.38223,
+    42.63037
+   ],
+   "address": "ж. к. Младост 4, бл. 460А, вх. 2, ет. 5, ап. 18",
+   "district": "mladost",
+   "contacts": {
+    "phone": "0888616733",
+    "email": "happy.house@abv.bg",
+    "facebook": null,
+    "website": "https:///www.happyhouse-bg.com/"
+   }
+  },
+  {
+   "id": "chdg-2200065",
+   "type": "private",
+   "name": "ЧДГ „Щастливи Деца“",
+   "coords": [
+    23.38066,
+    42.6552
+   ],
+   "address": "ул. \"Димитър Доспевски\" № 9А",
+   "district": "mladost",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
   }
  ]
 }
