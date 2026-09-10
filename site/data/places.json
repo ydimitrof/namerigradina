@@ -72,7 +72,9 @@
       "address": "ул. „Орлово гнездо“ 6, кв. Лозенец",
       "district": "lozenets",
       "status": "active",
+      "outdoorSpace": true,
       "description": "Кооператив на „Кооперативна Академия“; обявени свободни места към 2026 г.",
+      "note": "Дворът е преценен по сателитна снимка (къща с градински парцел) — непотвърдено на място.",
       "contacts": { "phone": "+359 884 292 446", "email": "koopacademy@gmail.com", "facebook": "https://www.facebook.com/KoopAcademy", "website": "https://koopacademy.com/" }
     },
     {
