@@ -199,6 +199,8 @@
 
   function renderTransit(place) {
     if (!transitData || !Array.isArray(place.coords)) return "";
+    // Within a short walk of the user's pin, transit suggestions are noise.
+    if (userPin && walkingMinutes(userPin, place.coords) < 10) return "";
     const near = stopsNear(place.coords, 450).slice(0, 3);
     if (near.length === 0) return "";
     let html = near
