@@ -388,6 +388,38 @@ html, body {
   background: var(--lilac);
   color: var(--white);
 }
+.detail__transit {
+  margin-bottom: 12px;
+}
+.detail__stop {
+  font-size: 13px;
+  margin: 6px 0;
+  line-height: 1.7;
+}
+.detail__stop em {
+  color: var(--ink-soft);
+  font-style: normal;
+  font-size: 12px;
+}
+.detail__stop--direct {
+  background: #fff3d6;
+  border-radius: 10px;
+  padding: 6px 8px;
+  font-weight: 700;
+}
+.line {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 800;
+  border-radius: 6px;
+  padding: 1px 7px;
+  margin: 0 3px 2px 0;
+  background: var(--cream);
+  border: 1.5px solid var(--teal);
+}
+.line--tram { border-color: var(--coral); }
+.line--trolley { border-color: var(--lilac); }
+.line--metro { background: var(--sunny); border-color: var(--sunny); }
 .detail__note {
   font-size: 13px;
   color: var(--ink-soft);

@@ -167,6 +167,72 @@
     }
   }
 
+  /* ---- Transit (precomputed from the official CC-BY GTFS feed) ---- */
+
+  let transitData = null; // null = not loaded, false = load failed
+  async function loadTransit() {
+    if (transitData !== null) return transitData;
+    try {
+      const res = await fetch("data/transit.json");
+      transitData = res.ok ? await res.json() : false;
+    } catch (_) {
+      transitData = false;
+    }
+    return transitData;
+  }
+
+  function metersBetween(a, b) {
+    return (walkingMinutes(a, b) * 78.3) / 1.35;
+  }
+
+  function stopsNear(coords, radiusM) {
+    return transitData.stops
+      .map((s) => ({ coords: [s[0], s[1]], name: s[2], lines: s[3], dist: metersBetween(coords, [s[0], s[1]]) }))
+      .filter((s) => s.dist <= radiusM)
+      .sort((x, y) => x.dist - y.dist);
+  }
+
+  function lineChip(routeIdx) {
+    const [name, type] = transitData.routes[routeIdx];
+    return `<span class="line line--${type}">${escape(name)}</span>`;
+  }
+
+  function renderTransit(place) {
+    if (!transitData || !Array.isArray(place.coords)) return "";
+    const near = stopsNear(place.coords, 450).slice(0, 3);
+    if (near.length === 0) return "";
+    let html = near
+      .map((s) => {
+        const mins = Math.max(1, Math.round((s.dist * 1.35) / 78.3));
+        const lines = [...new Set(s.lines)].map(lineChip).join("");
+        return `<p class="detail__stop">🚏 ${escape(titleCase(s.name))} <em>(~${mins} мин)</em> ${lines}</p>`;
+      })
+      .join("");
+    if (userPin) {
+      const mine = new Set(stopsNear(userPin, 500).flatMap((s) => s.lines));
+      const direct = [...new Set(near.flatMap((s) => s.lines))].filter((l) => mine.has(l));
+      html = (direct.length
+        ? `<p class="detail__stop detail__stop--direct">⭐ Директно от теб: ${direct.map(lineChip).join("")}</p>`
+        : `<p class="detail__stop">Няма директна линия от твоя пин — виж 🚌 Маршрут по-горе.</p>`) + html;
+    }
+    return `<div class="detail__transit"><span class="filter__label">Градски транспорт</span>${html}</div>`;
+  }
+
+  function titleCase(s) {
+    // GTFS stop names arrive ALL-CAPS; make them readable.
+    return s.toLowerCase().replace(/(^|[\s"„(-])(\S)/g, (m, p, c) => p + c.toUpperCase());
+  }
+
+  function fillTransit(place) {
+    const holder = document.getElementById("transit-holder");
+    if (!holder) return;
+    loadTransit().then(() => {
+      const still = document.getElementById("transit-holder");
+      if (!still || currentPlace !== place) return;
+      still.outerHTML = renderTransit(place);
+    });
+  }
+
   function travelHtml(place) {
     if (!userPin || !Array.isArray(place.coords)) return "";
     const walk = Math.round(walkingMinutes(userPin, place.coords));
@@ -229,6 +295,7 @@
       ${travelHtml(place)}
       ${facts.length ? `<div class="detail__facts">${factsHtml}</div>` : ""}
       ${place.description ? `<p class="detail__desc">${escape(place.description)}</p>` : ""}
+      <div id="transit-holder"></div>
       ${approxNote}${noteHtml}
       ${contacts.length ? `<div class="detail__contacts">${contacts.join("")}</div>` : ""}
     `;
@@ -236,6 +303,7 @@
     panel.classList.remove("filters--open");
     toggleBtn.setAttribute("aria-expanded", "false");
     fillCarTime(place);
+    fillTransit(place);
   }
 
   function hideDetail() {

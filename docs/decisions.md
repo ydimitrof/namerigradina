@@ -14,3 +14,4 @@
 | 2026-09-10 | Private kindergartens NOT yet mapped: МОН register is behind a Cloudflare JS wall; the only open fallback (РУО 2021 snapshot) has names+райони but no addresses | Follow-up: manual/assisted collection, or periodic retry of ri.mon.bg |
 | 2026-09-10 | Status field/filter removed — parents verify by phone; uncertainty stays in free-text notes | Owner decision |
 | 2026-09-10 | District filter mixes coop quarters + the 24 official райони (label „Квартал / район") | Quarter chips select coops, rayon chips mostly kindergartens; the map itself is the real spatial filter |
+| 2026-09-10 | Transit: precomputed stops+lines index from the official ЦГМ GTFS feed (CC-BY 4.0, transit.json 49KB gz); sofiatraffic.com's own API is CORS-blocked for browsers and HTML-heavy — NOT used | Direct-line intersection (pin stops ∩ place stops) + Google Maps deep links for full journeys; GTFS-RT (open CORS) available later for live arrivals |

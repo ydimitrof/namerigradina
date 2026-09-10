@@ -6,7 +6,9 @@ No backend, no build step: MapLibre GL JS + free [OpenFreeMap](https://openfreem
 vector tiles, with all content driven by JSON files.
 
 Municipal kindergarten data: Столична община / ИСОДЗ (kg.sofia.bg) and
-arcgis.sofia.bg, extracted 2026-09-10.
+arcgis.sofia.bg, extracted 2026-09-10. Transit stop/line data: Център за
+градска мобилност GTFS feed (gtfs.sofiatraffic.bg), CC-BY 4.0 — refresh
+with `python3 scripts/build-transit.py`.
 
 ## Structure
 
