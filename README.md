@@ -1,13 +1,18 @@
-# Кооп Карта — родителски кооперативи в София
+# Намери Градина (namerigradina.com)
 
-Static, mobile-first map of parent cooperatives (родителски кооперативи) in Sofia.
+Static, mobile-first map of childcare options in Sofia — родителски кооперативи,
+частни и общински детски градини — consolidated on one filterable map.
 No backend, no build step: MapLibre GL JS + free [OpenFreeMap](https://openfreemap.org/)
-vector tiles, with all content driven by two JSON files.
+vector tiles, with all content driven by JSON files.
+
+Municipal kindergarten data: Столична община / ИСОДЗ (kg.sofia.bg) and
+arcgis.sofia.bg, extracted 2026-09-10.
 
 ## Structure
 
 - `site/` — the deployed website (Cloudflare Pages output directory).
-  - `site/data/places.json` — the cooperatives shown on the map.
+  - `site/data/places.json` — the hand-curated cooperatives shown on the map.
+  - `site/data/kindergartens.json` — script-generated municipal/private kindergartens (regenerate rather than hand-edit).
   - `site/data/filters.json` — the filter definitions rendered in the sidebar.
 - `docs/` — plan, research notes, decisions. **Not deployed** — nothing here gets a public URL.
 

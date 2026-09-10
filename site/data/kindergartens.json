@@ -1,5 +1,7192 @@
 {
-  "version": 1,
-  "updated": "2026-09-10",
-  "places": []
+ "version": 3,
+ "updated": "2026-09-10",
+ "attribution": "Данни за общинските градини: Столична община / ИСОДЗ (kg.sofia.bg) и arcgis.sofia.bg, извлечени 2026-09-10.",
+ "places": [
+  {
+   "id": "kg-dg-1-chervenata-shapchitsa-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №1 Червената шапчица (с яслени групи)",
+   "coords": [
+    23.30828,
+    42.70281
+   ],
+   "address": "ул. \"Брегалница\", №48",
+   "district": "vazrazhdane",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 831 70 17",
+    "email": null,
+    "facebook": null,
+    "website": "http://detskagradina-1.com/"
+   }
+  },
+  {
+   "id": "kg-sdya-1",
+   "type": "public",
+   "name": "СДЯ №1",
+   "coords": [
+    23.3262,
+    42.68894
+   ],
+   "address": "ул. \"Хан Крум\", №23",
+   "district": "sredets",
+   "ages": [
+    0,
+    3
+   ],
+   "contacts": {
+    "phone": "0889040084",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-2-zvanche-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №2 Звънче (с яслени групи)",
+   "coords": [
+    23.29618,
+    42.66897
+   ],
+   "address": "ул. \"Златишки проход\", №57",
+   "district": "triaditsa",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "0885044502",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg2zvunche-sofia.com/"
+   }
+  },
+  {
+   "id": "kg-dg-3-detelina",
+   "type": "public",
+   "name": "ДГ №3 Детелина",
+   "coords": [
+    23.46862,
+    42.65524
+   ],
+   "address": "с. Казичене, \"Христо Ботев\" , №2",
+   "district": "pancharevo",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 999 50 13",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-3-detelina-eksperimentalna-sgrada",
+   "type": "public",
+   "name": "ДГ №3 Детелина - Експериментална сграда",
+   "coords": [
+    23.46595,
+    42.65962
+   ],
+   "address": "с. Казичене, ул. \"Хан Крум\" , №2",
+   "district": "pancharevo",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 999 50 13",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg3sofia.com/"
+   }
+  },
+  {
+   "id": "kg-dg-4-slancho",
+   "type": "public",
+   "name": "ДГ №4 Слънчо",
+   "coords": [
+    23.19565,
+    42.62696
+   ],
+   "address": "с. Владая, Ела, №6",
+   "district": "vitosha",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 999 10 32",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg-4.com/"
+   }
+  },
+  {
+   "id": "kg-dg-4-slancho-sgrada-2",
+   "type": "public",
+   "name": "ДГ №4 Слънчо - сграда 2",
+   "coords": [
+    23.19565,
+    42.62696
+   ],
+   "address": "с. Владая, ул. \"Ела\" № 13",
+   "district": "vitosha",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "https://dg-4.com/"
+   }
+  },
+  {
+   "id": "kg-dg-5-nadezhda",
+   "type": "public",
+   "name": "ДГ №5 Надежда",
+   "coords": [
+    23.28531,
+    42.73464
+   ],
+   "address": "кв. \"Връбница\" I ч.  бл. 510 А,Б",
+   "district": "vrabnitsa",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 934 66 10",
+    "email": null,
+    "facebook": null,
+    "website": "https://5dg.eu/"
+   }
+  },
+  {
+   "id": "kg-dg-5-nadezhda-sgrada-obelya-1",
+   "type": "public",
+   "name": "ДГ №5 Надежда - сграда Обеля 1",
+   "coords": [
+    23.26775,
+    42.73711
+   ],
+   "address": "жк. Обеля - 1, бл.102, вх.А и вх.Г",
+   "district": "vrabnitsa",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 934 66 10",
+    "email": null,
+    "facebook": null,
+    "website": "https://5dg.eu/"
+   }
+  },
+  {
+   "id": "kg-dg-5-nadezhda-sgrada-vrabnitsa-2",
+   "type": "public",
+   "name": "ДГ №5 Надежда - сграда Връбница 2",
+   "coords": [
+    23.29077,
+    42.74087
+   ],
+   "address": "жк. Връбница - 2, бл. 621, вх. А",
+   "district": "vrabnitsa",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 934 66 10",
+    "email": null,
+    "facebook": null,
+    "website": "https://5dg.eu/"
+   }
+  },
+  {
+   "id": "kg-dg-5-nadezhda-sgrada-obelya-2",
+   "type": "public",
+   "name": "ДГ №5 Надежда - сграда Обеля 2",
+   "coords": [
+    23.27179,
+    42.74509
+   ],
+   "address": "ж.к. Обеля - 2, бл. 204, бл. 207, бл. 214, бл.221",
+   "district": "vrabnitsa",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 934 66 10",
+    "email": null,
+    "facebook": null,
+    "website": "https://5dg.eu/"
+   }
+  },
+  {
+   "id": "kg-dg-6-valsheben-svyat-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №6 Вълшебен свят (с яслени групи)",
+   "coords": [
+    23.31141,
+    42.73057
+   ],
+   "address": "ж. к. \"Л. Толстой\", ул. \"Генерал Жостов\" , №1",
+   "district": "nadezhda",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 938 70 08",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg-valshebensvyiat.com/"
+   }
+  },
+  {
+   "id": "kg-dg-6-valsheben-svyat-sgrada-2",
+   "type": "public",
+   "name": "ДГ №6 Вълшебен свят - сграда 2",
+   "coords": [
+    23.3088,
+    42.72396
+   ],
+   "address": "ж.к. Толстой,",
+   "district": "nadezhda",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-7-detelina-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №7 Детелина (с яслени групи)",
+   "coords": [
+    23.29905,
+    42.66175
+   ],
+   "address": "ул. \"Деян Белишки\", №44",
+   "district": "triaditsa",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 858 91 08",
+    "email": null,
+    "facebook": null,
+    "website": "http://dgdetelina.com/"
+   }
+  },
+  {
+   "id": "kg-dg-8-prof-d-r-elka-petrova-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №8 Проф. д-р Елка Петрова (с яслени групи)",
+   "coords": [
+    23.28259,
+    42.67065
+   ],
+   "address": "ул. \"Ген. Стефан Тошев\" , №34",
+   "district": "krasno-selo",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 859 23 87",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg8.bg/"
+   }
+  },
+  {
+   "id": "kg-dg-9-plamache-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №9 Пламъче (с яслени групи)",
+   "coords": [
+    23.22589,
+    42.69444
+   ],
+   "address": "ул. \"Овчо поле\", №16",
+   "district": "ovcha-kupel",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 920 43 13",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg-9.eu/"
+   }
+  },
+  {
+   "id": "kg-dg-10-cheburashka-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №10 Чебурашка (с яслени групи)",
+   "coords": [
+    23.36196,
+    42.6636
+   ],
+   "address": "ул. \"Арх. Виктория Ангелова - Винарова\", №16",
+   "district": "studentski",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "+359884193155",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg10-cheburashka.eu/"
+   }
+  },
+  {
+   "id": "kg-dg-11-miki-maus-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №11 Мики Маус (с яслени групи)",
+   "coords": [
+    23.37448,
+    42.65885
+   ],
+   "address": "ж.к. \"Младост 1\" до бл.18",
+   "district": "mladost",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 874 20 41",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg11-mikimaus.com/"
+   }
+  },
+  {
+   "id": "kg-dg-12-liliya-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №12 Лилия (с яслени групи)",
+   "coords": [
+    23.36348,
+    42.66099
+   ],
+   "address": "ул. \"Боян Дановски\", №3",
+   "district": "studentski",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 871 01 58",
+    "email": null,
+    "facebook": null,
+    "website": "https://dglilia.bg/"
+   }
+  },
+  {
+   "id": "kg-sdya-12-bebelandiya",
+   "type": "public",
+   "name": "СДЯ №12 Бебеландия",
+   "coords": [
+    23.35779,
+    42.69037
+   ],
+   "address": "ул. \"Плачк. манастир\", №11",
+   "district": "slatina",
+   "ages": [
+    0,
+    3
+   ],
+   "contacts": {
+    "phone": "02 944 40 62",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-13-kalinka-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №13 Калинка (с яслени групи)",
+   "coords": [
+    23.38936,
+    42.6704
+   ],
+   "address": "ж.к. \"Дружба\" I, ул. 5036",
+   "district": "iskar",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 979 14 85",
+    "email": null,
+    "facebook": null,
+    "website": "https://www.kalinkabg.com/"
+   }
+  },
+  {
+   "id": "kg-dg-14-karlson-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №14 Карлсон (с яслени групи)",
+   "coords": [
+    23.36947,
+    42.64007
+   ],
+   "address": "ул. \"Васил Карагьозов\", №8",
+   "district": "mladost",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "https://dg-14.com/"
+   }
+  },
+  {
+   "id": "kg-dg-15-chuchuliga-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №15 Чучулига (с яслени групи)",
+   "coords": [
+    23.30825,
+    42.73613
+   ],
+   "address": "ул. \"Св. Николай Чудотворец\" , №4",
+   "district": "nadezhda",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 938 71 38",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg15.info/"
+   }
+  },
+  {
+   "id": "kg-dg-16-prikazen-svyat",
+   "type": "public",
+   "name": "ДГ №16 Приказен свят",
+   "coords": [
+    23.3425,
+    42.64807
+   ],
+   "address": "ул. \"Атанас Манчев\", №1",
+   "district": "studentski",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 862 87 41",
+    "email": null,
+    "facebook": null,
+    "website": "http://odz16.com/"
+   }
+  },
+  {
+   "id": "kg-dg-16-prikazen-svyat-sgrada-2-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №16 Приказен свят - сграда 2 (с яслени групи)",
+   "coords": [
+    23.33972,
+    42.64835
+   ],
+   "address": "Студентски град,",
+   "district": "studentski",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 862 87 41",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-17-mecho-puh-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №17 Мечо Пух (с яслени групи)",
+   "coords": [
+    23.37957,
+    42.65475
+   ],
+   "address": "ж.к. \"Младост 1\" до бл. 31",
+   "district": "mladost",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 875 40 32",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg17sofia.com"
+   }
+  },
+  {
+   "id": "kg-dg-18-detski-svyat-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №18 Детски свят (с яслени групи)",
+   "coords": [
+    23.34688,
+    42.68603
+   ],
+   "address": "ж.к. \"Яворов\" ул.  \"Георги Марков\", №2",
+   "district": "sredets",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 943 79 54",
+    "email": null,
+    "facebook": null,
+    "website": "https://www.dg18.org/"
+   }
+  },
+  {
+   "id": "kg-dg-18-detski-svyat-sgrada-2",
+   "type": "public",
+   "name": "ДГ №18 Детски свят - сграда 2",
+   "coords": [
+    23.34569,
+    42.68804
+   ],
+   "address": "ул.\"Цар Иван Асен II\", №66",
+   "district": "sredets",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 943 76 41",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-19-sveta-sofiya",
+   "type": "public",
+   "name": "ДГ №19 Света София",
+   "coords": [
+    23.33095,
+    42.68251
+   ],
+   "address": "ул. \"Христо Смирненски\", №36",
+   "district": "lozenets",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 866 12 30",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg19svetasofia.info/"
+   }
+  },
+  {
+   "id": "kg-dg-20-zhasminov-park-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №20 Жасминов парк (с яслени групи)",
+   "coords": [
+    23.37602,
+    42.70216
+   ],
+   "address": "ул. \"Бесарабия\", №46",
+   "district": "poduyane",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 9455189",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg20.eu/"
+   }
+  },
+  {
+   "id": "kg-dg-21-ezhko-bezhko",
+   "type": "public",
+   "name": "ДГ №21 Ежко Бежко",
+   "coords": [
+    23.43024,
+    42.67424
+   ],
+   "address": "с. Бусманци, ул. \"Крива ливада\", №11А",
+   "district": "iskar",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "https://dg21.bg/"
+   }
+  },
+  {
+   "id": "kg-sdya-21-bon-bon",
+   "type": "public",
+   "name": "СДЯ №21 Бон-Бон",
+   "coords": [
+    23.30435,
+    42.67549
+   ],
+   "address": "ул. \"Стефан Малинов\", №2",
+   "district": "triaditsa",
+   "ages": [
+    0,
+    3
+   ],
+   "contacts": {
+    "phone": "02 952 09 63",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-21-ezhko-bezhko-sgrada-2-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №21 Ежко Бежко - сграда 2 (с яслени групи)",
+   "coords": [
+    23.39981,
+    42.66802
+   ],
+   "address": "ж.к. \"Дружба 1\", ул.\"5016\", №3",
+   "district": "iskar",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 979 16 96",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-21-ezhko-bezhko-sgrada-2-pochasova-organizatsiya",
+   "type": "public",
+   "name": "ДГ №21 Ежко Бежко - сграда 2, почасова организация",
+   "coords": [
+    23.39981,
+    42.66802
+   ],
+   "address": "ж.к. \"Дружба\", ул. \"5016\", № 3",
+   "district": "iskar",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-21-ezhko-bezhko-pochasova-organizatsiya",
+   "type": "public",
+   "name": "ДГ №21 Ежко Бежко - почасова организация",
+   "coords": [
+    23.43024,
+    42.67424
+   ],
+   "address": "с. Бусманци, ул. \"Крива ливада\"",
+   "district": "iskar",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "https://dg21.bg/"
+   }
+  },
+  {
+   "id": "kg-dg-22-velikdenche-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №22 Великденче (с яслени групи)",
+   "coords": [
+    23.24956,
+    42.72484
+   ],
+   "address": "ул. 210 № 27 - II м. р.",
+   "district": "lyulin",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 824 11 70",
+    "email": null,
+    "facebook": null,
+    "website": "http://odz22-velikdenche.com/"
+   }
+  },
+  {
+   "id": "kg-dg-23-zdrave-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №23 Здраве (с яслени групи)",
+   "coords": [
+    23.35642,
+    42.67559
+   ],
+   "address": "ул. \"Майор Ю. Гагарин\", №14-16",
+   "district": "izgrev",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 872 00 33",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg-23.com/"
+   }
+  },
+  {
+   "id": "kg-sdya-23-ralitsa",
+   "type": "public",
+   "name": "СДЯ №23 Ралица",
+   "coords": [
+    23.32341,
+    42.68324
+   ],
+   "address": "ул.\"Ралица\" №4",
+   "district": "lozenets",
+   "ages": [
+    0,
+    3
+   ],
+   "contacts": {
+    "phone": "02 866 17 62",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-24-nadezhda-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №24 Надежда (с яслени групи)",
+   "coords": [
+    23.29312,
+    42.73124
+   ],
+   "address": "ул. \"Kумановски бой\", №16",
+   "district": "nadezhda",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 938 11 70",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg24-nadejda.com/"
+   }
+  },
+  {
+   "id": "kg-dg-24-nadezhda-sgrada-2",
+   "type": "public",
+   "name": "ДГ №24 Надежда - сграда 2",
+   "coords": [
+    23.29312,
+    42.73124
+   ],
+   "address": "ул. \"Царевец\", №34",
+   "district": "nadezhda",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 938 29 57",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg24-nadejda.com/"
+   }
+  },
+  {
+   "id": "kg-dg-25-izvorche",
+   "type": "public",
+   "name": "ДГ №25 Изворче",
+   "coords": [
+    23.14133,
+    42.71129
+   ],
+   "address": "гр. Банкя, ул. \"П. Д. Петков\", №15",
+   "district": "bankya",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 967 66 20",
+    "email": null,
+    "facebook": null,
+    "website": "https://www.dg25.info/"
+   }
+  },
+  {
+   "id": "kg-dg-25-izvorche-sgrada-2",
+   "type": "public",
+   "name": "ДГ №25 Изворче - сграда 2",
+   "coords": [
+    23.14372,
+    42.7114
+   ],
+   "address": "гр. Банкя, ул.Восток-2, №4",
+   "district": "bankya",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 967 66 20",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-25-izvorche-sgrada-3",
+   "type": "public",
+   "name": "ДГ №25 Изворче - сграда 3",
+   "coords": [
+    23.14015,
+    42.71169
+   ],
+   "address": "гр. Банкя, ул. \"Царибродска\", №5",
+   "district": "bankya",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 967 66 20",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-26-kalina-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №26 Калина (с яслени групи)",
+   "coords": [
+    23.37684,
+    42.65566
+   ],
+   "address": "ж.к. \"Младост\" 1, зад блок 40",
+   "district": "mladost",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "0884938437 (охрана)",
+    "email": null,
+    "facebook": null,
+    "website": "https://dgkalina.bg/"
+   }
+  },
+  {
+   "id": "kg-dg-27-detska-kitka-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №27 Детска китка (с яслени групи)",
+   "coords": [
+    23.30009,
+    42.72543
+   ],
+   "address": "ул. \"Възрожденска\", № 19",
+   "district": "nadezhda",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 938 26 55",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg27.bg/"
+   }
+  },
+  {
+   "id": "kg-dg-27-detska-kitka-sgrada-ul-ivan-kulin",
+   "type": "public",
+   "name": "ДГ №27 Детска китка - сграда ул. Иван Кулин",
+   "coords": [
+    23.30124,
+    42.72627
+   ],
+   "address": "ул. \"Иван Кулин\", №9",
+   "district": "nadezhda",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-28-yan-bibiyan-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №28 Ян Бибиян (с яслени групи)",
+   "coords": [
+    23.3733,
+    42.64638
+   ],
+   "address": "ж.к. \"Младост 2\", ул. \"Проф. д-р Васил Златарски\", №8",
+   "district": "mladost",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 874 90 54",
+    "email": null,
+    "facebook": null,
+    "website": "https://www.dg28.info/"
+   }
+  },
+  {
+   "id": "kg-sdya-28",
+   "type": "public",
+   "name": "СДЯ №28",
+   "coords": [
+    23.32074,
+    42.69025
+   ],
+   "address": "ул. \"Христо Белчев\", №41",
+   "district": "sredets",
+   "ages": [
+    0,
+    3
+   ],
+   "contacts": {
+    "phone": "0882760949",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-29-slantse-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №29 Слънце (с яслени групи)",
+   "coords": [
+    23.35971,
+    42.6705
+   ],
+   "address": "ул. \"Тодор Стоянов\", №18",
+   "district": "izgrev",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 870 83 88",
+    "email": null,
+    "facebook": null,
+    "website": "http://odz29.com/"
+   }
+  },
+  {
+   "id": "kg-dg-30-radetski-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №30 Радецки (с яслени групи)",
+   "coords": [
+    23.34522,
+    42.66169
+   ],
+   "address": "ул. \"Hикола Габровски\", №26",
+   "district": "izgrev",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "0885144869",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg-30.com/"
+   }
+  },
+  {
+   "id": "kg-dg-31-lyulin-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №31 Люлин (с яслени групи)",
+   "coords": [
+    23.2546,
+    42.72405
+   ],
+   "address": "ул. 208 № 17 - II м. р.",
+   "district": "lyulin",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 824 52 73",
+    "email": null,
+    "facebook": null,
+    "website": "https://www.dg31lulin.com/"
+   }
+  },
+  {
+   "id": "kg-sdya-31-palavnitsi",
+   "type": "public",
+   "name": "СДЯ №31 Палавници",
+   "coords": [
+    23.29417,
+    42.68062
+   ],
+   "address": "бул. \"Цар Борис III\", №41",
+   "district": "krasno-selo",
+   "ages": [
+    0,
+    3
+   ],
+   "contacts": {
+    "phone": "02 852 78 98",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-32-balgarche-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №32 Българче (с яслени групи)",
+   "coords": [
+    23.24402,
+    42.72175
+   ],
+   "address": "ул. 315 - III м. р.",
+   "district": "lyulin",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 824 63 34",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg32-bulgarche.com/"
+   }
+  },
+  {
+   "id": "kg-dg-33-srebarni-zvancheta-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №33 Сребърни звънчета (с яслени групи)",
+   "coords": [
+    23.24237,
+    42.68615
+   ],
+   "address": "ж.к.\"Овча купел\" 2, ул.\"Сребърни звънчета\", №4",
+   "district": "ovcha-kupel",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "0878 467 378",
+    "email": null,
+    "facebook": null,
+    "website": "http://www.odz33.com/"
+   }
+  },
+  {
+   "id": "kg-dg-34-brezichka-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №34 Брезичка (с яслени групи)",
+   "coords": [
+    23.3508,
+    42.66334
+   ],
+   "address": "ул. \"Владимир Трендафилов\", №1",
+   "district": "izgrev",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 862 82 40",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg-34.com/"
+   }
+  },
+  {
+   "id": "kg-dg-34-brezichka-pochasova-organizatsiya",
+   "type": "public",
+   "name": "ДГ №34 Брезичка - почасова организация",
+   "coords": [
+    23.3508,
+    42.66334
+   ],
+   "address": "ул. \"Владимир Трендафилов\", №1",
+   "district": "izgrev",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "https://dg-34.com/"
+   }
+  },
+  {
+   "id": "kg-dg-35-shtastlivo-detstvo-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №35 Щастливо детство (с яслени групи)",
+   "coords": [
+    23.24702,
+    42.72664
+   ],
+   "address": "ул. \"Георги Икономов\", № 6",
+   "district": "lyulin",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 824 88 30",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg35-sofia.com/"
+   }
+  },
+  {
+   "id": "kg-sdya-35-valshebstvo",
+   "type": "public",
+   "name": "СДЯ №35 Вълшебство",
+   "coords": [
+    23.30277,
+    42.6712
+   ],
+   "address": "ул. \"Орехова гора\", №11",
+   "district": "triaditsa",
+   "ages": [
+    0,
+    3
+   ],
+   "contacts": {
+    "phone": "02 858 90 32",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-36-peperuda-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №36 Пеперуда (с яслени групи)",
+   "coords": [
+    23.39564,
+    42.66709
+   ],
+   "address": "ул. \"Иван Арабаджията\", №40",
+   "district": "iskar",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 979 09 32",
+    "email": null,
+    "facebook": null,
+    "website": "http://peperuda36.com/"
+   }
+  },
+  {
+   "id": "kg-sdya-36-slanchevo-zayche",
+   "type": "public",
+   "name": "СДЯ №36 Слънчево зайче",
+   "coords": [
+    23.36019,
+    42.67086
+   ],
+   "address": "ул. \"Тодор Стоянов\", №15",
+   "district": "izgrev",
+   "ages": [
+    0,
+    3
+   ],
+   "contacts": {
+    "phone": "02 872 05 40",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-37-valshebstvo-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №37 Вълшебство (с яслени групи)",
+   "coords": [
+    23.27133,
+    42.66946
+   ],
+   "address": "кв. Павлово, ул. \"Белмекен\" № 1",
+   "district": "vitosha",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 855 41 19",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg37sofia.com/"
+   }
+  },
+  {
+   "id": "kg-dg-37-valshebstvo-sgrada-2",
+   "type": "public",
+   "name": "ДГ №37 Вълшебство - сграда 2",
+   "coords": [
+    23.27133,
+    42.66946
+   ],
+   "address": "кв. \"Манастирски ливади\" - запад, ул. \"Казбек\", №4",
+   "district": "vitosha",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "https://dg37sofia.com/"
+   }
+  },
+  {
+   "id": "kg-dg-38-dora-gabe-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №38 Дора Габе (с яслени групи)",
+   "coords": [
+    23.30364,
+    42.73202
+   ],
+   "address": "ул. \"Св. Никола Нови\", №12",
+   "district": "nadezhda",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 938 71 64",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-sdya-38",
+   "type": "public",
+   "name": "СДЯ №38",
+   "coords": [
+    23.50327,
+    42.7837
+   ],
+   "address": "кв. \"Кремиковци\" до бл. 30",
+   "district": "kremikovtsi",
+   "ages": [
+    0,
+    3
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-39-prolet-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №39 Пролет (с яслени групи)",
+   "coords": [
+    23.25722,
+    42.68766
+   ],
+   "address": "ж.к. \"Овча купел\" - I",
+   "district": "ovcha-kupel",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "0878388441",
+    "email": null,
+    "facebook": null,
+    "website": "http://39odz.com/"
+   }
+  },
+  {
+   "id": "kg-dg-40-prof-g-angushev",
+   "type": "public",
+   "name": "ДГ №40 Проф. Г. Ангушев",
+   "coords": [
+    23.29688,
+    42.66714
+   ],
+   "address": "ул. \"Метличина поляна\", №10",
+   "district": "triaditsa",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 859 11 15",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg40.deckagradina.info/"
+   }
+  },
+  {
+   "id": "kg-dg-40-prof-g-angushev-pochasova-organizatsiya",
+   "type": "public",
+   "name": "ДГ №40 Проф. Г. Ангушев - почасова организация",
+   "coords": [
+    23.29688,
+    42.66714
+   ],
+   "address": "ул. \"Метличина поляна\", №10",
+   "district": "triaditsa",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "http://dg40.deckagradina.info/"
+   }
+  },
+  {
+   "id": "kg-dg-40-prof-g-angushev-sgrada-2",
+   "type": "public",
+   "name": "ДГ №40 Проф. Г. Ангушев - сграда 2",
+   "coords": [
+    23.29688,
+    42.66714
+   ],
+   "address": "ж.к. „Гоце Делчев“, ул. „Боянски водопад“ № 87",
+   "district": "triaditsa",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 859 11 15",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg40.deckagradina.info/"
+   }
+  },
+  {
+   "id": "kg-dg-41-priyateli",
+   "type": "public",
+   "name": "ДГ №41 Приятели",
+   "coords": [
+    23.16962,
+    42.60023
+   ],
+   "address": "с. Мърчаево, ул. \"Цар Симеон I\", №62",
+   "district": "vitosha",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "https://www.detskagradina41.com/"
+   }
+  },
+  {
+   "id": "kg-sdya-41-yabalkova-gradina",
+   "type": "public",
+   "name": "СДЯ №41 Ябълкова градина",
+   "coords": [
+    23.25692,
+    42.72744
+   ],
+   "address": "жк.Люлин, І микрорайон, ул.\"Фортов път\" №1",
+   "district": "lyulin",
+   "ages": [
+    0,
+    3
+   ],
+   "contacts": {
+    "phone": "02 824 62 05",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-42-chayka-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №42 Чайка (с яслени групи)",
+   "coords": [
+    23.28573,
+    42.73323
+   ],
+   "address": "ул. \"Връбница \" I част",
+   "district": "vrabnitsa",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 938 81 61",
+    "email": null,
+    "facebook": null,
+    "website": "https://www.dg42.eu/home/"
+   }
+  },
+  {
+   "id": "kg-dg-43-talant-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №43 Талант (с яслени групи)",
+   "coords": [
+    23.29522,
+    42.66561
+   ],
+   "address": "ул. \"Георги Измирлиев\" , №20",
+   "district": "triaditsa",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 859 80 52",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg43-talant.com/"
+   }
+  },
+  {
+   "id": "kg-dg-44-kalina-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №44 Калина (с яслени групи)",
+   "coords": [
+    23.50817,
+    42.74038
+   ],
+   "address": "кв. Ботунец, ул.\"Балкан\" № 14, бл. 12",
+   "district": "kremikovtsi",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 994 36 33",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg44kalina.com/"
+   }
+  },
+  {
+   "id": "kg-sdya-44",
+   "type": "public",
+   "name": "СДЯ №44",
+   "coords": [
+    23.36116,
+    42.58263
+   ],
+   "address": "с. Бистрица, ул. \"Тинтява\", №8",
+   "district": "pancharevo",
+   "ages": [
+    0,
+    3
+   ],
+   "contacts": {
+    "phone": "02 992 20 97",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-45-alisa",
+   "type": "public",
+   "name": "ДГ №45 Алиса",
+   "coords": [
+    23.30644,
+    42.7074
+   ],
+   "address": "ул. \"Шумен\", №2",
+   "district": "serdika",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 831 00 58",
+    "email": null,
+    "facebook": null,
+    "website": "http://cdg45alisa.com/"
+   }
+  },
+  {
+   "id": "kg-sdya-45-mayor-frank-tompsan",
+   "type": "public",
+   "name": "СДЯ №45 Майор Франк Томпсън",
+   "coords": [
+    23.32303,
+    42.66886
+   ],
+   "address": "ул. \"Майор Томсън\", №40",
+   "district": "lozenets",
+   "ages": [
+    0,
+    3
+   ],
+   "contacts": {
+    "phone": "02 862 10 77",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-46-zhiva-voda-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №46 Жива вода (с яслени групи)",
+   "coords": [
+    23.34045,
+    42.61355
+   ],
+   "address": "кв. Симеоново, ул. \"Kрайречна\", №9",
+   "district": "vitosha",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 961 29 94",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg46sofia.com/"
+   }
+  },
+  {
+   "id": "kg-sdya-46-miki-maus",
+   "type": "public",
+   "name": "СДЯ №46 Мики Маус",
+   "coords": [
+    23.33008,
+    42.67756
+   ],
+   "address": "ул. \"Свети Наум\", №56",
+   "district": "lozenets",
+   "ages": [
+    0,
+    3
+   ],
+   "contacts": {
+    "phone": "02 866 24 05",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-47-nezabravka-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №47 Незабравка (с яслени групи)",
+   "coords": [
+    23.25301,
+    42.71284
+   ],
+   "address": "ж.к. Люлин, VI м. р.",
+   "district": "lyulin",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 824 92 76",
+    "email": null,
+    "facebook": null,
+    "website": "https://odz47.info/"
+   }
+  },
+  {
+   "id": "kg-dg-48-bratya-grim-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №48 Братя Грим (с яслени групи)",
+   "coords": [
+    23.301,
+    42.7142
+   ],
+   "address": "ул. \"Марин Д.  Христов\", №5",
+   "district": "serdika",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 832 10 22",
+    "email": null,
+    "facebook": null,
+    "website": "http://odz48.com/"
+   }
+  },
+  {
+   "id": "kg-sdya-48",
+   "type": "public",
+   "name": "СДЯ №48",
+   "coords": [
+    23.28173,
+    42.70341
+   ],
+   "address": "ул. \"Суходолска\", №2",
+   "district": "krasna-polyana",
+   "ages": [
+    0,
+    3
+   ],
+   "contacts": {
+    "phone": "02 822 33 64",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-49-radost-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №49 Радост (с яслени групи)",
+   "coords": [
+    23.35189,
+    42.66531
+   ],
+   "address": "ул. \"Св. Пимен Зографски\", №5",
+   "district": "izgrev",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 962 05 31",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg49-radost.org/"
+   }
+  },
+  {
+   "id": "kg-dg-50-zaycheto-kuiki-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №50 Зайчето Куики (с яслени групи)",
+   "coords": [
+    23.30669,
+    42.69711
+   ],
+   "address": "кв. \"Зона Б-5\"",
+   "district": "vazrazhdane",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 822 91 41",
+    "email": null,
+    "facebook": null,
+    "website": "http://odz50.bg/"
+   }
+  },
+  {
+   "id": "kg-dg-51-shturche-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №51 Щурче (с яслени групи)",
+   "coords": [
+    23.2889,
+    42.70767
+   ],
+   "address": "ул. \"Цар Симеон\", №271",
+   "district": "ilinden",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 822 11 37",
+    "email": null,
+    "facebook": null,
+    "website": "http://51odz.com/"
+   }
+  },
+  {
+   "id": "kg-sdya-51",
+   "type": "public",
+   "name": "СДЯ №51",
+   "coords": [
+    23.28083,
+    42.69863
+   ],
+   "address": "ул. \"Братин дол\", №29",
+   "district": "krasna-polyana",
+   "ages": [
+    0,
+    3
+   ],
+   "contacts": {
+    "phone": "02 822 33 29",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-52-ilindenche",
+   "type": "public",
+   "name": "ДГ №52 Илинденче",
+   "coords": [
+    23.29738,
+    42.70946
+   ],
+   "address": "ул. \"Пловдив\", №25",
+   "district": "ilinden",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "0884801576",
+    "email": null,
+    "facebook": null,
+    "website": "https://ilindenche.net/"
+   }
+  },
+  {
+   "id": "kg-dg-52-ilindenche-sgrada-ul-kukush-1-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №52 Илинденче - сграда ул. Кукуш № 1 (с яслени групи)",
+   "coords": [
+    23.29882,
+    42.71617
+   ],
+   "address": "ж.к. \"Захарна фабрика\", кв. 16, ул. \"Кукуш\", №1",
+   "district": "ilinden",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 426 77 80",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-53-dyadovata-rakavichka-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №53 Дядовата ръкавичка (с яслени групи)",
+   "coords": [
+    23.3107,
+    42.7136
+   ],
+   "address": "ул. \"Ив. Тургенев\", №10",
+   "district": "serdika",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 832 21 76",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg-53.com/"
+   }
+  },
+  {
+   "id": "kg-dg-54-daga-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №54 Дъга (с яслени групи)",
+   "coords": [
+    23.28438,
+    42.69217
+   ],
+   "address": "ул. \"Уста Генчо\" № 4-А",
+   "district": "krasna-polyana",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 821 70 75",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg54-daga.com/"
+   }
+  },
+  {
+   "id": "kg-dg-55-iglika-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №55 Иглика (с яслени групи)",
+   "coords": [
+    23.24194,
+    42.71874
+   ],
+   "address": "ул. 417",
+   "district": "lyulin",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 824 11 15",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg55iglika.com/"
+   }
+  },
+  {
+   "id": "kg-sdya-55",
+   "type": "public",
+   "name": "СДЯ №55",
+   "coords": [
+    23.26926,
+    42.6676
+   ],
+   "address": "ул. \"Белмекен\", №13",
+   "district": "vitosha",
+   "ages": [
+    0,
+    3
+   ],
+   "contacts": {
+    "phone": "02 855 71 65",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-56-zdravets-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №56 Здравец (с яслени групи)",
+   "coords": [
+    23.37723,
+    42.63894
+   ],
+   "address": "ж.к. \"Младост 3\" до бл.  329",
+   "district": "mladost",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 875 81 08",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg56.vegastudio.bg/"
+   }
+  },
+  {
+   "id": "kg-sdya-56-kalina",
+   "type": "public",
+   "name": "СДЯ №56 Калина",
+   "coords": [
+    23.36144,
+    42.68135
+   ],
+   "address": "ул. \"Елисавета Багряна\", №9",
+   "district": "slatina",
+   "ages": [
+    0,
+    3
+   ],
+   "contacts": {
+    "phone": "02 872 24 88",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-57-hose-marti",
+   "type": "public",
+   "name": "ДГ №57 Хосе Марти",
+   "coords": [
+    23.24523,
+    42.71317
+   ],
+   "address": "ул. 501 V м. р.",
+   "district": "lyulin",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 825 37 85",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg57-hosemarti.com/"
+   }
+  },
+  {
+   "id": "kg-sdya-57-prikazka",
+   "type": "public",
+   "name": "СДЯ №57 Приказка",
+   "coords": [
+    23.35584,
+    42.68611
+   ],
+   "address": "ул. \"Хр. Максимов\", №12",
+   "district": "slatina",
+   "ages": [
+    0,
+    3
+   ],
+   "contacts": {
+    "phone": "02 872 03 66",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-58-slanchevo-utro-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №58 Слънчево утро (с яслени групи)",
+   "coords": [
+    23.46968,
+    42.73433
+   ],
+   "address": "кв. Челопечене , ул. \"Яне Стоянов\", №19",
+   "district": "kremikovtsi",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 483 28 83",
+    "email": null,
+    "facebook": null,
+    "website": "http://detskagradina58.com/"
+   }
+  },
+  {
+   "id": "kg-sdya-58",
+   "type": "public",
+   "name": "СДЯ №58",
+   "coords": [
+    23.35629,
+    42.7078
+   ],
+   "address": "ул. \"Баба Вида\" № 18",
+   "district": "poduyane",
+   "ages": [
+    0,
+    3
+   ],
+   "contacts": {
+    "phone": "0884766109",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-58-slanchevo-utro-pochasova-organizatsiya",
+   "type": "public",
+   "name": "ДГ №58 Слънчево утро - почасова организация",
+   "coords": [
+    23.46968,
+    42.73433
+   ],
+   "address": "кв. Челопечене , ул. \"Яне Стоянов\", №19",
+   "district": "kremikovtsi",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "http://detskagradina58.com/"
+   }
+  },
+  {
+   "id": "kg-dg-59-elhitsa-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №59 Елхица (с яслени групи)",
+   "coords": [
+    23.37843,
+    42.63906
+   ],
+   "address": "ж.к. \"Младост 3\" до бл. 329",
+   "district": "mladost",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 875 90 29",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg-59.com/"
+   }
+  },
+  {
+   "id": "kg-dg-60-bor-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №60 Бор (с яслени групи)",
+   "coords": [
+    23.24354,
+    42.6661
+   ],
+   "address": "кв. Княжево, ул. \"Княжевска\", №41",
+   "district": "vitosha",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "+359888173317",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg60bor.com/"
+   }
+  },
+  {
+   "id": "kg-dg-60-bor-sgrada-2",
+   "type": "public",
+   "name": "ДГ №60 Бор - сграда 2",
+   "coords": [
+    23.24354,
+    42.6661
+   ],
+   "address": "кв. Карпузица, ул. \"Княжевска\" № 49",
+   "district": "vitosha",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "http://dg60bor.com/"
+   }
+  },
+  {
+   "id": "kg-dg-61-shareno-petle-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №61 Шарено петле (с яслени групи)",
+   "coords": [
+    23.3771,
+    42.68216
+   ],
+   "address": "ул. \"Камчия\", №1",
+   "district": "slatina",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 870 93 77",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg61slatina.com"
+   }
+  },
+  {
+   "id": "kg-dg-62-zornitsa",
+   "type": "public",
+   "name": "ДГ №62 Зорница",
+   "coords": [
+    23.38015,
+    42.69229
+   ],
+   "address": "кв. \"Хр. Ботев\" ул. \"502\", №6",
+   "district": "slatina",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 945 06 63",
+    "email": null,
+    "facebook": null,
+    "website": "https://62dg.bg/"
+   }
+  },
+  {
+   "id": "kg-dg-62-zornitsa-sgrada-2",
+   "type": "public",
+   "name": "ДГ №62 Зорница - сграда 2",
+   "coords": [
+    23.38015,
+    42.69229
+   ],
+   "address": "кв. \"Христо Ботев“, ул. \"503-та\", № 21",
+   "district": "slatina",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "https://62dg.bg/"
+   }
+  },
+  {
+   "id": "kg-dg-63-slantse-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №63 Слънце (с яслени групи)",
+   "coords": [
+    23.34492,
+    42.74373
+   ],
+   "address": "ул. \"Стария кладенец\", №2",
+   "district": "serdika",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 936 70 91",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg-63.eu/"
+   }
+  },
+  {
+   "id": "kg-sdya-63-beborani",
+   "type": "public",
+   "name": "СДЯ №63 Беборани",
+   "coords": [
+    23.36875,
+    42.70351
+   ],
+   "address": "ул. \"Иван Шонев\", №8",
+   "district": "poduyane",
+   "ages": [
+    0,
+    3
+   ],
+   "contacts": {
+    "phone": "02 945 28 41",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-64-parvi-yuni-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №64 Първи юни (с яслени групи)",
+   "coords": [
+    23.26396,
+    42.7105
+   ],
+   "address": "ул. \"Полковник Стоян Топузов\"- VII м. р.",
+   "district": "lyulin",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "+359 884 801 696",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg64sofia.com/"
+   }
+  },
+  {
+   "id": "kg-dg-65-slanchevo-detstvo-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №65 Слънчево детство (с яслени групи)",
+   "coords": [
+    23.37337,
+    42.68524
+   ],
+   "address": "ул. \"Александър Момчев\", №2",
+   "district": "slatina",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "+359 899632771",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg65.bg/"
+   }
+  },
+  {
+   "id": "kg-dg-65-slanchevo-detstvo-pochasova-organizatsiya",
+   "type": "public",
+   "name": "ДГ №65 Слънчево детство - почасова организация",
+   "coords": [
+    23.37337,
+    42.68524
+   ],
+   "address": "ул. \"Александър Момчев\", № 2",
+   "district": "slatina",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 871 81 54",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg65.bg/"
+   }
+  },
+  {
+   "id": "kg-dg-66-elitsa-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №66 Елица (с яслени групи)",
+   "coords": [
+    23.40541,
+    42.59791
+   ],
+   "address": "с. Панчарево, ул. \"Риляник\", №10",
+   "district": "pancharevo",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 992 31 46",
+    "email": null,
+    "facebook": null,
+    "website": "https://www.odzelica.com/"
+   }
+  },
+  {
+   "id": "kg-sdya-66",
+   "type": "public",
+   "name": "СДЯ №66",
+   "coords": [
+    23.26416,
+    42.6806
+   ],
+   "address": "ул. \"681\", №5",
+   "district": "ovcha-kupel",
+   "ages": [
+    0,
+    3
+   ],
+   "contacts": {
+    "phone": "02 955 55 79",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-67-chuchuliga",
+   "type": "public",
+   "name": "ДГ №67 Чучулига",
+   "coords": [
+    23.27704,
+    42.67168
+   ],
+   "address": "ул. \"Бъкстон\", №16",
+   "district": "krasno-selo",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 856 30 57",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg67sf.com/"
+   }
+  },
+  {
+   "id": "kg-dg-67-chuchuliga-sgrada-bl-8",
+   "type": "public",
+   "name": "ДГ №67 Чучулига - сграда бл. 8",
+   "coords": [
+    23.27528,
+    42.67067
+   ],
+   "address": null,
+   "district": "krasno-selo",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 856 30 57",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg67sf.com/"
+   }
+  },
+  {
+   "id": "kg-dg-67-chuchuliga-pochasova-organizatsiya",
+   "type": "public",
+   "name": "ДГ №67 Чучулига - почасова организация",
+   "coords": [
+    23.27704,
+    42.67168
+   ],
+   "address": "ул. \"Бъкстон\", №16",
+   "district": "krasno-selo",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "https://dg67sf.com/"
+   }
+  },
+  {
+   "id": "kg-dg-68-ran-bosilek-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №68 Ран Босилек (с яслени групи)",
+   "coords": [
+    23.26105,
+    42.71199
+   ],
+   "address": "ул. \"Иван и Стиляна Параскевови\" VІІ м. р.",
+   "district": "lyulin",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 825 72 40",
+    "email": null,
+    "facebook": null,
+    "website": "http://www.dg68-ranbosilek.com/"
+   }
+  },
+  {
+   "id": "kg-dg-69-zhar-ptitsa-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №69 Жар птица (с яслени групи)",
+   "coords": [
+    23.34868,
+    42.70786
+   ],
+   "address": "ул. \"Hайден Георгиев\", №12",
+   "district": "poduyane",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 840 26 28",
+    "email": null,
+    "facebook": null,
+    "website": "https://www.дг69.com/"
+   }
+  },
+  {
+   "id": "kg-sdya-69",
+   "type": "public",
+   "name": "СДЯ №69",
+   "coords": [
+    23.3457,
+    42.65332
+   ],
+   "address": "ул. \"Йордан Йосифов\", №1",
+   "district": "studentski",
+   "ages": [
+    0,
+    3
+   ],
+   "contacts": {
+    "phone": "02 868 31 03",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-70-prolet-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №70 Пролет (с яслени групи)",
+   "coords": [
+    23.37726,
+    42.64297
+   ],
+   "address": "ж.к. \"Младост 3\", ул. \"Бъднина\" № 2",
+   "district": "mladost",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 996 43 99",
+    "email": null,
+    "facebook": null,
+    "website": "https://www.dg-70prolet.com/"
+   }
+  },
+  {
+   "id": "kg-sdya-70-mecho-puh",
+   "type": "public",
+   "name": "СДЯ №70 Мечо Пух",
+   "coords": [
+    23.33755,
+    42.72434
+   ],
+   "address": "ул. \"Ком\", №24",
+   "district": "serdika",
+   "ages": [
+    0,
+    3
+   ],
+   "contacts": {
+    "phone": "02 936 71 79",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-71-shtastie-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №71 Щастие (с яслени групи)",
+   "coords": [
+    23.37579,
+    42.66083
+   ],
+   "address": "ж.к. \"Младост 1\" до бл.  22",
+   "district": "mladost",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 875 03 38",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg71-shtastie.com/"
+   }
+  },
+  {
+   "id": "kg-dg-72-prikazka-bez-kray-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №72 Приказка без край (с яслени групи)",
+   "coords": [
+    23.36324,
+    42.65192
+   ],
+   "address": "кв. Дървеница, ул. \"Белимел\", №11",
+   "district": "studentski",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "https://www.dg72.eu/bg/"
+   }
+  },
+  {
+   "id": "kg-dg-73-margarita",
+   "type": "public",
+   "name": "ДГ №73 Маргарита",
+   "coords": [
+    23.25913,
+    42.72001
+   ],
+   "address": "ул.\"Гургулят\" № 1 - VIII м. р.",
+   "district": "lyulin",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "http://dg73-margarita.com/"
+   }
+  },
+  {
+   "id": "kg-dg-74-daga-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №74 Дъга (с яслени групи)",
+   "coords": [
+    23.36302,
+    42.70003
+   ],
+   "address": "ж.к. \"Суха река\" , ул. \"Хан Севар\", №1",
+   "district": "poduyane",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 847 97 62",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg74-daga.eu/"
+   }
+  },
+  {
+   "id": "kg-dg-75-sarchitse-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №75 Сърчице (с яслени групи)",
+   "coords": [
+    23.38401,
+    42.65013
+   ],
+   "address": "ж.к. \"Младост - 1A\", ул. \"Сърчице\", № 4",
+   "district": "mladost",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 877 03 96",
+    "email": null,
+    "facebook": null,
+    "website": "http://www.dg75.bg/"
+   }
+  },
+  {
+   "id": "kg-dg-76-sarnichka-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №76 Сърничка (с яслени групи)",
+   "coords": [
+    23.37936,
+    42.62903
+   ],
+   "address": "ж.к. \"Младост 4\", ул. \"Детска мечта\", №20",
+   "district": "mladost",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "0886576509",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg76.bg"
+   }
+  },
+  {
+   "id": "kg-dg-76-sarnichka-sgrada-2",
+   "type": "public",
+   "name": "ДГ №76 Сърничка - сграда 2",
+   "coords": [
+    23.3785,
+    42.62864
+   ],
+   "address": "ж.к. \"Младост-4\", ул. \"Детска мечта\" № 22",
+   "district": "mladost",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "0886576509",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg76.bg"
+   }
+  },
+  {
+   "id": "kg-dg-77-magnoliya",
+   "type": "public",
+   "name": "ДГ №77 Магнолия",
+   "coords": [
+    23.34434,
+    42.68988
+   ],
+   "address": "ул. \"Мизия\", № 6",
+   "district": "sredets",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 944 17 22",
+    "email": null,
+    "facebook": null,
+    "website": "http://www.cdg77-magnolia.com/"
+   }
+  },
+  {
+   "id": "kg-dg-78-detski-svyat-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №78 Детски свят (с яслени групи)",
+   "coords": [
+    23.36336,
+    42.65553
+   ],
+   "address": "кв. \"Дървеница\", ул. \"Айдемир\", №4",
+   "district": "studentski",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 885 7676",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg78detskisvqt.com/"
+   }
+  },
+  {
+   "id": "kg-dg-79-slanchitse-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №79 Слънчице (с яслени групи)",
+   "coords": [
+    23.33967,
+    42.65232
+   ],
+   "address": "ул. \"Джон Ленън\", №10",
+   "district": "studentski",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 868 21 49",
+    "email": null,
+    "facebook": null,
+    "website": "http://odz79.net/"
+   }
+  },
+  {
+   "id": "kg-dg-80-prikazna-kalina-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №80 Приказна калина (с яслени групи)",
+   "coords": [
+    23.29155,
+    42.68022
+   ],
+   "address": "ул. \"Видлич\", №2",
+   "district": "krasno-selo",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "0879609577",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg80-sofia.com/"
+   }
+  },
+  {
+   "id": "kg-dg-81-liliya-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №81 Лилия (с яслени групи)",
+   "coords": [
+    23.30413,
+    42.69806
+   ],
+   "address": "ул. \"Одрин\", №62",
+   "district": "vazrazhdane",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 822 08 18",
+    "email": null,
+    "facebook": null,
+    "website": "https://www.odz81.com/"
+   }
+  },
+  {
+   "id": "kg-dg-82-dzhani-rodari-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №82 Джани Родари (с яслени групи)",
+   "coords": [
+    23.27748,
+    42.74464
+   ],
+   "address": "ж.к. \"Обеля\" 2",
+   "district": "vrabnitsa",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 934 38 81",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg-82.com/"
+   }
+  },
+  {
+   "id": "kg-dg-83-slaveyche-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №83 Славейче (с яслени групи)",
+   "coords": [
+    23.31696,
+    42.75334
+   ],
+   "address": "кв.  Илиянци, ул. \"Фикус\" № 2",
+   "district": "nadezhda",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "0884-80-15-97",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg83sofia.com/"
+   }
+  },
+  {
+   "id": "kg-dg-83-slaveyche-sgrada-trebich",
+   "type": "public",
+   "name": "ДГ №83 Славейче - сграда Требич",
+   "coords": [
+    23.31295,
+    42.77439
+   ],
+   "address": "кв. Требич, ул. \"Леденика\", №13",
+   "district": "nadezhda",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 838 10 21",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-84-detelina-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №84 Детелина (с яслени групи)",
+   "coords": [
+    23.24362,
+    42.68717
+   ],
+   "address": "ж.к. \"Овча купел\" - II, кв. 5, ул.\"Детелина\" № 1",
+   "district": "ovcha-kupel",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 956 10 69",
+    "email": null,
+    "facebook": null,
+    "website": "https://84dgdetelina.com/"
+   }
+  },
+  {
+   "id": "kg-dg-85-rodina",
+   "type": "public",
+   "name": "ДГ №85 Родина",
+   "coords": [
+    23.30781,
+    42.6933
+   ],
+   "address": "ул. \"Дамян Груев\", №44",
+   "district": "krasno-selo",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 952 10 48",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg85rodina.bg/"
+   }
+  },
+  {
+   "id": "kg-dg-85-rodina-sgrada-2",
+   "type": "public",
+   "name": "ДГ №85 Родина - сграда 2",
+   "coords": [
+    23.30781,
+    42.6933
+   ],
+   "address": "ул. \"Григор Пърличев\", №10",
+   "district": "krasno-selo",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 952 17 97",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg85rodina.bg/"
+   }
+  },
+  {
+   "id": "kg-dg-86-asen-bosev-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №86 Асен Босев (с яслени групи)",
+   "coords": [
+    23.26995,
+    42.71463
+   ],
+   "address": "ул. \"Тома Давидов\", №44",
+   "district": "lyulin",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 826 11 19",
+    "email": null,
+    "facebook": null,
+    "website": "http://www.dg86-asenbosev.com/"
+   }
+  },
+  {
+   "id": "kg-dg-87-bukata",
+   "type": "public",
+   "name": "ДГ №87 Буката",
+   "coords": [
+    23.31276,
+    42.68695
+   ],
+   "address": "ул. \"Цар Петър I\", №5",
+   "district": "triaditsa",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 952 68 04",
+    "email": null,
+    "facebook": null,
+    "website": "https://kgbukata.bg/"
+   }
+  },
+  {
+   "id": "kg-dg-87-bukata-sgrada-2",
+   "type": "public",
+   "name": "ДГ №87 Буката - сграда 2",
+   "coords": [
+    23.31458,
+    42.69099
+   ],
+   "address": "\"Христо Ботев\", №14",
+   "district": "triaditsa",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "https://kgbukata.bg/"
+   }
+  },
+  {
+   "id": "kg-dg-87-bukata-pochasova-organizatsiya",
+   "type": "public",
+   "name": "ДГ №87 Буката - почасова организация",
+   "coords": [
+    23.31276,
+    42.68695
+   ],
+   "address": "ул. \"Цар Петър I\", №5",
+   "district": "triaditsa",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "https://kgbukata.bg/"
+   }
+  },
+  {
+   "id": "kg-dg-87-bukata-sgrada-ul-tundzha",
+   "type": "public",
+   "name": "ДГ №87 Буката - сграда ул. Тунджа",
+   "coords": [
+    23.31458,
+    42.69099
+   ],
+   "address": "ул. \"Тунджа\" № 33",
+   "district": "triaditsa",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 952 68 04",
+    "email": null,
+    "facebook": null,
+    "website": "https://kgbukata.bg/"
+   }
+  },
+  {
+   "id": "kg-dg-88-detski-ray-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №88 Детски рай (с яслени групи)",
+   "coords": [
+    23.41148,
+    42.64298
+   ],
+   "address": "ж.к. \"Дружба\" II, 4 м. р.",
+   "district": "iskar",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 978 82 32",
+    "email": null,
+    "facebook": null,
+    "website": "http://www.odz88.com/"
+   }
+  },
+  {
+   "id": "kg-dg-89-sharena-daga-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №89 Шарена дъга (с яслени групи)",
+   "coords": [
+    23.41326,
+    42.71096
+   ],
+   "address": "кв. Враждебна, ул. 27, №3",
+   "district": "kremikovtsi",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 840 63 35",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg-89.com/"
+   }
+  },
+  {
+   "id": "kg-dg-90-vesa-paspaleeva-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №90 Веса Паспалеева (с яслени групи)",
+   "coords": [
+    23.30275,
+    42.73521
+   ],
+   "address": "ул. \"Иван Момчилов\" , №44",
+   "district": "nadezhda",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 936 04 64",
+    "email": null,
+    "facebook": null,
+    "website": "http://90.dgradina.eu"
+   }
+  },
+  {
+   "id": "kg-dg-90-vesa-paspaleeva-sgrada-ul-byal-lyulyak-19",
+   "type": "public",
+   "name": "ДГ №90 Веса Паспалеева - сграда ул. Бял люляк 19",
+   "coords": [
+    23.29514,
+    42.73598
+   ],
+   "address": "ул. \"Бял люляк\", №19",
+   "district": "nadezhda",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 9360464",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-91-slanchev-kat-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №91 Слънчев кът (с яслени групи)",
+   "coords": [
+    23.37601,
+    42.7136
+   ],
+   "address": "кв. \"Левски-Г\"",
+   "district": "poduyane",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 946 61 43",
+    "email": null,
+    "facebook": null,
+    "website": "http://odz91.com/"
+   }
+  },
+  {
+   "id": "kg-dg-91-slanchev-kat-sgrada-slantse",
+   "type": "public",
+   "name": "ДГ №91 Слънчев кът - сграда Слънце",
+   "coords": [
+    23.37601,
+    42.7136
+   ],
+   "address": "ул. \"Hеофит Бозвели\", №26",
+   "district": "poduyane",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 945 01 26",
+    "email": null,
+    "facebook": null,
+    "website": "http://odz91.com/"
+   }
+  },
+  {
+   "id": "kg-dg-91-slanchev-kat-sgrada-kv-levski-v",
+   "type": "public",
+   "name": "ДГ №91 Слънчев кът - сграда кв. \"Левски-В\"",
+   "coords": [
+    23.37601,
+    42.7136
+   ],
+   "address": "кв. \"Левски-В\", бл. 5",
+   "district": "poduyane",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "http://odz91.com/"
+   }
+  },
+  {
+   "id": "kg-dg-92-mechta-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №92 Мечта (с яслени групи)",
+   "coords": [
+    23.38677,
+    42.71326
+   ],
+   "address": "ул. \"Поручик Георги Кюмюрджиев\", №10",
+   "district": "poduyane",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 946 61 00",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg92mechta.com/"
+   }
+  },
+  {
+   "id": "kg-dg-92-mechta-sgrada-levski-v",
+   "type": "public",
+   "name": "ДГ №92 Мечта - сграда Левски В",
+   "coords": [
+    23.38644,
+    42.70619
+   ],
+   "address": "кв. \"Левски-В\", ул. \"Ген. Инзов\", №44",
+   "district": "poduyane",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 946 77 19",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg92mechta.com/"
+   }
+  },
+  {
+   "id": "kg-dg-93-chuden-svyat-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №93 Чуден свят (с яслени групи)",
+   "coords": [
+    23.28692,
+    42.67618
+   ],
+   "address": "ул. \"Дебър\" № 16-22",
+   "district": "krasno-selo",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "0876982700",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg93.bg/"
+   }
+  },
+  {
+   "id": "kg-dg-93-chuden-svyat-sgrada-bl-195",
+   "type": "public",
+   "name": "ДГ №93 Чуден свят - сграда бл. 195",
+   "coords": [
+    23.28362,
+    42.67409
+   ],
+   "address": "ул. \"Хубча\" бл. 195",
+   "district": "krasno-selo",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "http://dg93.bg/"
+   }
+  },
+  {
+   "id": "kg-dg-94-detski-svyat-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №94 Детски свят (с яслени групи)",
+   "coords": [
+    23.56803,
+    42.76526
+   ],
+   "address": "гр. Бухово, ул. \"Никола Бонев\", №6",
+   "district": "kremikovtsi",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 994 23 00",
+    "email": null,
+    "facebook": null,
+    "website": "https://odz-buhovo.com/"
+   }
+  },
+  {
+   "id": "kg-dg-94-detski-svyat-pochasova-organizatsiya",
+   "type": "public",
+   "name": "ДГ №94 Детски свят - почасова организация",
+   "coords": [
+    23.56803,
+    42.76526
+   ],
+   "address": "гр. Бухово, ул. \"Никола Бонев\", №6",
+   "district": "kremikovtsi",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "https://odz-buhovo.com/"
+   }
+  },
+  {
+   "id": "kg-dg-95-omayniche-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №95 Омайниче (с яслени групи)",
+   "coords": [
+    23.27471,
+    42.7178
+   ],
+   "address": "ул. \"Тома Давидов\", №3",
+   "district": "lyulin",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 927 53 90",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg95omainiche.com/"
+   }
+  },
+  {
+   "id": "kg-dg-96-rosna-kitka",
+   "type": "public",
+   "name": "ДГ №96 Росна китка",
+   "coords": [
+    23.39386,
+    42.6634
+   ],
+   "address": "ж.к. Дружба 1, Полковник Чудомир Топлодолски",
+   "district": "iskar",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 879 42 07",
+    "email": null,
+    "facebook": null,
+    "website": "http://rosna-kitka.eu/"
+   }
+  },
+  {
+   "id": "kg-dg-97-izgrev",
+   "type": "public",
+   "name": "ДГ №97 Изгрев",
+   "coords": [
+    23.47468,
+    42.60217
+   ],
+   "address": "с. Лозен, ул. \"Янко Панайотов\", №29",
+   "district": "pancharevo",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "0883345016",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg97-izgrev.com/wp/"
+   }
+  },
+  {
+   "id": "kg-dg-97-izgrev-sgrada-s-dolni-lozen-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №97 Изгрев - сграда с. Долни Лозен (с яслени групи)",
+   "coords": [
+    23.49138,
+    42.60344
+   ],
+   "address": "с. Лозен, ул. \"Светлина\", №2",
+   "district": "pancharevo",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-98-slanchevo-zayche-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №98 Слънчево зайче (с яслени групи)",
+   "coords": [
+    23.36975,
+    42.64472
+   ],
+   "address": "ж.к. \"Младост 2\", до блок 241",
+   "district": "mladost",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "0887201095",
+    "email": null,
+    "facebook": null,
+    "website": "https://odz98bg.com/"
+   }
+  },
+  {
+   "id": "kg-dg-98-slanchevo-zayche-pochasova-organizatsiya",
+   "type": "public",
+   "name": "ДГ №98 Слънчево зайче - почасова организация",
+   "coords": [
+    23.36975,
+    42.64472
+   ],
+   "address": "ж.к. \"Младост 2\", до блок 241,",
+   "district": "mladost",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "https://odz98bg.com/"
+   }
+  },
+  {
+   "id": "kg-dg-99-brezichka-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №99 Брезичка (с яслени групи)",
+   "coords": [
+    23.29337,
+    42.67482
+   ],
+   "address": "ул. \"Битоля\", №27",
+   "district": "krasno-selo",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 859 01 12",
+    "email": null,
+    "facebook": null,
+    "website": "https://brezichka.com/"
+   }
+  },
+  {
+   "id": "kg-dg-99-brezichka-sgrada-bl-4",
+   "type": "public",
+   "name": "ДГ №99 Брезичка - сграда бл.4",
+   "coords": [
+    23.2964,
+    42.67672
+   ],
+   "address": "ж.к. Бели брези,",
+   "district": "krasno-selo",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 858 50 37",
+    "email": null,
+    "facebook": null,
+    "website": "https://brezichka.com/"
+   }
+  },
+  {
+   "id": "kg-dg-99-brezichka-sgrada-bl-31",
+   "type": "public",
+   "name": "ДГ №99 Брезичка - сграда бл.31",
+   "coords": [
+    23.29274,
+    42.67435
+   ],
+   "address": "бл. 31",
+   "district": "krasno-selo",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 858 50 37",
+    "email": null,
+    "facebook": null,
+    "website": "https://brezichka.com/"
+   }
+  },
+  {
+   "id": "kg-dg-99-brezichka-sgrada-bl-6",
+   "type": "public",
+   "name": "ДГ №99 Брезичка - сграда бл.6",
+   "coords": [
+    23.29597,
+    42.67638
+   ],
+   "address": "ж.к. Бели брези, бл. 6",
+   "district": "krasno-selo",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 858 50 37",
+    "email": null,
+    "facebook": null,
+    "website": "https://brezichka.com/"
+   }
+  },
+  {
+   "id": "kg-dg-99-brezichka-sgrada-bl-23",
+   "type": "public",
+   "name": "ДГ №99 Брезичка - сграда бл.23",
+   "coords": [
+    23.29412,
+    42.67496
+   ],
+   "address": "ж.к. Бели брези, бл. 23",
+   "district": "krasno-selo",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 858 50 37",
+    "email": null,
+    "facebook": null,
+    "website": "https://brezichka.com/"
+   }
+  },
+  {
+   "id": "kg-dg-99-brezichka-sgrada-bl-1",
+   "type": "public",
+   "name": "ДГ №99 Брезичка - сграда бл. 1",
+   "coords": [
+    23.29694,
+    42.67682
+   ],
+   "address": "ж.к. Бели брези,",
+   "district": "krasno-selo",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 859 01 12",
+    "email": null,
+    "facebook": null,
+    "website": "https://brezichka.com/"
+   }
+  },
+  {
+   "id": "kg-dg-99-brezichka-sgrada-bl-4-pochasova-organizatsiya",
+   "type": "public",
+   "name": "ДГ №99 Брезичка - сграда бл. 4 почасова организация",
+   "coords": [
+    23.2964,
+    42.67672
+   ],
+   "address": "ж.к. \"Бели брези\", бл. 4",
+   "district": "krasno-selo",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 858 50 37",
+    "email": null,
+    "facebook": null,
+    "website": "https://brezichka.com/"
+   }
+  },
+  {
+   "id": "kg-dg-100-akad-pencho-n-raykov",
+   "type": "public",
+   "name": "ДГ №100 Акад. Пенчо Н. Райков",
+   "coords": [
+    23.33996,
+    42.69402
+   ],
+   "address": "ул. \"Велико Търново\", №2",
+   "district": "oborishte",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "0887004961",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg100.eu/"
+   }
+  },
+  {
+   "id": "kg-dg-100-akad-pencho-n-raykov-sgrada-ul-veliko-tarnovo-4",
+   "type": "public",
+   "name": "ДГ №100 Акад. Пенчо Н. Райков - сграда ул. Велико Търново № 4",
+   "coords": [
+    23.34014,
+    42.69387
+   ],
+   "address": "ул. \"Велико Търново\", №4",
+   "district": "oborishte",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 944 11 35",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg100.eu/"
+   }
+  },
+  {
+   "id": "kg-dg-100-akad-pencho-n-raykov-sgrada-ul-marin-drinov-11a",
+   "type": "public",
+   "name": "ДГ №100 Акад. Пенчо Н. Райков - сграда ул. Марин Дринов 11А",
+   "coords": [
+    23.34159,
+    42.69585
+   ],
+   "address": "ул. \"Марин Дринов\", №11А",
+   "district": "oborishte",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 944 20 40",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg100.eu/"
+   }
+  },
+  {
+   "id": "kg-dg-101-yabalkova-gradina-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №101 Ябълкова градина (с яслени групи)",
+   "coords": [
+    23.25675,
+    42.72775
+   ],
+   "address": "ул. \"Фортов път\", №2",
+   "district": "lyulin",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "028244877",
+    "email": null,
+    "facebook": null,
+    "website": "http://www.dg101.bg/"
+   }
+  },
+  {
+   "id": "kg-dg-102-kremenitsa-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №102 Кременица (с яслени групи)",
+   "coords": [
+    23.35643,
+    42.81718
+   ],
+   "address": "гр. Нови Искър, кв. Курило, ул. \"Кременица\", №18",
+   "district": "novi-iskar",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "0879042872",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg102kremenitsa.com/"
+   }
+  },
+  {
+   "id": "kg-dg-102-kremenitsa-filial-s-katina",
+   "type": "public",
+   "name": "ДГ №102 Кременица - филиал с. Кътина",
+   "coords": [
+    23.32088,
+    42.84083
+   ],
+   "address": "с. Кътина,",
+   "district": "novi-iskar",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 991 72 49",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg102kremenitsa.com/"
+   }
+  },
+  {
+   "id": "kg-dg-102-kremenitsa-sgrada-kv-gnilyane",
+   "type": "public",
+   "name": "ДГ №102 Кременица - сграда кв. Гниляне",
+   "coords": [
+    23.35643,
+    42.81718
+   ],
+   "address": "гр. Нови Искър, кв. Гниляне",
+   "district": "novi-iskar",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "https://dg102kremenitsa.com/"
+   }
+  },
+  {
+   "id": "kg-dg-103-patilansko-tsarstvo",
+   "type": "public",
+   "name": "ДГ №103 Патиланско царство",
+   "coords": [
+    23.36219,
+    42.70882
+   ],
+   "address": "ул. \"Гинци\", №16",
+   "district": "poduyane",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 945 27 98",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg103.net/"
+   }
+  },
+  {
+   "id": "kg-dg-104-moyat-svyat-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №104 Моят свят (с яслени групи)",
+   "coords": [
+    23.33206,
+    42.70222
+   ],
+   "address": "ул. \"Чумерна\", №15",
+   "district": "oborishte",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 983 32 75",
+    "email": null,
+    "facebook": null,
+    "website": "https://cdg104.info/"
+   }
+  },
+  {
+   "id": "kg-dg-104-moyat-svyat-sgrada-3",
+   "type": "public",
+   "name": "ДГ №104 Моят свят - сграда 3",
+   "coords": [
+    23.32502,
+    42.70205
+   ],
+   "address": "ул. \"Веслец\", №31",
+   "district": "oborishte",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 983 14 13",
+    "email": null,
+    "facebook": null,
+    "website": "https://cdg104.info/"
+   }
+  },
+  {
+   "id": "kg-dg-104-moyat-svyat-sgrada-2",
+   "type": "public",
+   "name": "ДГ №104 Моят свят - сграда 2",
+   "coords": [
+    23.33279,
+    42.70264
+   ],
+   "address": "ул. \"Цар Симеон\", №5",
+   "district": "oborishte",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 983 37 84",
+    "email": null,
+    "facebook": null,
+    "website": "https://cdg104.info/"
+   }
+  },
+  {
+   "id": "kg-dg-104-moyat-svyat-sgrada-4",
+   "type": "public",
+   "name": "ДГ №104 Моят свят - сграда 4",
+   "coords": [
+    23.3253,
+    42.70207
+   ],
+   "address": "ул. \"Веслец\" №38",
+   "district": "oborishte",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 983 14 13",
+    "email": null,
+    "facebook": null,
+    "website": "https://cdg104.info/"
+   }
+  },
+  {
+   "id": "kg-dg-105-raketa-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №105 Ракета (с яслени групи)",
+   "coords": [
+    23.36985,
+    42.70121
+   ],
+   "address": "ул. \"Емануил Васкидович\", №40",
+   "district": "poduyane",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 945 05 93",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg105-raketa.com/"
+   }
+  },
+  {
+   "id": "kg-dg-106-knyaginya-mariya-luiza",
+   "type": "public",
+   "name": "ДГ №106 Княгиня Мария-Луиза",
+   "coords": [
+    23.32576,
+    42.70623
+   ],
+   "address": "ул. \"Родопи\", №8",
+   "district": "serdika",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "0882958181",
+    "email": null,
+    "facebook": null,
+    "website": "https://106dg.com/"
+   }
+  },
+  {
+   "id": "kg-dg-108-detsko-tsarstvo-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №108 Детско царство (с яслени групи)",
+   "coords": [
+    23.39875,
+    42.65971
+   ],
+   "address": "ж.к. \"Дружба\" I",
+   "district": "iskar",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 979 15 12",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg-108.com/"
+   }
+  },
+  {
+   "id": "kg-dg-108-detsko-tsarstvo-sgrada-do-bl-42",
+   "type": "public",
+   "name": "ДГ №108 Детско царство - сграда до бл. 42",
+   "coords": [
+    23.39624,
+    42.66467
+   ],
+   "address": "ж.к. \"Дружба\" I - до бл. 42,43",
+   "district": "iskar",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 979 08 40",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg-108.com/"
+   }
+  },
+  {
+   "id": "kg-dg-109-zornitsa-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №109 Зорница (с яслени групи)",
+   "coords": [
+    23.36988,
+    42.65128
+   ],
+   "address": "ж.к. \"Младост 1\" до бл.  69,",
+   "district": "mladost",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "+359885943992",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg109-zornica.com/"
+   }
+  },
+  {
+   "id": "kg-dg-110-slancheva-mechta-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №110 Слънчева мечта (с яслени групи)",
+   "coords": [
+    23.36968,
+    42.69764
+   ],
+   "address": "ул. \"Батуня\", №75",
+   "district": "poduyane",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 945 30 19",
+    "email": null,
+    "facebook": null,
+    "website": "http://slanchevamechta.com/"
+   }
+  },
+  {
+   "id": "kg-dg-110-slancheva-mechta-sgrada-2",
+   "type": "public",
+   "name": "ДГ №110 Слънчева мечта - сграда 2",
+   "coords": [
+    23.37145,
+    42.69823
+   ],
+   "address": "ул. \"Вършец\", №11",
+   "district": "poduyane",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 945 30 44",
+    "email": null,
+    "facebook": null,
+    "website": "http://slanchevamechta.com/"
+   }
+  },
+  {
+   "id": "kg-dg-111-korabche",
+   "type": "public",
+   "name": "ДГ №111 Корабче",
+   "coords": [
+    23.32788,
+    42.67175
+   ],
+   "address": "ул. \"Кораб планина\", №42",
+   "district": "lozenets",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 862 31 48",
+    "email": null,
+    "facebook": null,
+    "website": "http://korabche.com/"
+   }
+  },
+  {
+   "id": "kg-dg-112-detski-svyat",
+   "type": "public",
+   "name": "ДГ №112 Детски свят",
+   "coords": [
+    23.288,
+    42.64475
+   ],
+   "address": "кв. Бояна, ул. \"Детски мир\", №5",
+   "district": "vitosha",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "http://112-dg.org/"
+   }
+  },
+  {
+   "id": "kg-dg-112-detski-svyat-sgrada-2",
+   "type": "public",
+   "name": "ДГ №112 Детски свят - сграда 2",
+   "coords": [
+    23.2656,
+    42.64493
+   ],
+   "address": "кв. Бояна, ул. \"Боянско езеро\", №3",
+   "district": "vitosha",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "http://112-dg.org/"
+   }
+  },
+  {
+   "id": "kg-dg-112-detski-svyat-s-yasleni-grupi-sgrada-3",
+   "type": "public",
+   "name": "ДГ №112 Детски свят (с яслени групи) - сграда 3",
+   "coords": [
+    23.2656,
+    42.64493
+   ],
+   "address": "ул. \"Севастократор Калоян\", № 26А",
+   "district": "vitosha",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "http://112-dg.org/"
+   }
+  },
+  {
+   "id": "kg-dg-113-prespa",
+   "type": "public",
+   "name": "ДГ №113 Преспа",
+   "coords": [
+    23.32644,
+    42.68941
+   ],
+   "address": "ул.  \"Преспа\", №3",
+   "district": "sredets",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 987 61 25",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg113-prespa.eu/"
+   }
+  },
+  {
+   "id": "kg-dg-113-prespa-sgrada",
+   "type": "public",
+   "name": "ДГ №113 Преспа - сграда",
+   "coords": [
+    23.32385,
+    42.68912
+   ],
+   "address": "ул. \"Хан Аспарух\", №52",
+   "district": "sredets",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "https://dg113-prespa.eu/"
+   }
+  },
+  {
+   "id": "kg-dg-114-svetulka-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №114 Светулка (с яслени групи)",
+   "coords": [
+    23.38598,
+    42.7835
+   ],
+   "address": "с. Световрачене, ул. \"Миладин Цветков\", №3",
+   "district": "novi-iskar",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "0882 399 000",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg114-svetulka.idwebbg.com/"
+   }
+  },
+  {
+   "id": "kg-dg-115-osmi-mart-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №115 Осми март (с яслени групи)",
+   "coords": [
+    23.30683,
+    42.73007
+   ],
+   "address": "ул. \"8-ми март\", №28",
+   "district": "nadezhda",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 938 12 05",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-115-osmi-mart-sgrada-vrabnitsa",
+   "type": "public",
+   "name": "ДГ №115 Осми март - сграда Връбница",
+   "coords": [
+    23.29959,
+    42.73147
+   ],
+   "address": "Горни Порой , №2",
+   "district": "nadezhda",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 938 13 69",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-115-osmi-mart-sgrada-ul-8-mi-mart-15",
+   "type": "public",
+   "name": "ДГ №115 Осми март - сграда ул. 8-ми март 15",
+   "coords": [
+    23.3048,
+    42.72898
+   ],
+   "address": "ул. \"8-ми март\", №15",
+   "district": "nadezhda",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 938 12 05",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-116-musala",
+   "type": "public",
+   "name": "ДГ №116 Мусала",
+   "coords": [
+    23.26909,
+    42.66765
+   ],
+   "address": "ул. \"Мусала\", №7",
+   "district": "vitosha",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 855 00 47",
+    "email": null,
+    "facebook": null,
+    "website": "http://116dg.com/"
+   }
+  },
+  {
+   "id": "kg-dg-116-musala-sgrada-bul-al-pushkin-2",
+   "type": "public",
+   "name": "ДГ №116 Мусала - сграда бул. Ал. Пушкин №2",
+   "coords": [
+    23.27495,
+    42.6639
+   ],
+   "address": "бул. \"Ал. Пушкин\", №2",
+   "district": "vitosha",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 855 00 47",
+    "email": null,
+    "facebook": null,
+    "website": "http://116dg.com/"
+   }
+  },
+  {
+   "id": "kg-dg-116-musala-sgrada-gardova-glava",
+   "type": "public",
+   "name": "ДГ №116 Мусала - сграда Гърдова глава",
+   "coords": [
+    23.26737,
+    42.65768
+   ],
+   "address": "ул. \"Симеон Радев\", №73А",
+   "district": "vitosha",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "http://116dg.com/"
+   }
+  },
+  {
+   "id": "kg-dg-117-nadezhda-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №117 Надежда (с яслени групи)",
+   "coords": [
+    23.3722,
+    42.66295
+   ],
+   "address": "ж.к. \"Младост 1\", ул. \"Димитър Моллов\" №9",
+   "district": "mladost",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "0878 843 117",
+    "email": null,
+    "facebook": null,
+    "website": "http://www.kg117.net/"
+   }
+  },
+  {
+   "id": "kg-dg-117-nadezhda-pochasova-organizatsiya",
+   "type": "public",
+   "name": "ДГ №117 Надежда - почасова организация",
+   "coords": [
+    23.3722,
+    42.66295
+   ],
+   "address": "ж.к. \"Младост 1\", ул. \"Димитър Моллов\", №9",
+   "district": "mladost",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "http://www.kg117.net/"
+   }
+  },
+  {
+   "id": "kg-dg-118-usmivka",
+   "type": "public",
+   "name": "ДГ №118 Усмивка",
+   "coords": [
+    23.33186,
+    42.72338
+   ],
+   "address": "ул. \"Тайга\", №29",
+   "district": "serdika",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 936 73 12",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg-118.com/"
+   }
+  },
+  {
+   "id": "kg-dg-119-detska-planeta",
+   "type": "public",
+   "name": "ДГ №119 Детска планета",
+   "coords": [
+    23.30727,
+    42.69969
+   ],
+   "address": "ул. \"Брегалница\", №26",
+   "district": "vazrazhdane",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "0889580056",
+    "email": null,
+    "facebook": null,
+    "website": "http://cdg119.idwebbg.com/"
+   }
+  },
+  {
+   "id": "kg-dg-119-detska-planeta-sgrada-2",
+   "type": "public",
+   "name": "ДГ №119 Детска планета - сграда 2",
+   "coords": [
+    23.29567,
+    42.69308
+   ],
+   "address": "ул. \"Гюешево\", №78",
+   "district": "vazrazhdane",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "08895901519",
+    "email": null,
+    "facebook": null,
+    "website": "http://cdg119.idwebbg.com/"
+   }
+  },
+  {
+   "id": "kg-dg-120-detstvo-pod-lipite-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №120 Детство под липите (с яслени групи)",
+   "coords": [
+    23.29943,
+    42.69904
+   ],
+   "address": "ул. \"Позитано\", №125",
+   "district": "vazrazhdane",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 822 32 19",
+    "email": null,
+    "facebook": null,
+    "website": "https://odz120.com/"
+   }
+  },
+  {
+   "id": "kg-dg-121-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №121  (с яслени групи)",
+   "coords": [
+    23.33929,
+    42.79714
+   ],
+   "address": "гр. Нови Искър, кв. Кумарица, ул. \"Искърско дефиле\", №73",
+   "district": "novi-iskar",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "https://dg-121.com/"
+   }
+  },
+  {
+   "id": "kg-dg-121-filial-s-dobroslavtsi",
+   "type": "public",
+   "name": "ДГ №121  - филиал с. Доброславци",
+   "coords": [
+    23.28236,
+    42.82228
+   ],
+   "address": "с. Доброславци, ул. \"Площад Мегдана\", №1",
+   "district": "novi-iskar",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "0884371785",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg-121.com/"
+   }
+  },
+  {
+   "id": "kg-dg-123-sharl-pero-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №123 Шарл Перо (с яслени групи)",
+   "coords": [
+    23.40802,
+    42.62544
+   ],
+   "address": "кв. Горубляне, ул. \"Хан Аспарух\", №1",
+   "district": "mladost",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 879 12 24",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg123sharl-pero.com/"
+   }
+  },
+  {
+   "id": "kg-dg-124-barborino",
+   "type": "public",
+   "name": "ДГ №124 Бърборино",
+   "coords": [
+    23.30277,
+    42.68567
+   ],
+   "address": "ул. \"Захари Kруша\", № 20",
+   "district": "krasno-selo",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 952 20 28   0885 950 122",
+    "email": null,
+    "facebook": null,
+    "website": "https://124cdg.eu/bg/"
+   }
+  },
+  {
+   "id": "kg-dg-125-usmivka",
+   "type": "public",
+   "name": "ДГ №125 Усмивка",
+   "coords": [
+    23.25175,
+    42.68082
+   ],
+   "address": "ул. \"Монтевидео\", №21",
+   "district": "ovcha-kupel",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 462 11 28",
+    "email": null,
+    "facebook": null,
+    "website": "https://125dg.com/"
+   }
+  },
+  {
+   "id": "kg-dg-125-usmivka-sgrada-bul-nikola-petkov",
+   "type": "public",
+   "name": "ДГ №125 Усмивка - сграда бул.Никола Петков",
+   "coords": [
+    23.25193,
+    42.67206
+   ],
+   "address": "бул. \"Никола Петков\" , №90",
+   "district": "ovcha-kupel",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 462 11 28",
+    "email": null,
+    "facebook": null,
+    "website": "https://125dg.com/"
+   }
+  },
+  {
+   "id": "kg-dg-125-usmivka-sgrada-3",
+   "type": "public",
+   "name": "ДГ №125 Усмивка - сграда 3",
+   "coords": [
+    23.25193,
+    42.67206
+   ],
+   "address": "ул. \"Анастасия Димитрова\", №8",
+   "district": "ovcha-kupel",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 462 11 28",
+    "email": null,
+    "facebook": null,
+    "website": "https://125dg.com/"
+   }
+  },
+  {
+   "id": "kg-dg-126-tintyava",
+   "type": "public",
+   "name": "ДГ №126 Тинтява",
+   "coords": [
+    23.28207,
+    42.69502
+   ],
+   "address": "ж.к. Красна поляна II, ул. \"Спас Вацов\", №1",
+   "district": "krasna-polyana",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 822 34 56",
+    "email": null,
+    "facebook": null,
+    "website": "https://onlinebulgaria.wixsite.com/126tintqva"
+   }
+  },
+  {
+   "id": "kg-dg-126-tintyava-sgrada-2",
+   "type": "public",
+   "name": "ДГ №126 Тинтява - сграда 2",
+   "coords": [
+    23.28065,
+    42.69822
+   ],
+   "address": "ул. \"Проф. Вайганд\", №6",
+   "district": "krasna-polyana",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "0885036241",
+    "email": null,
+    "facebook": null,
+    "website": "https://onlinebulgaria.wixsite.com/126tintqva"
+   }
+  },
+  {
+   "id": "kg-dg-127-slantse-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №127 Слънце (с яслени групи)",
+   "coords": [
+    23.29836,
+    42.67565
+   ],
+   "address": "ул. \"Дедеагач\", №42",
+   "district": "triaditsa",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 958 92 91",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg127slantse.com"
+   }
+  },
+  {
+   "id": "kg-dg-127-slantse-sgrada-bl-91",
+   "type": "public",
+   "name": "ДГ №127 Слънце - сграда бл.91",
+   "coords": [
+    23.29934,
+    42.67478
+   ],
+   "address": "ж.к. Стрелбище, бл. 91",
+   "district": "triaditsa",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 958 92 91",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg127slantse.com"
+   }
+  },
+  {
+   "id": "kg-dg-127-slantse-sgrada-zh-k-strelbishte",
+   "type": "public",
+   "name": "ДГ №127 Слънце - сграда ж.к. Стрелбище",
+   "coords": [
+    23.30039,
+    42.67455
+   ],
+   "address": "жк. Стрелбище, ул. \"Тулча\", №16",
+   "district": "triaditsa",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 958 92 91",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg127slantse.com"
+   }
+  },
+  {
+   "id": "kg-dg-127-slantse-sgrada-bl-97",
+   "type": "public",
+   "name": "ДГ №127 Слънце - сграда бл. 97",
+   "coords": [
+    23.30109,
+    42.67184
+   ],
+   "address": "ж.к. Стрелбище, бл. 97",
+   "district": "triaditsa",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 958 92 91",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg127slantse.com"
+   }
+  },
+  {
+   "id": "kg-dg-127-slantse-sgrada-bl-95",
+   "type": "public",
+   "name": "ДГ №127 Слънце - сграда бл. 95",
+   "coords": [
+    23.29939,
+    42.6732
+   ],
+   "address": "ж.к. Стрелбище, бл. 95",
+   "district": "triaditsa",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 958 92 91",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg127slantse.com"
+   }
+  },
+  {
+   "id": "kg-dg-127-slantse-sgrada-bl-93-a",
+   "type": "public",
+   "name": "ДГ №127 Слънце - сграда бл. 93 А",
+   "coords": [
+    23.29857,
+    42.67432
+   ],
+   "address": "ж.к. Стрелбище, бл. 93",
+   "district": "triaditsa",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 958 92 91",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg127slantse.com"
+   }
+  },
+  {
+   "id": "kg-dg-128-feniks",
+   "type": "public",
+   "name": "ДГ №128 Феникс",
+   "coords": [
+    23.27777,
+    42.70354
+   ],
+   "address": "ж.к. Западен парк, ул. \"Суходолска\", №2 (до 17 СОУ)",
+   "district": "krasna-polyana",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 822 36 18",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg128feniks.com"
+   }
+  },
+  {
+   "id": "kg-sdya-128-slantse",
+   "type": "public",
+   "name": "СДЯ №128 Слънце",
+   "coords": [
+    23.24665,
+    42.7209
+   ],
+   "address": "ж.к. Люлин-3, ул. Никола Обретенов, №5",
+   "district": "lyulin",
+   "ages": [
+    0,
+    3
+   ],
+   "contacts": {
+    "phone": "02 992 55 58",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-128-feniks-sgrada-2-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №128 Феникс - сграда 2 (с яслени групи)",
+   "coords": [
+    23.27761,
+    42.70413
+   ],
+   "address": "ж.к. Западен парк, ул. \"Суходолска\", №2 (до бл. 110 - сградата на бившата 32 СДЯ)",
+   "district": "krasna-polyana",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 822 35 97",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg128feniks.com"
+   }
+  },
+  {
+   "id": "kg-dg-129-prikazen-svyat",
+   "type": "public",
+   "name": "ДГ №129 Приказен свят",
+   "coords": [
+    23.30287,
+    42.67215
+   ],
+   "address": "ул. \"Kосово поле\", №3",
+   "district": "triaditsa",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 858 21 83",
+    "email": null,
+    "facebook": null,
+    "website": "https://129dg.bg/"
+   }
+  },
+  {
+   "id": "kg-dg-129-prikazen-svyat-sgrada-ul-nishava",
+   "type": "public",
+   "name": "ДГ №129 Приказен свят - сграда ул. Нишава",
+   "coords": [
+    23.30294,
+    42.66958
+   ],
+   "address": "ул. \"Нишава\", бл. 6Б и бл. 5Б",
+   "district": "triaditsa",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 859 91 21",
+    "email": null,
+    "facebook": null,
+    "website": "https://129dg.bg/"
+   }
+  },
+  {
+   "id": "kg-dg-129-prikazen-svyat-pochasova-organizatsiya",
+   "type": "public",
+   "name": "ДГ №129 Приказен свят - почасова организация",
+   "coords": [
+    23.30287,
+    42.67215
+   ],
+   "address": "ул. \"Kосово поле\", № 3",
+   "district": "triaditsa",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "https://129dg.bg/"
+   }
+  },
+  {
+   "id": "kg-dg-130-prikazka",
+   "type": "public",
+   "name": "ДГ №130 Приказка",
+   "coords": [
+    23.28238,
+    42.70348
+   ],
+   "address": "ул. \"Булина ливада\", №41",
+   "district": "krasna-polyana",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 822 36 73",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-132-svetlina-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №132 Светлина (с яслени групи)",
+   "coords": [
+    23.42429,
+    42.75692
+   ],
+   "address": "с. Чепинци, ул. \"Стара планина\" , №1",
+   "district": "novi-iskar",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "0884801730",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg132svetlina.idwebbg.com/"
+   }
+  },
+  {
+   "id": "kg-dg-132-svetlina-filial-s-podgumer",
+   "type": "public",
+   "name": "ДГ №132 Светлина - филиал с. Подгумер",
+   "coords": [
+    23.40223,
+    42.80215
+   ],
+   "address": "с. Подгумер, ул. \"Стара планина\", №4",
+   "district": "novi-iskar",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "http://dg132svetlina.idwebbg.com/"
+   }
+  },
+  {
+   "id": "kg-dg-133-zornitsa",
+   "type": "public",
+   "name": "ДГ №133 Зорница",
+   "coords": [
+    23.36017,
+    42.67006
+   ],
+   "address": "ул. \"Еужен Потие\", №1",
+   "district": "izgrev",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 872 03 90",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg-133.com/"
+   }
+  },
+  {
+   "id": "kg-dg-134-lyubopitko-s-logopedichni-grupi",
+   "type": "public",
+   "name": "ДГ №134 Любопитко (с логопедични групи)",
+   "coords": [
+    23.29712,
+    42.68074
+   ],
+   "address": "ул. \"Урвич\", №14",
+   "district": "krasno-selo",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 952 29 19",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-135-moe-detstvo-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №135 Мое детство (с яслени групи)",
+   "coords": [
+    23.35207,
+    42.82161
+   ],
+   "address": "гр. Нови Искър, ул. \"Варна\", № 1",
+   "district": "novi-iskar",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "0879043173",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg-135.com/"
+   }
+  },
+  {
+   "id": "kg-dg-136-slaviya",
+   "type": "public",
+   "name": "ДГ №136 Славия",
+   "coords": [
+    23.27441,
+    42.67562
+   ],
+   "address": "бул. \"Цар Борис III\", №130",
+   "district": "krasno-selo",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 855 15 68",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg136.com/"
+   }
+  },
+  {
+   "id": "kg-dg-137-kalina-malina-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №137 Калина Малина (с яслени групи)",
+   "coords": [
+    23.31079,
+    42.73189
+   ],
+   "address": "Република , №70",
+   "district": "nadezhda",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "0897983333",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-137-kalina-malina-sgrada-ul-aleksandar-mihov-25",
+   "type": "public",
+   "name": "ДГ №137 Калина Малина - сграда ул. Александър Михов 25",
+   "coords": [
+    23.31338,
+    42.72759
+   ],
+   "address": "ул. \"Александър Михов\", №25",
+   "district": "nadezhda",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "0897983333",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-138-priyateli-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №138 Приятели (с яслени групи)",
+   "coords": [
+    23.26236,
+    42.74166
+   ],
+   "address": "кв. \"Обеля\", ул.  3 № 13",
+   "district": "vrabnitsa",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 834 10 57",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg138.info/"
+   }
+  },
+  {
+   "id": "kg-dg-139-panorama-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №139 Панорама (с яслени групи)",
+   "coords": [
+    23.26473,
+    42.72173
+   ],
+   "address": "ул. \"Ген. Асен Николов\", №12",
+   "district": "lyulin",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "0878358891",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg139-panorama.com/"
+   }
+  },
+  {
+   "id": "kg-dg-139-panorama-sgrada-ul-lui-pastor",
+   "type": "public",
+   "name": "ДГ №139 Панорама - сграда ул. Луи Пастьор",
+   "coords": [
+    23.27252,
+    42.71912
+   ],
+   "address": "ул. \"Луи Пастьор\", №4",
+   "district": "lyulin",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "0878358891",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg139-panorama.com/"
+   }
+  },
+  {
+   "id": "kg-dg-139-panorama-pochasova-organizatsiya",
+   "type": "public",
+   "name": "ДГ №139 Панорама - почасова организация",
+   "coords": [
+    23.26473,
+    42.72173
+   ],
+   "address": "ул. \"Ген. Асен Николов\", №12",
+   "district": "lyulin",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 826 10 71",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg139-panorama.com/"
+   }
+  },
+  {
+   "id": "kg-dg-140-zornitsa-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №140 Зорница (с яслени групи)",
+   "coords": [
+    23.48854,
+    42.70137
+   ],
+   "address": "с. Долни Богров, ул. \"10-та\", №27",
+   "district": "kremikovtsi",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "https://dg140-zornica.com/"
+   }
+  },
+  {
+   "id": "kg-dg-141-slaveykova-polyana",
+   "type": "public",
+   "name": "ДГ №141 Славейкова поляна",
+   "coords": [
+    23.32907,
+    42.67627
+   ],
+   "address": "ул. \"Света гора\", №32",
+   "district": "lozenets",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "https://dg141.com/"
+   }
+  },
+  {
+   "id": "kg-dg-141-slaveykova-polyana-sgrada-2",
+   "type": "public",
+   "name": "ДГ №141 Славейкова поляна - сграда 2",
+   "coords": [
+    23.32573,
+    42.67797
+   ],
+   "address": "ул. \"Св.  Наум\", №22",
+   "district": "lozenets",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "https://dg141.com/"
+   }
+  },
+  {
+   "id": "kg-dg-142",
+   "type": "public",
+   "name": "ДГ №142",
+   "coords": [
+    23.28958,
+    42.68478
+   ],
+   "address": "бул. \"Цар Борис III\" № 54а",
+   "district": "krasno-selo",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 954 60 20   0884801416",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg142.bg/"
+   }
+  },
+  {
+   "id": "kg-dg-142-sgrada-ul-haydushka-polyana",
+   "type": "public",
+   "name": "ДГ №142  - сграда ул. Хайдушка поляна",
+   "coords": [
+    23.28703,
+    42.68422
+   ],
+   "address": "ул. \"Хайдушка поляна\", №4",
+   "district": "krasno-selo",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 954 60 20",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg142.bg/"
+   }
+  },
+  {
+   "id": "kg-dg-142-sgrada-bl-19",
+   "type": "public",
+   "name": "ДГ №142  - сграда бл. 19",
+   "coords": [
+    23.29077,
+    42.68417
+   ],
+   "address": "ж.к. \"Лагера\"",
+   "district": "krasno-selo",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 954 60 20",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg142.bg/"
+   }
+  },
+  {
+   "id": "kg-dg-143-shturche",
+   "type": "public",
+   "name": "ДГ №143 Щурче",
+   "coords": [
+    23.36052,
+    42.58259
+   ],
+   "address": "с. Бистрица, ул. \"Тинтява\", №6",
+   "district": "pancharevo",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "0884801757",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg143-shturche.com/"
+   }
+  },
+  {
+   "id": "kg-dg-143-shturche-sgrada-ul-prosveta-14",
+   "type": "public",
+   "name": "ДГ №143 Щурче - сграда ул. \"Просвета\" № 14",
+   "coords": [
+    23.36052,
+    42.58259
+   ],
+   "address": "с. Бистрица, ул. \"Просвета\", №14",
+   "district": "pancharevo",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "+359 884 801 757",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg143-shturche.com/"
+   }
+  },
+  {
+   "id": "kg-dg-144-hans-kristian-andersen-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №144 Ханс Кристиан Андерсен (с яслени групи)",
+   "coords": [
+    23.39962,
+    42.65145
+   ],
+   "address": "ж.к. \"Дружба\" II, ул. \"Ханс Кристиан Андерсен\" №10",
+   "district": "iskar",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 979 17 65",
+    "email": null,
+    "facebook": null,
+    "website": "https://77-odz.com/"
+   }
+  },
+  {
+   "id": "kg-dg-145-balgarka",
+   "type": "public",
+   "name": "ДГ №145 Българка",
+   "coords": [
+    23.27678,
+    42.68527
+   ],
+   "address": "бул. \"Никола Мушанов\", №151",
+   "district": "krasno-selo",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 822 06 63",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg145.bg/"
+   }
+  },
+  {
+   "id": "kg-dg-146-zvezditsa-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №146 Звездица (с яслени групи)",
+   "coords": [
+    23.50205,
+    42.78309
+   ],
+   "address": "кв. Kремиковци, ул. \"Св.Св.Кирил и Методий\", №2",
+   "district": "kremikovtsi",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 994 70 49",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg146zvezdica.com/"
+   }
+  },
+  {
+   "id": "kg-dg-146-zvezditsa-sgrada-2-s-yasleni-grupi-kv-seslavtsi",
+   "type": "public",
+   "name": "ДГ №146 Звездица - сграда 2 (с яслени групи), кв. Сеславци",
+   "coords": [
+    23.50205,
+    42.78309
+   ],
+   "address": "кв. Сеславци, ул. \"Мургаш\", №3",
+   "district": "kremikovtsi",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "+359 889 195 844",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg146zvezdica.com/"
+   }
+  },
+  {
+   "id": "kg-dg-147-slaveyche-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №147 Славейче (с яслени групи)",
+   "coords": [
+    23.52834,
+    42.7197
+   ],
+   "address": "с. Горни Богров, ул. \"Трайчо Костов\", №1",
+   "district": "kremikovtsi",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 994 34 15",
+    "email": null,
+    "facebook": null,
+    "website": "https://147dg.com/"
+   }
+  },
+  {
+   "id": "kg-dg-147-slaveyche-filial-s-yana",
+   "type": "public",
+   "name": "ДГ №147 Славейче - филиал с. Яна",
+   "coords": [
+    23.55435,
+    42.73117
+   ],
+   "address": "с. Яна, ул. \"Райна Княгиня\", №4",
+   "district": "kremikovtsi",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 994 34 15",
+    "email": null,
+    "facebook": null,
+    "website": "https://147dg.com/"
+   }
+  },
+  {
+   "id": "kg-dg-149-zornitsa",
+   "type": "public",
+   "name": "ДГ №149 Зорница",
+   "coords": [
+    23.34408,
+    42.72087
+   ],
+   "address": "ул. \"Железопътна\", №22",
+   "district": "serdika",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 936 75 82",
+    "email": null,
+    "facebook": null,
+    "website": "http://www.149.cdg.bg/"
+   }
+  },
+  {
+   "id": "kg-dg-149-zornitsa-sgrada-2",
+   "type": "public",
+   "name": "ДГ №149 Зорница - сграда 2",
+   "coords": [
+    23.34721,
+    42.71852
+   ],
+   "address": "кв. \"Малашевци\", ул. \"Училищна\", №10",
+   "district": "serdika",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 936 75 82",
+    "email": null,
+    "facebook": null,
+    "website": "http://www.149.cdg.bg/"
+   }
+  },
+  {
+   "id": "kg-dg-151-leda-mileva-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №151 Леда Милева (с яслени групи)",
+   "coords": [
+    23.34793,
+    42.69474
+   ],
+   "address": "ул. Оборище, №94-96",
+   "district": "oborishte",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 943 18 57",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg151.eu/"
+   }
+  },
+  {
+   "id": "kg-dg-151-leda-mileva-sgrada-ul-marfi",
+   "type": "public",
+   "name": "ДГ №151 Леда Милева - сграда ул. Мърфи",
+   "coords": [
+    23.34793,
+    42.69474
+   ],
+   "address": "ул. \"Мърфи\", №1",
+   "district": "oborishte",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 944 01 90",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg151.eu/"
+   }
+  },
+  {
+   "id": "kg-dg-152-lyulyache-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №152 Люляче (с яслени групи)",
+   "coords": [
+    23.24995,
+    42.72983
+   ],
+   "address": "ул. \"Ванче Михайлов\", №3",
+   "district": "lyulin",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 824 88 62",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg152.com"
+   }
+  },
+  {
+   "id": "kg-dg-153-sveta-troitsa",
+   "type": "public",
+   "name": "ДГ №153 Света Троица",
+   "coords": [
+    23.29771,
+    42.70494
+   ],
+   "address": "ул. \"Цар Симеон\", №225",
+   "district": "ilinden",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "+359 882 411 977",
+    "email": null,
+    "facebook": null,
+    "website": "http://cdg53.com/"
+   }
+  },
+  {
+   "id": "kg-dg-154-sbadnata-mechta",
+   "type": "public",
+   "name": "ДГ №154 Сбъдната мечта",
+   "coords": [
+    23.37129,
+    42.68589
+   ],
+   "address": "ул. \"Слатинска\", №60",
+   "district": "slatina",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 872 24 35",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg-154.com/"
+   }
+  },
+  {
+   "id": "kg-dg-154-sbadnata-mechta-sgrada-bl-73",
+   "type": "public",
+   "name": "ДГ №154 Сбъдната мечта - сграда бл.73",
+   "coords": [
+    23.37625,
+    42.67729
+   ],
+   "address": "бл.73",
+   "district": "slatina",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 872 24 35",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg-154.com/"
+   }
+  },
+  {
+   "id": "kg-dg-155-veselina",
+   "type": "public",
+   "name": "ДГ №155 Веселина",
+   "coords": [
+    23.36246,
+    42.68948
+   ],
+   "address": "ул. \"Георги Минчев\", №35",
+   "district": "slatina",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 870 05 38",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg155.com/"
+   }
+  },
+  {
+   "id": "kg-dg-155-veselina-sgrada-2",
+   "type": "public",
+   "name": "ДГ №155 Веселина - сграда 2",
+   "coords": [
+    23.35711,
+    42.69134
+   ],
+   "address": "ул. \"Каймакчалан\" № 4",
+   "district": "slatina",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 870 05 38",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg155.com/"
+   }
+  },
+  {
+   "id": "kg-dg-157-detska-stryaha-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №157 Детска стряха (с яслени групи)",
+   "coords": [
+    23.34843,
+    42.81615
+   ],
+   "address": "гр. Нови Искър, ул. \"Беласица\", №26",
+   "district": "novi-iskar",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 991 75 93",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg157detskastryaha.com/"
+   }
+  },
+  {
+   "id": "kg-dg-158-zora-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №158 Зора (с яслени групи)",
+   "coords": [
+    23.29087,
+    42.71597
+   ],
+   "address": "кв. \"Захарна фабрика\"",
+   "district": "ilinden",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 821 91 85",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-158-zora-sgrada-ul-tsar-simeon-bl-313",
+   "type": "public",
+   "name": "ДГ №158 Зора - сграда ул. Цар Симеон, бл. 313",
+   "coords": [
+    23.2911,
+    42.70767
+   ],
+   "address": "ул. \"Цар Симеон\", бл. 313, вх. А",
+   "district": "ilinden",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 821 91 85",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-158-zora-sgrada-ul-iliya-kushev-bl-118",
+   "type": "public",
+   "name": "ДГ №158 Зора - сграда ул. Илия Кушев, бл. 118",
+   "coords": [
+    23.28936,
+    42.70644
+   ],
+   "address": "ул. \"Илия Кушев\", бл. 118, вх. Д",
+   "district": "ilinden",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 821 91 85",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-159-olimpiyche",
+   "type": "public",
+   "name": "ДГ №159 Олимпийче",
+   "coords": [
+    23.32026,
+    42.69134
+   ],
+   "address": "ул.  \"Гладстон\", №38",
+   "district": "sredets",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 988 5 683",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg-159.com/"
+   }
+  },
+  {
+   "id": "kg-dg-159-olimpiyche-sgrada-2",
+   "type": "public",
+   "name": "ДГ №159 Олимпийче - сграда 2",
+   "coords": [
+    23.32159,
+    42.69333
+   ],
+   "address": "ул. \"Христо Белчев\", №13",
+   "district": "sredets",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 988 56 83",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg-159.com/"
+   }
+  },
+  {
+   "id": "kg-dg-159-olimpiyche-sgrada-2-pochasova-organizatsiya",
+   "type": "public",
+   "name": "ДГ №159 Олимпийче - сграда 2, почасова организация",
+   "coords": [
+    23.32159,
+    42.69333
+   ],
+   "address": "ул. \"Христо Белчев\", № 13",
+   "district": "sredets",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 988 56 83",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg-159.com/"
+   }
+  },
+  {
+   "id": "kg-dg-159-olimpiyche-sgrada-3",
+   "type": "public",
+   "name": "ДГ №159 Олимпийче - сграда 3",
+   "coords": [
+    23.32159,
+    42.69333
+   ],
+   "address": "ул. \"Христо Белчев\", №36",
+   "district": "sredets",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "https://dg-159.com/"
+   }
+  },
+  {
+   "id": "kg-dg-160-dragalevtsi-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №160 Драгалевци (с яслени групи)",
+   "coords": [
+    23.31488,
+    42.63095
+   ],
+   "address": "Драгалевци, ул. \"Захари Зограф\", №1",
+   "district": "vitosha",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "+359 2 4120541",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg160sofia.com/"
+   }
+  },
+  {
+   "id": "kg-dg-160-dragalevtsi-sgrada-2",
+   "type": "public",
+   "name": "ДГ №160 Драгалевци - сграда 2",
+   "coords": [
+    23.30676,
+    42.62787
+   ],
+   "address": "кв. Драгалевци, ул. \"Кумините\" № 3",
+   "district": "vitosha",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "https://dg160sofia.com/"
+   }
+  },
+  {
+   "id": "kg-dg-161-laska-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №161 Ласка (с яслени групи)",
+   "coords": [
+    23.26452,
+    42.6819
+   ],
+   "address": "кв. Овча купел, ул. \"Маестро Кънев\", №29",
+   "district": "ovcha-kupel",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "0884801675",
+    "email": null,
+    "facebook": null,
+    "website": "https://dglaska.bg/"
+   }
+  },
+  {
+   "id": "kg-dg-161-laska-sgrada-1-ul-evliya-chelebi",
+   "type": "public",
+   "name": "ДГ №161 Ласка - сграда 1 ул. Евлия Челеби",
+   "coords": [
+    23.25639,
+    42.67224
+   ],
+   "address": "ул.\"Евлия Челеби\", №1",
+   "district": "ovcha-kupel",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 955 73 21",
+    "email": null,
+    "facebook": null,
+    "website": "https://dglaska.bg/"
+   }
+  },
+  {
+   "id": "kg-dg-161-laska-sgrada-2-zh-k-ovcha-kupel-bl-611",
+   "type": "public",
+   "name": "ДГ №161 Ласка - сграда 2 ж.к. Овча купел, бл. 611",
+   "coords": [
+    23.26478,
+    42.68331
+   ],
+   "address": "ж.к. Овча купел, бл. 611, вх. А",
+   "district": "ovcha-kupel",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "https://dglaska.bg/"
+   }
+  },
+  {
+   "id": "kg-dg-161-laska-sgrada-3-ul-dragoman",
+   "type": "public",
+   "name": "ДГ №161 Ласка - сграда 3, ул. Драгоман",
+   "coords": [
+    23.25639,
+    42.67224
+   ],
+   "address": "ул. \"Драгоман\" № 26",
+   "district": "ovcha-kupel",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "https://dglaska.bg/"
+   }
+  },
+  {
+   "id": "kg-dg-162-vihrogonche",
+   "type": "public",
+   "name": "ДГ №162 Вихрогонче",
+   "coords": [
+    23.29855,
+    42.68152
+   ],
+   "address": "ул. \"Урвич\", №12",
+   "district": "krasno-selo",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "0889102838",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg162.net/wp/"
+   }
+  },
+  {
+   "id": "kg-dg-162-vihrogonche-sgrada",
+   "type": "public",
+   "name": "ДГ №162 Вихрогонче - сграда",
+   "coords": [
+    23.29855,
+    42.67978
+   ],
+   "address": "ул. Емине №8, бл.46",
+   "district": "krasno-selo",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "http://dg162.net/"
+   }
+  },
+  {
+   "id": "kg-dg-164-zornitsa-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №164 Зорница (с яслени групи)",
+   "coords": [
+    23.23855,
+    42.67342
+   ],
+   "address": "ул. \"Мечево усое\", №6",
+   "district": "ovcha-kupel",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 957 86  22",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg164zornica.bg/"
+   }
+  },
+  {
+   "id": "kg-dg-164-zornitsa-sgrada-2-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №164 Зорница - сграда 2 (с яслени групи)",
+   "coords": [
+    23.23855,
+    42.67342
+   ],
+   "address": "бул. “Проф. Никола Милев”, №32",
+   "district": "ovcha-kupel",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 957 8622",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg164zornica.bg/"
+   }
+  },
+  {
+   "id": "kg-dg-165-latinka",
+   "type": "public",
+   "name": "ДГ №165 Латинка",
+   "coords": [
+    23.35372,
+    42.67369
+   ],
+   "address": "ул. \"Чарлз Дарвин\", №19",
+   "district": "izgrev",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 872 01 02",
+    "email": null,
+    "facebook": null,
+    "website": "http://cdg165.com/"
+   }
+  },
+  {
+   "id": "kg-dg-166-veselushka",
+   "type": "public",
+   "name": "ДГ №166 Веселушка",
+   "coords": [
+    23.31771,
+    42.67296
+   ],
+   "address": "ул. \"Горски пътник\", №23",
+   "district": "lozenets",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 866 22 71",
+    "email": null,
+    "facebook": null,
+    "website": "http://cdg166.com/"
+   }
+  },
+  {
+   "id": "kg-dg-166-veselushka-pochasova-organizatsiya",
+   "type": "public",
+   "name": "ДГ №166 Веселушка - почасова организация",
+   "coords": [
+    23.31771,
+    42.67296
+   ],
+   "address": "ул. \"Горски пътник\", № 23",
+   "district": "lozenets",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "http://cdg166.com/"
+   }
+  },
+  {
+   "id": "kg-dg-167-malkiyat-prints",
+   "type": "public",
+   "name": "ДГ №167 Малкият принц",
+   "coords": [
+    23.30831,
+    42.68001
+   ],
+   "address": "ул. \"Балша\", №6-8",
+   "district": "triaditsa",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 952 16 10",
+    "email": null,
+    "facebook": null,
+    "website": "http://malkiyatprinc.eu/"
+   }
+  },
+  {
+   "id": "kg-dg-167-malkiyat-prints-sgrada-ul-yanko-zabunov",
+   "type": "public",
+   "name": "ДГ №167 Малкият принц - сграда ул. Янко Забунов",
+   "coords": [
+    23.30749,
+    42.67837
+   ],
+   "address": "ул. \"Янко Забунов\", бл. 40-41",
+   "district": "triaditsa",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 952 16 10",
+    "email": null,
+    "facebook": null,
+    "website": "http://malkiyatprinc.eu/"
+   }
+  },
+  {
+   "id": "kg-dg-167-malkiyat-prints-pochasova-organizatsiya",
+   "type": "public",
+   "name": "ДГ №167 Малкият принц - почасова организация",
+   "coords": [
+    23.30831,
+    42.68001
+   ],
+   "address": "ул. \"Балша\", № 6-8",
+   "district": "triaditsa",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "http://malkiyatprinc.eu/"
+   }
+  },
+  {
+   "id": "kg-dg-168-slanchogledi",
+   "type": "public",
+   "name": "ДГ №168 Слънчогледи",
+   "coords": [
+    23.36155,
+    42.68186
+   ],
+   "address": "ул. \"Постоянство\" , №9",
+   "district": "slatina",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 872 09 93",
+    "email": null,
+    "facebook": null,
+    "website": "http://sunflowers168.eu/"
+   }
+  },
+  {
+   "id": "kg-dg-168-slanchogledi-sgrada-ul-andrey-nikolov",
+   "type": "public",
+   "name": "ДГ №168 Слънчогледи - сграда ул. Андрей Николов",
+   "coords": [
+    23.36305,
+    42.68121
+   ],
+   "address": "ул. \"Андрей Николов\", №254",
+   "district": "slatina",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "http://sunflowers168.eu/"
+   }
+  },
+  {
+   "id": "kg-dg-168-slanchogledi-sgrada-ul-liditse",
+   "type": "public",
+   "name": "ДГ №168 Слънчогледи - сграда ул. Лидице",
+   "coords": [
+    23.36344,
+    42.6796
+   ],
+   "address": "ул. \"Лидице\", №261",
+   "district": "slatina",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "http://sunflowers168.eu/"
+   }
+  },
+  {
+   "id": "kg-dg-169-koledarche",
+   "type": "public",
+   "name": "ДГ №169 Коледарче",
+   "coords": [
+    23.29043,
+    42.69967
+   ],
+   "address": "бул. \"Алеко Туранджа\", №4",
+   "district": "krasna-polyana",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 822 10 43",
+    "email": null,
+    "facebook": null,
+    "website": "https://www.koledarche.com/"
+   }
+  },
+  {
+   "id": "kg-dg-170-pchelitsa-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №170 Пчелица (с яслени групи)",
+   "coords": [
+    23.29567,
+    42.73091
+   ],
+   "address": "ул. \"Любородне\", №4",
+   "district": "nadezhda",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 938 29 22",
+    "email": null,
+    "facebook": null,
+    "website": "https://dgpchelica.com/"
+   }
+  },
+  {
+   "id": "kg-dg-170-pchelitsa-s-yasleni-grupi-sgrada-2",
+   "type": "public",
+   "name": "ДГ №170 Пчелица (с яслени групи) - сграда 2",
+   "coords": [
+    23.29641,
+    42.72724
+   ],
+   "address": "ул. \"Сава Филаретов\", №44",
+   "district": "nadezhda",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 938 29 22",
+    "email": null,
+    "facebook": null,
+    "website": "https://dgpchelica.com/"
+   }
+  },
+  {
+   "id": "kg-dg-171-svoboda-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №171 Свобода (с яслени групи)",
+   "coords": [
+    23.30426,
+    42.73817
+   ],
+   "address": "ул. \"Петко Д. Петков\", №14",
+   "district": "nadezhda",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 441 02 81",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg171-svoboda.com/"
+   }
+  },
+  {
+   "id": "kg-dg-172-sofiya-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №172 София (с яслени групи)",
+   "coords": [
+    23.29513,
+    42.72444
+   ],
+   "address": "ж.к. Надежда - 1, ул. \"Кирил Дрангов\", №14",
+   "district": "nadezhda",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 967 65 41",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-173-zvanche-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №173 Звънче (с яслени групи)",
+   "coords": [
+    23.3551,
+    42.70787
+   ],
+   "address": "ул. \"Златица\", №46",
+   "district": "poduyane",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 945 04 07",
+    "email": null,
+    "facebook": null,
+    "website": "http://173cdg.com/"
+   }
+  },
+  {
+   "id": "kg-dg-173-zvanche-sgrada-alisa",
+   "type": "public",
+   "name": "ДГ №173 Звънче - сграда Алиса",
+   "coords": [
+    23.34516,
+    42.70474
+   ],
+   "address": "ул. \"Филип Тотю\", №24",
+   "district": "poduyane",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 945 04 07",
+    "email": null,
+    "facebook": null,
+    "website": "http://173cdg.com/"
+   }
+  },
+  {
+   "id": "kg-dg-174-fyut",
+   "type": "public",
+   "name": "ДГ №174 Фют",
+   "coords": [
+    23.32157,
+    42.66681
+   ],
+   "address": "ул. \"Мала планина\", №36",
+   "district": "lozenets",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 862 10 90",
+    "email": null,
+    "facebook": null,
+    "website": "http://www.dg174fiut.com/"
+   }
+  },
+  {
+   "id": "kg-dg-175-slanchevi-lachi-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №175 Слънчеви лъчи (с яслени групи)",
+   "coords": [
+    23.3329,
+    42.65409
+   ],
+   "address": "местност Витоша, ВЕЦ Симеоново , ул. \"Тодор Чипев\", №1",
+   "district": "lozenets",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "+359 884 801 589",
+    "email": null,
+    "facebook": null,
+    "website": "https://www.dg175.eu/bg/"
+   }
+  },
+  {
+   "id": "kg-dg-175-slanchevi-lachi-pochasova-organizatsiya",
+   "type": "public",
+   "name": "ДГ №175 Слънчеви лъчи - почасова организация",
+   "coords": [
+    23.3329,
+    42.65409
+   ],
+   "address": "местност Витоша, ВЕЦ Симеоново , ул. \"Тодор Чипев\", №1",
+   "district": "lozenets",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "+359 884 801 589",
+    "email": null,
+    "facebook": null,
+    "website": "https://www.dg175.eu/bg/"
+   }
+  },
+  {
+   "id": "kg-dg-175-slanchevi-lachi-sgrada-2",
+   "type": "public",
+   "name": "ДГ №175 Слънчеви лъчи - сграда 2",
+   "coords": [
+    23.3329,
+    42.65409
+   ],
+   "address": "м. \"Кръстова вада\", ул. \"Борис Руменов\" №18",
+   "district": "lozenets",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "+359 884 801 589",
+    "email": null,
+    "facebook": null,
+    "website": "https://www.dg175.eu/bg/"
+   }
+  },
+  {
+   "id": "kg-dg-176-zornitsa-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №176 Зорница (с яслени групи)",
+   "coords": [
+    23.27093,
+    42.78533
+   ],
+   "address": "с. Мрамор, ул. \"Л. Kаравелов\", №16",
+   "district": "vrabnitsa",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 998 23 72",
+    "email": null,
+    "facebook": null,
+    "website": "http://176.odz-bg.com/"
+   }
+  },
+  {
+   "id": "kg-dg-176-zornitsa-filial-s-voluyak",
+   "type": "public",
+   "name": "ДГ №176 Зорница - филиал с. Волуяк",
+   "coords": [
+    23.24133,
+    42.7714
+   ],
+   "address": "с. Волуяк, ул. \"Зорница\", №42",
+   "district": "vrabnitsa",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 998 90 41",
+    "email": null,
+    "facebook": null,
+    "website": "http://176.odz-bg.com/"
+   }
+  },
+  {
+   "id": "kg-dg-177-lyutiche-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №177 Лютиче (с яслени групи)",
+   "coords": [
+    23.3684,
+    42.70734
+   ],
+   "address": "ул. \"Витиня\" до бл. 100",
+   "district": "poduyane",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 847 39 39",
+    "email": null,
+    "facebook": null,
+    "website": "http://лютиче.com/"
+   }
+  },
+  {
+   "id": "kg-dg-178-srebarno-kopittse-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №178 Сребърно копитце (с яслени групи)",
+   "coords": [
+    23.38508,
+    42.64353
+   ],
+   "address": "ж.к. \"Младост 3\" до бл. 363/368",
+   "district": "mladost",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 874 61 10",
+    "email": null,
+    "facebook": null,
+    "website": "http://odz178.deckagradina.info/"
+   }
+  },
+  {
+   "id": "kg-dg-178-srebarno-kopittse-sgrada-2",
+   "type": "public",
+   "name": "ДГ №178 Сребърно копитце - сграда 2",
+   "coords": [
+    23.38489,
+    42.64148
+   ],
+   "address": "ж.к. \"Младост 3\" до бл. 375",
+   "district": "mladost",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "http://odz178.deckagradina.info/"
+   }
+  },
+  {
+   "id": "kg-dg-179-sinchets-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №179 Синчец (с яслени групи)",
+   "coords": [
+    23.28638,
+    42.71628
+   ],
+   "address": "ул. \"Kукуш\", №34",
+   "district": "ilinden",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 820 24 71",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg179.bg/"
+   }
+  },
+  {
+   "id": "kg-dg-180-zaychentseto-byalo",
+   "type": "public",
+   "name": "ДГ №180 Зайченцето бяло",
+   "coords": [
+    23.41664,
+    42.61753
+   ],
+   "address": "с. Герман, ул. \"Патриарх Герман\", №81А",
+   "district": "pancharevo",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 9928074",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg180.org/"
+   }
+  },
+  {
+   "id": "kg-dg-181-radost",
+   "type": "public",
+   "name": "ДГ №181 Радост",
+   "coords": [
+    23.36973,
+    42.53748
+   ],
+   "address": "с. Железница, ул. \"Плана планина\", №26",
+   "district": "pancharevo",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 992 76 54",
+    "email": null,
+    "facebook": null,
+    "website": "https://www.181dg.com/"
+   }
+  },
+  {
+   "id": "kg-dg-182-pchelitsa",
+   "type": "public",
+   "name": "ДГ №182 Пчелица",
+   "coords": [
+    23.49428,
+    42.54321
+   ],
+   "address": "с. Долни Пасарел, ВЕЦ Пасарел, №17",
+   "district": "pancharevo",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 992 42 08",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg-pchelica.com/"
+   }
+  },
+  {
+   "id": "kg-dg-183-shtastlivo-detstvo",
+   "type": "public",
+   "name": "ДГ №183 Щастливо детство",
+   "coords": [
+    23.36146,
+    42.67785
+   ],
+   "address": "ул. \"Галилео Галилей\", №30",
+   "district": "slatina",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 870 61 37",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg-183.com/"
+   }
+  },
+  {
+   "id": "kg-dg-184-mecho-puh-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №184 Мечо Пух (с яслени групи)",
+   "coords": [
+    23.3572,
+    42.68331
+   ],
+   "address": "ул. \"Хемус\", №10",
+   "district": "slatina",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 870 41 92",
+    "email": null,
+    "facebook": null,
+    "website": "http://mechopuh.info/"
+   }
+  },
+  {
+   "id": "kg-dg-185-zvezdichka-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №185 Звездичка (с яслени групи)",
+   "coords": [
+    23.39978,
+    42.65243
+   ],
+   "address": "ж.к. \"Дружба\" II",
+   "district": "iskar",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 973 24 63",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg185.bg/"
+   }
+  },
+  {
+   "id": "kg-dg-185-zvezdichka-sgrada-vrana",
+   "type": "public",
+   "name": "ДГ №185 Звездичка - сграда Врана",
+   "coords": [
+    23.43923,
+    42.63987
+   ],
+   "address": "Враня, бул. \"Цариградско шосе\" , №387",
+   "district": "iskar",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 974 65 14",
+    "email": null,
+    "facebook": null,
+    "website": "https://dg185.bg/"
+   }
+  },
+  {
+   "id": "kg-dg-186-denitsa-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №186 Деница (с яслени групи)",
+   "coords": [
+    23.37022,
+    42.6467
+   ],
+   "address": "ж.к. \"Младост 2\", ул. \"Малкият принц\", №4",
+   "district": "mladost",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "0878 934 940",
+    "email": null,
+    "facebook": null,
+    "website": "http://denica186.com/"
+   }
+  },
+  {
+   "id": "kg-dg-187-zhar-ptitsa-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №187 Жар птица (с яслени групи)",
+   "coords": [
+    23.27969,
+    42.69534
+   ],
+   "address": "ул. \"Добротич\", №48",
+   "district": "krasna-polyana",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "https://dg187jarptica.com/"
+   }
+  },
+  {
+   "id": "kg-dg-188-vyara-nadezhda-lyubov-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №188 Вяра, Надежда, Любов (с яслени групи)",
+   "coords": [
+    23.37676,
+    42.632
+   ],
+   "address": "ж.к. \"Младост 4\", до бл.436",
+   "district": "mladost",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 874 00 56",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg188.info/"
+   }
+  },
+  {
+   "id": "kg-dg-188-vyara-nadezhda-lyubov-pochasova-organizatsiya",
+   "type": "public",
+   "name": "ДГ №188 Вяра, Надежда, Любов - почасова организация",
+   "coords": [
+    23.37676,
+    42.632
+   ],
+   "address": "ж.к. \"Младост 4\", до бл.436",
+   "district": "mladost",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "http://dg188.info/"
+   }
+  },
+  {
+   "id": "kg-dg-189-sto-usmivki-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №189 Сто усмивки (с яслени групи)",
+   "coords": [
+    23.37536,
+    42.64999
+   ],
+   "address": "ж.к. \"Младост 1\", ул. \"Сто усмивки\", №4",
+   "district": "mladost",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "http://www.100smiles.eu/"
+   }
+  },
+  {
+   "id": "kg-dg-191-prikazka-bez-kray-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №191 Приказка без край (с яслени групи)",
+   "coords": [
+    23.35008,
+    42.69747
+   ],
+   "address": "ул. \"Мадарски конник\", №7",
+   "district": "oborishte",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 944 64 81",
+    "email": null,
+    "facebook": null,
+    "website": "https://www.odz60.com/"
+   }
+  },
+  {
+   "id": "kg-dg-191-prikazka-bez-kray-sgrada-ul-vasil-drumev",
+   "type": "public",
+   "name": "ДГ №191 Приказка без край - сграда ул. Васил Друмев",
+   "coords": [
+    23.35083,
+    42.696
+   ],
+   "address": "ул. \"Васил Друмев\", №34",
+   "district": "oborishte",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 944 48 28",
+    "email": null,
+    "facebook": null,
+    "website": "https://www.odz60.com/"
+   }
+  },
+  {
+   "id": "kg-dg-192-lozichka",
+   "type": "public",
+   "name": "ДГ №192 Лозичка",
+   "coords": [
+    23.32407,
+    42.68144
+   ],
+   "address": "ул. \"Розова долина\", №12а",
+   "district": "lozenets",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 866 13 58",
+    "email": null,
+    "facebook": null,
+    "website": "http://www.dg192.com/"
+   }
+  },
+  {
+   "id": "kg-dg-193-slaveyche",
+   "type": "public",
+   "name": "ДГ №193 Славейче",
+   "coords": [
+    23.31638,
+    42.66871
+   ],
+   "address": "ул. \"Kап. Тодор Hочев\", №30",
+   "district": "lozenets",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 862-30-49",
+    "email": null,
+    "facebook": null,
+    "website": "https://www.dg193.com/"
+   }
+  },
+  {
+   "id": "kg-dg-193-slaveyche-pochasova-organizatsiya",
+   "type": "public",
+   "name": "ДГ №193 Славейче - почасова организация",
+   "coords": [
+    23.31638,
+    42.66871
+   ],
+   "address": "ул. \"Kап. Тодор Hочев\", №30",
+   "district": "lozenets",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "https://www.dg193.com/"
+   }
+  },
+  {
+   "id": "kg-dg-194-miluvka",
+   "type": "public",
+   "name": "ДГ №194 Милувка",
+   "coords": [
+    23.30564,
+    42.70257
+   ],
+   "address": "Овче поле, №123",
+   "district": "vazrazhdane",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 831 03 24",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg194.com/index.php/home"
+   }
+  },
+  {
+   "id": "kg-dg-195-bratya-mormarevi-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №195 Братя Мормареви (с яслени групи)",
+   "coords": [
+    23.33143,
+    42.69766
+   ],
+   "address": "ул. \"Врабча\", №7",
+   "district": "oborishte",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 987 32 08",
+    "email": null,
+    "facebook": null,
+    "website": "http://dg195.com/"
+   }
+  },
+  {
+   "id": "kg-dg-195-bratya-mormarevi-sgrada-ul-pobeda-3",
+   "type": "public",
+   "name": "ДГ №195 Братя Мормареви - сграда ул. Победа 3",
+   "coords": [
+    23.34421,
+    42.69858
+   ],
+   "address": "ул. \"Победа\", №3",
+   "district": "oborishte",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "http://dg195.com/"
+   }
+  },
+  {
+   "id": "kg-dg-196-sharl-pero",
+   "type": "public",
+   "name": "ДГ №196 Шарл Перо",
+   "coords": [
+    23.28413,
+    42.69918
+   ],
+   "address": "ул. \"Братин дол\", №7",
+   "district": "krasna-polyana",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "02 822 17 87",
+    "email": null,
+    "facebook": null,
+    "website": "https://dugata.wordpress.com/"
+   }
+  },
+  {
+   "id": "kg-dg-197-kitna-gradina",
+   "type": "public",
+   "name": "ДГ №197 Китна градина",
+   "coords": [
+    23.21906,
+    42.71987
+   ],
+   "address": "кв.Филиповци - център, ул. \"Поручик Хранов\", №5",
+   "district": "lyulin",
+   "ages": [
+    3,
+    7
+   ],
+   "contacts": {
+    "phone": "0884 801687",
+    "email": null,
+    "facebook": null,
+    "website": "http://97.cdg.bg/"
+   }
+  },
+  {
+   "id": "kg-dg-198-kose-bose-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №198 Косе Босе (с яслени групи)",
+   "coords": [
+    23.27386,
+    42.72277
+   ],
+   "address": "ул. \"Войводово\", №4",
+   "district": "vrabnitsa",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "http://dg198-kosebose.com/"
+   }
+  },
+  {
+   "id": "kg-dg-199-saragosa-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №199 Сарагоса (с яслени групи)",
+   "coords": [
+    23.31507,
+    42.7096
+   ],
+   "address": "ул. \"Струга\" , №15а",
+   "district": "serdika",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "02 831 31 40",
+    "email": null,
+    "facebook": null,
+    "website": "http://saragosa199.com/"
+   }
+  },
+  {
+   "id": "kg-dg-200-tsveten-ray-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №200 Цветен рай (с яслени групи)",
+   "coords": [
+    23.27309,
+    42.71506
+   ],
+   "address": "жк. Люлин - 10, ул. \"Димитър Талев\", №2",
+   "district": "lyulin",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "029670046:0885922832",
+    "email": null,
+    "facebook": null,
+    "website": "http://200.deckagradina.info/"
+   }
+  },
+  {
+   "id": "kg-sdya-37-prof-d-r-ivan-mitev",
+   "type": "public",
+   "name": "СДЯ №37 Проф. д-р Иван Митев",
+   "coords": [
+    23.35644,
+    42.66851
+   ],
+   "address": "ул. \"Вълко Раденски\" № 5",
+   "district": "izgrev",
+   "ages": [
+    0,
+    3
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-122-sineva-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №122 Синева (с яслени групи)",
+   "coords": [
+    23.25265,
+    42.71162
+   ],
+   "address": "ж.к. \"Люлин – VI\", ул. „Полковник Никола Попов“, №5",
+   "district": "lyulin",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "+359 884 726 758",
+    "email": null,
+    "facebook": null,
+    "website": null
+   },
+   "approxLocation": true
+  },
+  {
+   "id": "kg-dg-131-flora-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №131 Флора (с яслени групи)",
+   "coords": [
+    23.2752,
+    42.66099
+   ],
+   "address": "кв. Манастирски ливади, ул. \"Флора\", №17",
+   "district": "triaditsa",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-150-prikazni-geroi-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №150 Приказни герои (с яслени групи)",
+   "coords": [
+    23.24662,
+    42.72117
+   ],
+   "address": "ж.к. \"Люлин – 3 м. р.\", ул. „309 “ № 4 (бивше 23 ОДЗ)",
+   "district": "lyulin",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   },
+   "approxLocation": true
+  },
+  {
+   "id": "kg-dg-156-veseli-mishleta-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №156 Весели мишлета (с яслени групи)",
+   "coords": [
+    23.29885,
+    42.67152
+   ],
+   "address": "ул. \"Червена роза\" № 17",
+   "district": "triaditsa",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-163-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №163  (с яслени групи)",
+   "coords": [
+    23.24913,
+    42.67252
+   ],
+   "address": "бул. \"Никола Петков\" № 141",
+   "district": "ovcha-kupel",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-190-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №190  (с яслени групи)",
+   "coords": [
+    23.34245,
+    42.63797
+   ],
+   "address": "ул. „Проф. Живко Сталев“ № 21",
+   "district": "studentski",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-201-detelinka-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №201 Детелинка (с яслени групи)",
+   "coords": [
+    23.30453,
+    42.79128
+   ],
+   "address": "с. Мировяне, ул. \"Христо Ботев\" № 3",
+   "district": "novi-iskar",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "0882 569 583",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-202-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №202  (с яслени групи)",
+   "coords": [
+    23.37392,
+    42.65345
+   ],
+   "address": "ж.к. \"Младост 1\", до бл. 47,",
+   "district": "mladost",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   },
+   "approxLocation": true
+  }
+ ]
 }

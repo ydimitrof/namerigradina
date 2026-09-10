@@ -128,8 +128,8 @@
     if (open) hideDetail();
   });
 
-  CoopMap.init(() => {
-    refresh();
-    CoopMap.fitTo(data.places);
-  });
+  // No initial fitTo: the dataset spans the whole municipality (Банкя to
+  // Панчарево) and fitting it would zoom out past the city. The default
+  // center/zoom already frames Sofia proper.
+  CoopMap.init(refresh);
 })();

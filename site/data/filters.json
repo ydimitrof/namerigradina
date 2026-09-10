@@ -6,27 +6,156 @@
       "label": "Вид",
       "type": "multi-select",
       "options": [
-        { "value": "cooperative", "label": "Родителски кооператив", "color": "#ff6b6b" },
-        { "value": "private", "label": "Частна градина", "color": "#9b8ce8" },
-        { "value": "public", "label": "Общинска градина", "color": "#0fb5a6" }
+        {
+          "value": "cooperative",
+          "label": "Родителски кооператив",
+          "color": "#ff6b6b"
+        },
+        {
+          "value": "private",
+          "label": "Частна градина",
+          "color": "#9b8ce8"
+        },
+        {
+          "value": "public",
+          "label": "Общинска градина",
+          "color": "#0fb5a6"
+        }
       ]
     },
     {
       "key": "district",
-      "label": "Квартал",
+      "label": "Квартал / район",
       "type": "multi-select",
       "options": [
-        { "value": "center", "label": "Център" },
-        { "value": "lozenets", "label": "Лозенец" },
-        { "value": "oborishte", "label": "Оборище" },
-        { "value": "goce-delchev", "label": "Гоце Делчев / Мотописта" },
-        { "value": "iztok", "label": "Изток" },
-        { "value": "geo-milev", "label": "Гео Милев" },
-        { "value": "ovcha-kupel", "label": "Овча купел" },
-        { "value": "buxton", "label": "Бъкстон / Павлово" },
-        { "value": "knyazhevo", "label": "Княжево" },
-        { "value": "dragalevtsi", "label": "Драгалевци" },
-        { "value": "bistritsa", "label": "Бистрица" }
+        {
+          "value": "center",
+          "label": "Център"
+        },
+        {
+          "value": "lozenets",
+          "label": "Лозенец"
+        },
+        {
+          "value": "oborishte",
+          "label": "Оборище"
+        },
+        {
+          "value": "goce-delchev",
+          "label": "Гоце Делчев / Мотописта"
+        },
+        {
+          "value": "iztok",
+          "label": "Изток"
+        },
+        {
+          "value": "geo-milev",
+          "label": "Гео Милев"
+        },
+        {
+          "value": "ovcha-kupel",
+          "label": "Овча купел"
+        },
+        {
+          "value": "buxton",
+          "label": "Бъкстон / Павлово"
+        },
+        {
+          "value": "knyazhevo",
+          "label": "Княжево"
+        },
+        {
+          "value": "dragalevtsi",
+          "label": "Драгалевци"
+        },
+        {
+          "value": "bistritsa",
+          "label": "Бистрица"
+        },
+        {
+          "value": "bankya",
+          "label": "Банкя"
+        },
+        {
+          "value": "vitosha",
+          "label": "Витоша"
+        },
+        {
+          "value": "vrabnitsa",
+          "label": "Връбница"
+        },
+        {
+          "value": "vazrazhdane",
+          "label": "Възраждане"
+        },
+        {
+          "value": "izgrev",
+          "label": "Изгрев"
+        },
+        {
+          "value": "ilinden",
+          "label": "Илинден"
+        },
+        {
+          "value": "iskar",
+          "label": "Искър"
+        },
+        {
+          "value": "krasna-polyana",
+          "label": "Красна поляна"
+        },
+        {
+          "value": "krasno-selo",
+          "label": "Красно село"
+        },
+        {
+          "value": "kremikovtsi",
+          "label": "Кремиковци"
+        },
+        {
+          "value": "lyulin",
+          "label": "Люлин"
+        },
+        {
+          "value": "mladost",
+          "label": "Младост"
+        },
+        {
+          "value": "nadezhda",
+          "label": "Надежда"
+        },
+        {
+          "value": "novi-iskar",
+          "label": "Нови Искър"
+        },
+        {
+          "value": "pancharevo",
+          "label": "Панчарево"
+        },
+        {
+          "value": "poduyane",
+          "label": "Подуяне"
+        },
+        {
+          "value": "serdika",
+          "label": "Сердика"
+        },
+        {
+          "value": "slatina",
+          "label": "Слатина"
+        },
+        {
+          "value": "sredets",
+          "label": "Средец"
+        },
+        {
+          "value": "studentski",
+          "label": "Студентски"
+        },
+        {
+          "value": "triaditsa",
+          "label": "Триадица"
+        }
       ]
     },
     {
