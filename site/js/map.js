@@ -135,6 +135,10 @@ const CoopMap = (() => {
       if (markers.has(place.id)) continue;
       if (!Array.isArray(place.coords) || place.coords.length < 2) continue;
       const style = TYPE_STYLE[place.type] || DEFAULT_STYLE;
+      // MapLibre writes its positioning transform onto the element it is
+      // given, every frame. Hand it a bare wrapper so the pin's own
+      // rotation and transition never fight (and lag behind) the panning.
+      const wrapper = document.createElement("div");
       const el = document.createElement("button");
       el.type = "button";
       el.className = ("marker " + style.cls + (place.approxLocation ? " marker--approx" : "")).trim();
@@ -147,7 +151,8 @@ const CoopMap = (() => {
         setActive(place.id);
         onSelect(place);
       });
-      const marker = new maplibregl.Marker({ element: el, anchor: "bottom" })
+      wrapper.appendChild(el);
+      const marker = new maplibregl.Marker({ element: wrapper, anchor: "bottom" })
         .setLngLat(place.coords)
         .addTo(map);
       markers.set(place.id, { marker, el });
