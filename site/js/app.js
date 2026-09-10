@@ -53,8 +53,6 @@
     const facts = [];
     const typeLabel = label("type", place.type);
     if (typeLabel) facts.push({ text: escape(typeLabel), cls: "fact--type-" + escape(place.type) });
-    const statusLabel = label("status", place.status);
-    if (statusLabel) facts.push({ text: escape(statusLabel), cls: "fact--status-" + escape(place.status) });
     if (Array.isArray(place.ages)) facts.push({ text: `👶 ${place.ages[0]}–${place.ages[1]} г.` });
     if (place.priceRange) facts.push({ text: `💰 ${escape(place.priceRange)}` });
     if (place.schedule) facts.push({ text: `🕗 ${escape(place.schedule)}` });

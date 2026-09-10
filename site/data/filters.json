@@ -30,16 +30,6 @@
       ]
     },
     {
-      "key": "status",
-      "label": "Статус",
-      "type": "multi-select",
-      "options": [
-        { "value": "active", "label": "Действащ" },
-        { "value": "unknown", "label": "Непроверен" },
-        { "value": "inactive", "label": "Вероятно неактивен" }
-      ]
-    },
-    {
       "key": "ages",
       "label": "Възраст на детето",
       "type": "range",
