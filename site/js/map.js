@@ -1,7 +1,7 @@
 /* Map module: MapLibre GL on OpenFreeMap vector tiles, DOM markers per place. */
 "use strict";
 
-const CoopMap = (() => {
+const PlaceMap = (() => {
   const SOFIA_CENTER = [23.3219, 42.6977];
   const STYLE_URL = "https://tiles.openfreemap.org/styles/liberty";
   // Marker look is keyed to place.type so the map doubles as a legend
@@ -16,14 +16,14 @@ const CoopMap = (() => {
   // Kindergartens are rendered as a clustered GeoJSON layer (hundreds of
   // points would make DOM markers janky on phones); cooperatives keep the
   // hand-made sticker markers. Colors match TYPE_STYLE / the filter chips.
-  const KG_COLORS = { private: "#9b8ce8", public: "#0fb5a6" };
+  const CLUSTER_TYPE_COLORS = { private: "#9b8ce8", public: "#0fb5a6" };
   const CLUSTER_COLOR = "#ffc94d";
 
   let map;
   let markers = new Map(); // place.id -> {marker, el}
   let activeId = null;
-  let kgIndex = new Map(); // place.id -> place, for layer click lookup
-  let kgSelectHandler = null;
+  let clusterIndex = new Map(); // place.id -> place, for layer click lookup
+  let clusterSelectHandler = null;
 
   function init(onReady) {
     map = new maplibregl.Map({
@@ -35,7 +35,7 @@ const CoopMap = (() => {
     });
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
     map.on("load", () => {
-      addKindergartenLayers();
+      addClusterLayers();
       onReady();
     });
     map.on("error", (e) => {
@@ -43,8 +43,8 @@ const CoopMap = (() => {
     });
   }
 
-  function addKindergartenLayers() {
-    map.addSource("kindergartens", {
+  function addClusterLayers() {
+    map.addSource("bulk-places", {
       type: "geojson",
       data: { type: "FeatureCollection", features: [] },
       cluster: true,
@@ -52,9 +52,9 @@ const CoopMap = (() => {
       clusterRadius: 46,
     });
     map.addLayer({
-      id: "kg-clusters",
+      id: "place-clusters",
       type: "circle",
-      source: "kindergartens",
+      source: "bulk-places",
       filter: ["has", "point_count"],
       paint: {
         "circle-color": CLUSTER_COLOR,
@@ -64,9 +64,9 @@ const CoopMap = (() => {
       },
     });
     map.addLayer({
-      id: "kg-cluster-count",
+      id: "place-cluster-count",
       type: "symbol",
-      source: "kindergartens",
+      source: "bulk-places",
       filter: ["has", "point_count"],
       layout: {
         "text-field": ["get", "point_count_abbreviated"],
@@ -76,39 +76,39 @@ const CoopMap = (() => {
       paint: { "text-color": "#35323e" },
     });
     map.addLayer({
-      id: "kg-points",
+      id: "place-points",
       type: "circle",
-      source: "kindergartens",
+      source: "bulk-places",
       filter: ["!", ["has", "point_count"]],
       paint: {
-        "circle-color": ["match", ["get", "ptype"], "private", KG_COLORS.private, KG_COLORS.public],
+        "circle-color": ["match", ["get", "ptype"], "private", CLUSTER_TYPE_COLORS.private, CLUSTER_TYPE_COLORS.public],
         "circle-radius": 9,
         "circle-stroke-width": 2.5,
         "circle-stroke-color": "#ffffff",
       },
     });
-    map.on("click", "kg-points", (e) => {
+    map.on("click", "place-points", (e) => {
       const f = e.features && e.features[0];
       if (!f) return;
-      const place = kgIndex.get(f.properties.id);
-      if (place && kgSelectHandler) kgSelectHandler(place);
+      const place = clusterIndex.get(f.properties.id);
+      if (place && clusterSelectHandler) clusterSelectHandler(place);
     });
-    map.on("click", "kg-clusters", async (e) => {
+    map.on("click", "place-clusters", async (e) => {
       const f = e.features && e.features[0];
       if (!f) return;
-      const zoom = await map.getSource("kindergartens").getClusterExpansionZoom(f.properties.cluster_id);
+      const zoom = await map.getSource("bulk-places").getClusterExpansionZoom(f.properties.cluster_id);
       map.easeTo({ center: f.geometry.coordinates, zoom });
     });
-    for (const layer of ["kg-points", "kg-clusters"]) {
+    for (const layer of ["place-points", "place-clusters"]) {
       map.on("mouseenter", layer, () => { map.getCanvas().style.cursor = "pointer"; });
       map.on("mouseleave", layer, () => { map.getCanvas().style.cursor = ""; });
     }
   }
 
-  function setKindergartens(places, onSelect) {
-    kgSelectHandler = onSelect;
-    kgIndex = new Map(places.map((p) => [p.id, p]));
-    const src = map.getSource("kindergartens");
+  function setClustered(places, onSelect) {
+    clusterSelectHandler = onSelect;
+    clusterIndex = new Map(places.map((p) => [p.id, p]));
+    const src = map.getSource("bulk-places");
     if (!src) return;
     src.setData({
       type: "FeatureCollection",
@@ -185,5 +185,5 @@ const CoopMap = (() => {
     map.flyTo({ center: place.coords, zoom: Math.max(map.getZoom(), 13.5), duration: 500 });
   }
 
-  return { init, setPlaces, setKindergartens, setActive, fitTo, panTo };
+  return { init, setPlaces, setClustered, setActive, fitTo, panTo };
 })();

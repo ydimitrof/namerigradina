@@ -22,8 +22,10 @@
     if (!placesRes.ok || !filtersRes.ok) {
       throw new Error(`HTTP ${placesRes.status}/${filtersRes.status}`);
     }
-    // The kindergarten file is optional — the map works without it.
-    const kgPlaces = kgRes.ok ? (await kgRes.json()).places : [];
+    // The kindergarten file is optional — the map works without it. Its
+    // entries are tagged as bulk: curated places get sticker markers,
+    // bulk imports go to the clustered layer, regardless of type.
+    const kgPlaces = (kgRes.ok ? (await kgRes.json()).places : []).map((p) => ({ ...p, bulk: true }));
     data = {
       places: [...(await placesRes.json()).places, ...kgPlaces],
       filterConfig: await filtersRes.json(),
@@ -91,12 +93,12 @@
 
   function hideDetail() {
     detailEl.hidden = true;
-    CoopMap.setActive(null);
+    PlaceMap.setActive(null);
   }
   detailClose.addEventListener("click", hideDetail);
 
   const onSelect = (place) => {
-    CoopMap.panTo(place);
+    PlaceMap.panTo(place);
     showDetail(place);
   };
 
@@ -104,15 +106,14 @@
 
   function refresh() {
     const visible = engine.apply(data.places);
-    // Cooperatives get sticker markers; kindergartens go to the clustered layer.
-    CoopMap.setPlaces(visible.filter((p) => p.type === "cooperative"), onSelect);
-    CoopMap.setKindergartens(visible.filter((p) => p.type !== "cooperative"), onSelect);
+    PlaceMap.setPlaces(visible.filter((p) => !p.bulk), onSelect);
+    PlaceMap.setClustered(visible.filter((p) => p.bulk), onSelect);
     const n = engine.activeCount();
     countEl.textContent = `${visible.length} ${visible.length === 1 ? "място" : "места"}`;
     document.getElementById("filters-summary").textContent = n ? `Филтри (${n})` : "Филтри";
     clearBtn.hidden = n === 0;
     emptyEl.hidden = visible.length > 0;
-    if (visible.length > 0 && n > 0) CoopMap.fitTo(visible);
+    if (visible.length > 0 && n > 0) PlaceMap.fitTo(visible);
   }
 
   clearBtn.addEventListener("click", () => {
@@ -131,5 +132,5 @@
   // No initial fitTo: the dataset spans the whole municipality (Банкя to
   // Панчарево) and fitting it would zoom out past the city. The default
   // center/zoom already frames Sofia proper.
-  CoopMap.init(refresh);
+  PlaceMap.init(refresh);
 })();
