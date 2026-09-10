@@ -36,6 +36,25 @@ cd site && python3 -m http.server 8080
 # open http://localhost:8080
 ```
 
+## Contributing
+
+Contributions are welcome — adding or correcting a place is a JSON edit:
+
+1. Edit `site/data/places.json` (see the field guide above). Coordinates are
+   `[longitude, latitude]`; include at least one verifiable source for a new
+   place in the PR description, and leave unknown fields `null` — never guess.
+2. Validate: `jq . site/data/*.json`, then open the site locally and click your pin.
+3. Send a pull request.
+
+Filter changes are `site/data/filters.json` edits; new filter *types* go in
+`site/js/filters.js`. Regenerable datasets (`kindergartens.json`,
+`transit.json`) are rebuilt by the scripts in `scripts/` — don't hand-edit them.
+
+## License
+
+Code is [MIT](LICENSE). The curated dataset is CC BY 4.0, and bundled
+third-party data/code keep their own licenses — see [LICENSE-DATA.md](LICENSE-DATA.md).
+
 ## Deploy (Cloudflare Pages)
 
 Project settings: no build command, output directory `site/`. Custom-domain and header
