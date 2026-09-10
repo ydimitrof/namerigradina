@@ -16,6 +16,7 @@ const Filters = (() => {
           btn.className = "chip";
           btn.textContent = opt.label;
           btn.setAttribute("aria-pressed", "false");
+          if (opt.color) btn.style.setProperty("--chip-color", opt.color);
           btn.addEventListener("click", () => {
             if (selected.has(opt.value)) selected.delete(opt.value);
             else selected.add(opt.value);
@@ -83,7 +84,9 @@ const Filters = (() => {
           test(place) {
             if (!active) return true;
             const v = place[filter.key];
-            if (!Array.isArray(v) || v.length < 2) return false;
+            // Missing data is fail-open: a place with unknown age range stays
+            // visible so parents can inquire, rather than silently vanishing.
+            if (!Array.isArray(v) || v.length < 2) return true;
             const n = Number(input.value);
             return v[0] <= n && n <= v[1];
           },

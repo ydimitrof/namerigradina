@@ -32,13 +32,15 @@
     return;
   }
 
-  // Single source of truth for district labels: the filter options.
-  const districtLabels = {};
+  // Single source of truth for value labels: the filter options.
+  // labels.district["lozenets"] -> "Лозенец", labels.type["public"] -> "Общинска градина", …
+  const labels = {};
   for (const f of data.filterConfig.filters || []) {
-    if (f.key === "district") {
-      for (const o of f.options || []) districtLabels[o.value] = o.label;
-    }
+    if (!Array.isArray(f.options)) continue;
+    labels[f.key] = {};
+    for (const o of f.options) labels[f.key][o.value] = o.label;
   }
+  const label = (key, value) => (labels[key] && labels[key][value]) || null;
 
   const escape = (s) =>
     String(s).replace(/[&<>"']/g, (c) =>
@@ -46,13 +48,16 @@
 
   function showDetail(place) {
     const facts = [];
+    const typeLabel = label("type", place.type);
+    if (typeLabel) facts.push({ text: escape(typeLabel), cls: "fact--type-" + escape(place.type) });
+    const statusLabel = label("status", place.status);
+    if (statusLabel) facts.push({ text: escape(statusLabel), cls: "fact--status-" + escape(place.status) });
     if (Array.isArray(place.ages)) facts.push({ text: `👶 ${place.ages[0]}–${place.ages[1]} г.` });
     if (place.priceRange) facts.push({ text: `💰 ${escape(place.priceRange)}` });
     if (place.schedule) facts.push({ text: `🕗 ${escape(place.schedule)}` });
     if (place.outdoorSpace) facts.push({ text: "🌳 двор", yes: true });
-    if (place.openSpots) facts.push({ text: "✅ свободни места", yes: true });
     const factsHtml = facts
-      .map((f) => `<span class="fact${f.yes ? " fact--yes" : ""}">${f.text}</span>`)
+      .map((f) => `<span class="fact${f.yes ? " fact--yes" : ""}${f.cls ? " " + f.cls : ""}">${f.text}</span>`)
       .join("");
 
     const contacts = [];
@@ -62,7 +67,11 @@
     if (c.facebook) contacts.push(`<a href="${escape(c.facebook)}" target="_blank" rel="noopener">👥 Facebook</a>`);
     if (c.website) contacts.push(`<a href="${escape(c.website)}" target="_blank" rel="noopener" class="detail__contact--alt">🌐 Сайт</a>`);
 
-    const addressBits = [place.address, districtLabels[place.district]].filter(Boolean).map(escape);
+    const addressBits = [place.address, label("district", place.district)].filter(Boolean).map(escape);
+    const approxNote = place.approxLocation
+      ? `<p class="detail__note">📍 Местоположението е приблизително — точният адрес не е публично известен.</p>`
+      : "";
+    const noteHtml = place.note ? `<p class="detail__note">ℹ️ ${escape(place.note)}</p>` : "";
 
     detailContent.innerHTML = `
       ${place.photo ? `<img class="detail__photo" src="${escape(place.photo)}" alt="${escape(place.name)}">` : ""}
@@ -71,6 +80,7 @@
       ${addressBits.length ? `<p class="detail__address">📍 ${addressBits.join(", ")}</p>` : ""}
       ${facts.length ? `<div class="detail__facts">${factsHtml}</div>` : ""}
       ${place.description ? `<p class="detail__desc">${escape(place.description)}</p>` : ""}
+      ${approxNote}${noteHtml}
       ${contacts.length ? `<div class="detail__contacts">${contacts.join("")}</div>` : ""}
     `;
     detailEl.hidden = false;

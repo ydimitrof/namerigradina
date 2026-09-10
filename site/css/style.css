@@ -103,6 +103,10 @@ html, body {
   transform: rotate(-45deg) scale(1.25);
   z-index: 5;
 }
+.marker--approx {
+  opacity: 0.8;
+  border-style: dashed;
+}
 .marker:focus-visible {
   outline: 3px solid var(--ink);
   outline-offset: 2px;
@@ -171,7 +175,7 @@ html, body {
   gap: 8px;
 }
 .chip {
-  border: 2px solid var(--lilac);
+  border: 2px solid var(--chip-color, var(--lilac));
   background: var(--white);
   color: var(--ink);
   border-radius: 999px;
@@ -183,7 +187,7 @@ html, body {
   min-height: 40px;
 }
 .chip[aria-pressed="true"] {
-  background: var(--lilac);
+  background: var(--chip-color, var(--lilac));
   color: var(--white);
 }
 
@@ -304,6 +308,20 @@ html, body {
   font-weight: 700;
 }
 .fact--yes { background: #e2f7f0; color: #0b7c6f; }
+.fact--type-cooperative { background: #ffe3e3; color: #b23b3b; }
+.fact--type-private { background: #ece7fb; color: #5f4bb6; }
+.fact--type-public { background: #dff5f2; color: #0b7c6f; }
+.fact--status-active { background: #e2f7f0; color: #0b7c6f; }
+.fact--status-unknown { background: #fff3d6; color: #8a6d1a; }
+.fact--status-inactive { background: #f2f0f4; color: #6d6878; }
+.detail__note {
+  font-size: 13px;
+  color: var(--ink-soft);
+  background: var(--cream);
+  border-radius: 10px;
+  padding: 8px 10px;
+  margin: 0 0 10px;
+}
 .detail__desc {
   font-size: 14px;
   line-height: 1.5;

@@ -4,8 +4,14 @@
 const CoopMap = (() => {
   const SOFIA_CENTER = [23.3219, 42.6977];
   const STYLE_URL = "https://tiles.openfreemap.org/styles/liberty";
-  const MARKER_COLORS = ["", "marker--sunny", "marker--teal", "marker--lilac"];
-  const MARKER_EMOJI = ["☀️", "🎈", "🐞", "🌈"];
+  // Marker look is keyed to place.type so the map doubles as a legend
+  // (matching the colored chips of the "Вид" filter).
+  const TYPE_STYLE = {
+    cooperative: { cls: "", emoji: "☀️" },
+    private: { cls: "marker--lilac", emoji: "🎈" },
+    public: { cls: "marker--teal", emoji: "🏫" },
+  };
+  const DEFAULT_STYLE = { cls: "marker--sunny", emoji: "🌈" };
 
   let map;
   let markers = new Map(); // place.id -> {marker, el}
@@ -37,15 +43,14 @@ const CoopMap = (() => {
     }
     for (const place of places) {
       if (markers.has(place.id)) continue;
-      // Stable per-place color/emoji: hash the id so filtering never reshuffles looks.
-      let h = 0;
-      for (const ch of place.id) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
+      if (!Array.isArray(place.coords) || place.coords.length < 2) continue;
+      const style = TYPE_STYLE[place.type] || DEFAULT_STYLE;
       const el = document.createElement("button");
       el.type = "button";
-      el.className = ("marker " + MARKER_COLORS[h % MARKER_COLORS.length]).trim();
+      el.className = ("marker " + style.cls + (place.approxLocation ? " marker--approx" : "")).trim();
       el.setAttribute("aria-label", place.name);
       const icon = document.createElement("span");
-      icon.textContent = MARKER_EMOJI[h % MARKER_EMOJI.length];
+      icon.textContent = style.emoji;
       el.appendChild(icon);
       el.addEventListener("click", (e) => {
         e.stopPropagation();
@@ -69,7 +74,8 @@ const CoopMap = (() => {
     }
   }
 
-  function fitTo(places) {
+  function fitTo(allPlaces) {
+    const places = allPlaces.filter((p) => Array.isArray(p.coords) && p.coords.length >= 2);
     if (places.length === 0) return;
     if (places.length === 1) {
       map.flyTo({ center: places[0].coords, zoom: 14 });

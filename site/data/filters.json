@@ -1,15 +1,42 @@
 {
-  "version": 1,
+  "version": 2,
   "filters": [
+    {
+      "key": "type",
+      "label": "Вид",
+      "type": "multi-select",
+      "options": [
+        { "value": "cooperative", "label": "Родителски кооператив", "color": "#ff6b6b" },
+        { "value": "private", "label": "Частна градина", "color": "#9b8ce8" },
+        { "value": "public", "label": "Общинска градина", "color": "#0fb5a6" }
+      ]
+    },
     {
       "key": "district",
       "label": "Квартал",
       "type": "multi-select",
       "options": [
+        { "value": "center", "label": "Център" },
         { "value": "lozenets", "label": "Лозенец" },
         { "value": "oborishte", "label": "Оборище" },
-        { "value": "nadezhda", "label": "Надежда" },
-        { "value": "mladost", "label": "Младост" }
+        { "value": "goce-delchev", "label": "Гоце Делчев / Мотописта" },
+        { "value": "iztok", "label": "Изток" },
+        { "value": "geo-milev", "label": "Гео Милев" },
+        { "value": "ovcha-kupel", "label": "Овча купел" },
+        { "value": "buxton", "label": "Бъкстон / Павлово" },
+        { "value": "knyazhevo", "label": "Княжево" },
+        { "value": "dragalevtsi", "label": "Драгалевци" },
+        { "value": "bistritsa", "label": "Бистрица" }
+      ]
+    },
+    {
+      "key": "status",
+      "label": "Статус",
+      "type": "multi-select",
+      "options": [
+        { "value": "active", "label": "Действащ" },
+        { "value": "unknown", "label": "Непроверен" },
+        { "value": "inactive", "label": "Вероятно неактивен" }
       ]
     },
     {
@@ -19,11 +46,6 @@
       "min": 0,
       "max": 7,
       "unit": "г."
-    },
-    {
-      "key": "openSpots",
-      "label": "Само със свободни места",
-      "type": "toggle"
     },
     {
       "key": "outdoorSpace",
