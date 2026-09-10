@@ -14,15 +14,18 @@
 
   let data;
   try {
-    const [placesRes, filtersRes] = await Promise.all([
+    const [placesRes, filtersRes, kgRes] = await Promise.all([
       fetch("data/places.json"),
       fetch("data/filters.json"),
+      fetch("data/kindergartens.json"),
     ]);
     if (!placesRes.ok || !filtersRes.ok) {
       throw new Error(`HTTP ${placesRes.status}/${filtersRes.status}`);
     }
+    // The kindergarten file is optional — the map works without it.
+    const kgPlaces = kgRes.ok ? (await kgRes.json()).places : [];
     data = {
-      places: (await placesRes.json()).places,
+      places: [...(await placesRes.json()).places, ...kgPlaces],
       filterConfig: await filtersRes.json(),
     };
   } catch (err) {
@@ -103,7 +106,9 @@
 
   function refresh() {
     const visible = engine.apply(data.places);
-    CoopMap.setPlaces(visible, onSelect);
+    // Cooperatives get sticker markers; kindergartens go to the clustered layer.
+    CoopMap.setPlaces(visible.filter((p) => p.type === "cooperative"), onSelect);
+    CoopMap.setKindergartens(visible.filter((p) => p.type !== "cooperative"), onSelect);
     const n = engine.activeCount();
     countEl.textContent = `${visible.length} ${visible.length === 1 ? "място" : "места"}`;
     document.getElementById("filters-summary").textContent = n ? `Филтри (${n})` : "Филтри";
