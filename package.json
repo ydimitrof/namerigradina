@@ -1,0 +1,12 @@
+{
+  "name": "namerigradina-dev",
+  "private": true,
+  "description": "Dev tooling for namerigradina.party — the deployed site is the static site/ folder and needs no build.",
+  "scripts": {
+    "test": "node tests/filters.test.js",
+    "check": "node --check site/js/app.js && node --check site/js/map.js && node --check site/js/filters.js"
+  },
+  "devDependencies": {
+    "jsdom": "^25.0.0"
+  }
+}
