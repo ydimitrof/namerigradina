@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Кооп Карта — родителски кооперативи в София</title>
+  <meta name="description" content="Карта на родителските кооперативи в София — намерете самоорганизирана детска група близо до вас.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/maplibre-gl.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="map" aria-label="Карта на родителските кооперативи в София"></div>
+
+  <header class="brand" aria-label="Кооп Карта">
+    <img src="assets/favicon.svg" alt="" width="28" height="28">
+    <div>
+      <strong>Кооп Карта</strong>
+      <span>родителски кооперативи · София</span>
+    </div>
+  </header>
+
+  <aside id="filters-panel" class="filters" aria-label="Филтри">
+    <button id="filters-toggle" class="filters__toggle" aria-expanded="false" aria-controls="filters-body">
+      <span class="filters__icon" aria-hidden="true">🎈</span>
+      <span id="filters-summary">Филтри</span>
+      <span id="results-count" class="filters__count"></span>
+      <span class="filters__chevron" aria-hidden="true">▾</span>
+    </button>
+    <div id="filters-body" class="filters__body">
+      <div id="filters-controls"></div>
+      <button id="filters-clear" class="filters__clear" hidden>Изчисти филтрите</button>
+    </div>
+  </aside>
+
+  <section id="detail-card" class="detail" hidden aria-label="Информация за кооператива">
+    <button id="detail-close" class="detail__close" aria-label="Затвори">✕</button>
+    <div id="detail-content"></div>
+  </section>
+
+  <div id="empty-state" class="empty" hidden>
+    <span aria-hidden="true">🧸</span>
+    <p>Няма резултати — разхлабете филтрите.</p>
+  </div>
+
+  <script src="js/maplibre-gl.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/map.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

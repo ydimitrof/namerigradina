@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "filters": [
+    {
+      "key": "district",
+      "label": "Квартал",
+      "type": "multi-select",
+      "options": [
+        { "value": "lozenets", "label": "Лозенец" },
+        { "value": "oborishte", "label": "Оборище" },
+        { "value": "nadezhda", "label": "Надежда" },
+        { "value": "mladost", "label": "Младост" }
+      ]
+    },
+    {
+      "key": "ages",
+      "label": "Възраст на детето",
+      "type": "range",
+      "min": 0,
+      "max": 7,
+      "unit": "г."
+    },
+    {
+      "key": "openSpots",
+      "label": "Само със свободни места",
+      "type": "toggle"
+    },
+    {
+      "key": "outdoorSpace",
+      "label": "С двор / открито пространство",
+      "type": "toggle"
+    }
+  ]
+}
