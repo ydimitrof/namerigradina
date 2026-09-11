@@ -160,11 +160,21 @@ html, body {
   border-radius: 10px;
   padding: 10px 12px;
 }
-.about a {
-  color: var(--teal);
-  font-weight: 700;
-  word-break: break-all;
+.about__github {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: var(--ink);
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 14px;
+  border-radius: 999px;
+  padding: 8px 16px;
+  margin-left: 6px;
+  vertical-align: middle;
 }
+.about__github:hover { background: #4a4757; }
 
 /* ---- User pin + location bar ---- */
 .user-pin {
