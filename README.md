@@ -14,8 +14,9 @@ to `main`.
 - **457 places**: 15 parent cooperatives (hand-researched), 342 municipal
   kindergartens/nurseries, 100 private kindergartens — color-coded, clustered,
   each with a detail card (ages, schedule, contacts, honest notes on uncertainty).
-- **Filters** (all config-driven from JSON): type, quarter/rayon, child age,
-  yard/outdoor space, walking time from your address.
+- **Filters** (all config-driven from JSON): type, child age, yard/outdoor
+  space, walking time from your address. Location is filtered spatially —
+  by panning the map or via the address pin — rather than a district picker.
 - **"Your address" pin**: geocoded address search or tap-to-place, draggable,
   remembered locally. Unlocks the walking-distance filter and per-place travel
   info: walking estimate, driving time (OSRM), Google Maps transit/driving links.

@@ -37,9 +37,10 @@
     return;
   }
 
-  // Single source of truth for value labels: the filter options.
-  // labels.district["lozenets"] -> "Лозенец", labels.type["public"] -> "Общинска градина", …
-  const labels = {};
+  // Single source of truth for value labels: the filter options, plus the
+  // config's standalone `labels` section for fields shown on cards but not
+  // filtered on (e.g. district after the district filter was removed).
+  const labels = Object.assign({}, data.filterConfig.labels);
   for (const f of data.filterConfig.filters || []) {
     if (!Array.isArray(f.options)) continue;
     labels[f.key] = {};

@@ -51,14 +51,17 @@ assert.strictEqual(engine.apply(places).length, 342, "342 municipal kindergarten
 assert.ok(engine.apply(places).every((p) => p.type === "public"));
 publicChip.click(); // off
 
-// 4. District chip combines with type chip (AND)
-const lozChip = chips.find((c) => c.textContent === "Лозенец");
-lozChip.click();
+// 4. Type chip combines with a toggle (AND)
 coopChip.click();
+toggles[0].checked = true;
+toggles[0].dispatchEvent(new dom.window.Event("change"));
 let res = engine.apply(places);
-assert.ok(res.length > 0, "a Lozenets cooperative exists");
-assert.ok(res.every((p) => p.district === "lozenets" && p.type === "cooperative"), "district AND type combine");
+assert.ok(res.length > 0, "a cooperative with a yard exists");
+assert.ok(res.every((p) => p.type === "cooperative" && p.outdoorSpace === true), "type AND toggle combine");
 assert.strictEqual(engine.activeCount(), 2);
+toggles[0].checked = false;
+toggles[0].dispatchEvent(new dom.window.Event("change"));
+coopChip.click();
 
 // 5. Range: age filtering respects span AND is fail-open for places without ages
 const slider = root.querySelector(".filter--range input[type=range]");

@@ -24,141 +24,6 @@
       ]
     },
     {
-      "key": "district",
-      "label": "Квартал / район",
-      "type": "multi-select",
-      "options": [
-        {
-          "value": "center",
-          "label": "Център"
-        },
-        {
-          "value": "lozenets",
-          "label": "Лозенец"
-        },
-        {
-          "value": "oborishte",
-          "label": "Оборище"
-        },
-        {
-          "value": "goce-delchev",
-          "label": "Гоце Делчев / Мотописта"
-        },
-        {
-          "value": "iztok",
-          "label": "Изток"
-        },
-        {
-          "value": "geo-milev",
-          "label": "Гео Милев"
-        },
-        {
-          "value": "ovcha-kupel",
-          "label": "Овча купел"
-        },
-        {
-          "value": "buxton",
-          "label": "Бъкстон / Павлово"
-        },
-        {
-          "value": "knyazhevo",
-          "label": "Княжево"
-        },
-        {
-          "value": "dragalevtsi",
-          "label": "Драгалевци"
-        },
-        {
-          "value": "bistritsa",
-          "label": "Бистрица"
-        },
-        {
-          "value": "bankya",
-          "label": "Банкя"
-        },
-        {
-          "value": "vitosha",
-          "label": "Витоша"
-        },
-        {
-          "value": "vrabnitsa",
-          "label": "Връбница"
-        },
-        {
-          "value": "vazrazhdane",
-          "label": "Възраждане"
-        },
-        {
-          "value": "izgrev",
-          "label": "Изгрев"
-        },
-        {
-          "value": "ilinden",
-          "label": "Илинден"
-        },
-        {
-          "value": "iskar",
-          "label": "Искър"
-        },
-        {
-          "value": "krasna-polyana",
-          "label": "Красна поляна"
-        },
-        {
-          "value": "krasno-selo",
-          "label": "Красно село"
-        },
-        {
-          "value": "kremikovtsi",
-          "label": "Кремиковци"
-        },
-        {
-          "value": "lyulin",
-          "label": "Люлин"
-        },
-        {
-          "value": "mladost",
-          "label": "Младост"
-        },
-        {
-          "value": "nadezhda",
-          "label": "Надежда"
-        },
-        {
-          "value": "novi-iskar",
-          "label": "Нови Искър"
-        },
-        {
-          "value": "pancharevo",
-          "label": "Панчарево"
-        },
-        {
-          "value": "poduyane",
-          "label": "Подуяне"
-        },
-        {
-          "value": "serdika",
-          "label": "Сердика"
-        },
-        {
-          "value": "slatina",
-          "label": "Слатина"
-        },
-        {
-          "value": "sredets",
-          "label": "Средец"
-        },
-        {
-          "value": "studentski",
-          "label": "Студентски"
-        },
-        {
-          "value": "triaditsa",
-          "label": "Триадица"
-        }
-      ]
-    },
-    {
       "key": "walk",
       "label": "Пеша от моя адрес",
       "type": "distance",
@@ -177,5 +42,41 @@
       "label": "С двор / открито пространство",
       "type": "toggle"
     }
-  ]
+  ],
+  "labels": {
+    "district": {
+      "center": "Център",
+      "lozenets": "Лозенец",
+      "oborishte": "Оборище",
+      "goce-delchev": "Гоце Делчев / Мотописта",
+      "iztok": "Изток",
+      "geo-milev": "Гео Милев",
+      "ovcha-kupel": "Овча купел",
+      "buxton": "Бъкстон / Павлово",
+      "knyazhevo": "Княжево",
+      "dragalevtsi": "Драгалевци",
+      "bistritsa": "Бистрица",
+      "bankya": "Банкя",
+      "vitosha": "Витоша",
+      "vrabnitsa": "Връбница",
+      "vazrazhdane": "Възраждане",
+      "izgrev": "Изгрев",
+      "ilinden": "Илинден",
+      "iskar": "Искър",
+      "krasna-polyana": "Красна поляна",
+      "krasno-selo": "Красно село",
+      "kremikovtsi": "Кремиковци",
+      "lyulin": "Люлин",
+      "mladost": "Младост",
+      "nadezhda": "Надежда",
+      "novi-iskar": "Нови Искър",
+      "pancharevo": "Панчарево",
+      "poduyane": "Подуяне",
+      "serdika": "Сердика",
+      "slatina": "Слатина",
+      "sredets": "Средец",
+      "studentski": "Студентски",
+      "triaditsa": "Триадица"
+    }
+  }
 }
