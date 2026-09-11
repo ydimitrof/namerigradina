@@ -18,7 +18,35 @@
       <strong>Намери Градина</strong>
       <span>градини и кооперативи · София</span>
     </div>
+    <button id="about-open" class="brand__info" aria-label="За сайта и източниците на данните">ⓘ</button>
   </header>
+
+  <dialog id="about-dialog" class="about" aria-label="За сайта">
+    <button id="about-close" class="detail__close" aria-label="Затвори">✕</button>
+    <h2>За сайта</h2>
+    <p><strong>Намери Градина</strong> е доброволен проект с отворен код — карта на
+      детските градини и родителските кооперативи в София.</p>
+    <h3>Откъде са данните</h3>
+    <ul>
+      <li><strong>Общински градини и ясли</strong> — Столична община, системата за прием
+        ИСОДЗ (kg.sofia.bg) и общинската ГИС карта; извлечени септември 2026 г.</li>
+      <li><strong>Частни градини</strong> — официалният регистър на институциите НЕИСПУО
+        на Министерството на образованието и науката (ri.mon.bg); септември 2026 г.</li>
+      <li><strong>Родителски кооперативи</strong> — събрани ръчно от публични източници
+        (сайтове, Facebook страници, статии, форуми). Кооперативите са неформална сцена
+        без официален регистър — част от записите може да са неактуални.</li>
+      <li><strong>Градски транспорт</strong> — Център за градска мобилност,
+        отворени GTFS данни (gtfs.sofiatraffic.bg), CC BY 4.0.</li>
+      <li><strong>Карта и геокодиране</strong> — © OpenStreetMap contributors,
+        OpenFreeMap, Photon/Nominatim.</li>
+    </ul>
+    <p class="about__disclaimer">⚠️ Информацията е събрана добросъвестно, но може да е
+      непълна или остаряла. Преди да разчитате на адрес, цена или свободни места —
+      свържете се директно с градината или кооператива. Сайтът няма връзка с
+      институциите, които показва.</p>
+    <p>Открихте грешка или липсващо място? Пишете ни или предложете корекция:
+      <a href="https://github.com/ydimitrof/namerigradina" target="_blank" rel="noopener">github.com/ydimitrof/namerigradina</a></p>
+  </dialog>
 
   <aside id="filters-panel" class="filters" aria-label="Филтри">
     <button id="filters-toggle" class="filters__toggle" aria-expanded="false" aria-controls="filters-body">

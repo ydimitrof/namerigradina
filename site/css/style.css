@@ -112,6 +112,60 @@ html, body {
   outline-offset: 2px;
 }
 
+/* ---- About dialog ---- */
+.brand__info {
+  border: 0;
+  background: none;
+  font-size: 20px;
+  color: var(--teal);
+  cursor: pointer;
+  padding: 4px 2px 4px 6px;
+  line-height: 1;
+}
+.about {
+  border: 0;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 22px 20px;
+  max-width: min(92vw, 460px);
+  max-height: 80vh;
+  font-family: inherit;
+  color: var(--ink);
+  background: var(--white);
+}
+.about::backdrop {
+  background: rgba(53, 50, 62, 0.45);
+}
+.about h2 {
+  margin: 0 32px 10px 0;
+  font-size: 20px;
+  font-weight: 800;
+}
+.about h3 {
+  font-size: 15px;
+  font-weight: 800;
+  margin: 14px 0 6px;
+}
+.about p, .about li {
+  font-size: 14px;
+  line-height: 1.55;
+}
+.about ul {
+  margin: 0;
+  padding-left: 18px;
+}
+.about li { margin-bottom: 6px; }
+.about__disclaimer {
+  background: #fff3d6;
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+.about a {
+  color: var(--teal);
+  font-weight: 700;
+  word-break: break-all;
+}
+
 /* ---- User pin + location bar ---- */
 .user-pin {
   font-size: 34px;

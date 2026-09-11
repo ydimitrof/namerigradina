@@ -341,6 +341,15 @@
     refresh();
   });
 
+  /* ---- About dialog ---- */
+  const aboutDialog = document.getElementById("about-dialog");
+  document.getElementById("about-open").addEventListener("click", () => aboutDialog.showModal());
+  document.getElementById("about-close").addEventListener("click", () => aboutDialog.close());
+  aboutDialog.addEventListener("click", (e) => {
+    // A click on the backdrop targets the dialog element itself.
+    if (e.target === aboutDialog) aboutDialog.close();
+  });
+
   toggleBtn.addEventListener("click", () => {
     // Toggle only matters in the mobile bottom-sheet layout; harmless on desktop.
     if (window.matchMedia("(min-width: 768px)").matches) return;
