@@ -305,6 +305,8 @@
     detailEl.hidden = false;
     panel.classList.remove("filters--open");
     toggleBtn.setAttribute("aria-expanded", "false");
+    // Shareable deep link; replaceState so Back never walks through cards.
+    history.replaceState(null, "", "?place=" + encodeURIComponent(place.id));
     fillCarTime(place);
     fillTransit(place);
   }
@@ -313,6 +315,7 @@
     detailEl.hidden = true;
     currentPlace = null;
     PlaceMap.setActive(null);
+    if (location.search) history.replaceState(null, "", location.pathname);
   }
   detailClose.addEventListener("click", hideDetail);
 
@@ -369,5 +372,14 @@
       engine.contextChanged();
     }
     refresh();
+    // ?place=<id> deep link (from generated place pages and shared links).
+    const wanted = new URLSearchParams(location.search).get("place");
+    if (wanted) {
+      const place = data.places.find((p) => p.id === wanted);
+      if (place) {
+        PlaceMap.setActive(place.id);
+        onSelect(place);
+      }
+    }
   });
 })();

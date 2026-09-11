@@ -29,3 +29,9 @@ jobs:
 
       - name: Filter engine tests
         run: npm test
+
+      - name: Generated pages match data (drift guard)
+        run: |
+          python3 scripts/build-pages.py
+          git diff --exit-code -- site/m site/r site/sitemap.xml \
+            || { echo "site/m, site/r or sitemap.xml is stale — run scripts/build-pages.py and commit"; exit 1; }

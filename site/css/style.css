@@ -63,16 +63,18 @@ html, body {
   box-shadow: var(--shadow);
   border: 2px solid var(--sunny);
 }
-.brand strong {
+.brand h1 {
   display: block;
   font-weight: 800;
   font-size: 15px;
   line-height: 1.1;
+  margin: 0;
 }
 .brand span {
   display: block;
   font-size: 11px;
   color: var(--ink-soft);
+  max-width: 200px;
 }
 
 /* ---- Markers ---- */
@@ -159,6 +161,10 @@ html, body {
   background: #fff3d6;
   border-radius: 10px;
   padding: 10px 12px;
+}
+.about a:not(.about__github) {
+  color: var(--teal);
+  font-weight: 700;
 }
 .about__github {
   display: inline-flex;

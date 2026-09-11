@@ -16,3 +16,9 @@
 
 /data/*
   Cache-Control: public, max-age=300, must-revalidate
+
+/m/*
+  Cache-Control: public, max-age=3600
+
+/r/*
+  Cache-Control: public, max-age=3600

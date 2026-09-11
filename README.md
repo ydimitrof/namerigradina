@@ -1,91 +1,106 @@
 # Намери Градина
 
-**https://namerigradina.party** — a mobile-first map of childcare options in Sofia,
-Bulgaria: родителски кооперативи (parent cooperatives), частни and общински детски
-градини — 457 places on one filterable map.
+**Български** | [English](README.en.md)
 
-Built as a static site with no backend and no build step: vanilla JS + MapLibre GL,
-free [OpenFreeMap](https://openfreemap.org/) vector tiles, and all content driven by
-JSON files. Hosted free on Cloudflare (static assets), auto-deployed on every push
-to `main`.
+**https://namerigradina.party** — мобилна карта на възможностите за детска грижа в
+София: родителски кооперативи, частни и общински детски градини — 457 места на една
+карта с филтри.
 
-## Features
+Статичен сайт без бекенд и без build стъпка: чист JavaScript + MapLibre GL, безплатни
+векторни плочки от [OpenFreeMap](https://openfreemap.org/), а цялото съдържание се
+управлява от JSON файлове. Хостван безплатно в Cloudflare, с автоматичен deploy при
+всеки push към `main`.
 
-- **457 places**: 15 parent cooperatives (hand-researched), 342 municipal
-  kindergartens/nurseries, 100 private kindergartens — color-coded, clustered,
-  each with a detail card (ages, schedule, contacts, honest notes on uncertainty).
-- **Filters** (all config-driven from JSON): type, child age, yard/outdoor
-  space, walking time from your address. Location is filtered spatially —
-  by panning the map or via the address pin — rather than a district picker.
-- **"Your address" pin**: geocoded address search or tap-to-place, draggable,
-  remembered locally. Unlocks the walking-distance filter and per-place travel
-  info: walking estimate, driving time (OSRM), Google Maps transit/driving links.
-- **Public transport**: nearby stops with their bus/tram/trolley/metro lines, and
-  the *direct lines* between your pin and the place — precomputed from the official
-  GTFS feed, no runtime API dependency.
-- Bulgarian UI, ≥44px touch targets, bottom-sheet layout on phones.
+## Възможности
 
-## Data sources & attribution
+- **457 места**: 15 родителски кооператива (ръчно проучени), 342 общински градини и
+  ясли, 100 частни градини — цветово кодирани, клъстерирани, всяко с карточка с
+  детайли (възрасти, график, контакти, честни бележки при несигурност).
+- **Филтри** (изцяло от JSON конфигурация): вид, възраст на детето, двор/открито,
+  пешеходно време от вашия адрес. Локацията се филтрира пространствено — с местене
+  на картата или чрез пина — вместо с избор на район.
+- **Пин „Твоят адрес“**: търсене на адрес или докосване на картата, влачи се,
+  запомня се локално. Отключва филтъра по пешеходно разстояние и информация за
+  пътуване към всяко място: пеша, с кола (OSRM), линкове към Google Maps за градски
+  транспорт и шофиране.
+- **Градски транспорт**: близките спирки с техните линии (автобус/трамвай/тролей/
+  метро) и *директните линии* между вашия пин и мястото — предварително изчислени
+  от официалните GTFS данни, без зависимост от външно API по време на работа.
+- **SEO страници**: генерирани статични страници за всяко място (`/m/…`) и за всеки
+  район (`/r/…`) със структурирани данни schema.org, плюс sitemap.
+- Български интерфейс, ≥44px зони за докосване, изгледи тип „bottom sheet“ на телефон.
 
-| Data | Source | Notes |
+## Източници на данните
+
+| Данни | Източник | Бележки |
 |---|---|---|
-| Parent cooperatives | Manual research from public sources (websites, Facebook, articles, forums) | No official register exists; entries carry honesty notes; curated in `site/data/places.json` |
-| Municipal kindergartens | Столична община — ИСОДЗ (kg.sofia.bg) + arcgis.sofia.bg | Extracted 2026-09; attribute Столична община |
-| Private kindergartens | МОН НЕИСПУО institutions register (ri.mon.bg) | Extracted 2026-09 |
-| Transit stops & lines | Център за градска мобилност GTFS (gtfs.sofiatraffic.bg) | CC BY 4.0; refresh via `scripts/build-transit.py` |
-| Map tiles & geocoding | © OpenStreetMap contributors via OpenFreeMap, Photon, Nominatim | ODbL |
+| Родителски кооперативи | Ръчно проучване на публични източници (сайтове, Facebook, статии, форуми) | Няма официален регистър; записите носят бележки за несигурност; поддържат се в `site/data/places.json` |
+| Общински градини | Столична община — ИСОДЗ (kg.sofia.bg) + arcgis.sofia.bg | Извлечени 09.2026; посочвайте Столична община |
+| Частни градини | Регистър НЕИСПУО на МОН (ri.mon.bg) | Извлечени 09.2026 |
+| Спирки и линии | GTFS на Център за градска мобилност (gtfs.sofiatraffic.bg) | CC BY 4.0; обновяване чрез `scripts/build-transit.py` |
+| Карта и геокодиране | © OpenStreetMap contributors чрез OpenFreeMap, Photon, Nominatim | ODbL |
 
-Full licensing details: [LICENSE-DATA.md](LICENSE-DATA.md). The site shows this
-provenance to users in the ⓘ "За сайта" dialog.
+Пълните лицензионни детайли: [LICENSE-DATA.md](LICENSE-DATA.md). Сайтът показва
+тези източници на потребителите в диалога ⓘ „За сайта“.
 
-## Repository layout
+## Структура на репото
 
 ```
-site/          ← the deployed website (everything else is NOT served)
+site/          ← публикуваният сайт (всичко останало НЕ се сервира)
   data/
-    places.json         hand-curated cooperatives — edit this to add/fix a place
-    kindergartens.json  script-generated (municipal + private) — do not hand-edit
-    transit.json        script-generated from GTFS — do not hand-edit
-    filters.json        filter definitions rendered in the sidebar
-  js/          app.js (bootstrap/UI), map.js (MapLibre), filters.js (filter engine)
-  css/, assets/, _headers
-scripts/       data regeneration (build-transit.py)
-tests/         filter-engine tests (jsdom)
-docs/          plan, research notes, decisions log — in the repo, never deployed
+    places.json         ръчно поддържани кооперативи — редактирайте това
+    kindergartens.json  генериран от скрипт (общински + частни) — не пипайте на ръка
+    transit.json        генериран от GTFS — не пипайте на ръка
+    filters.json        дефиниции на филтрите
+  m/, r/       генерирани SEO страници (места и райони) — scripts/build-pages.py
+  js/          app.js (стартиране/UI), map.js (MapLibre), filters.js (филтри)
+  css/, assets/, _headers, sitemap.xml, robots.txt
+scripts/       генератори на данни и страници
+tests/         тестове на филтърния механизъм (jsdom)
+docs/          план, проучвания, дневник на решенията — в репото, никога онлайн
 ```
 
-## Run locally
+## Локално стартиране
 
 ```sh
 cd site && python3 -m http.server 8080
-# open http://localhost:8080
+# отворете http://localhost:8080
 ```
 
-No dependencies for the site itself. For the tests: `npm install && npm test`.
+Сайтът няма зависимости. За тестовете: `npm install && npm test`.
 
-## Editing content (no code needed)
+## Редактиране на съдържание (без код)
 
-- **Add/edit a cooperative**: edit `site/data/places.json`. Coordinates are
-  `[longitude, latitude]`. Unknown fields stay `null` — never guess; use the
-  `note` field for caveats and `approxLocation: true` for uncertain pins.
-- **Add/edit a filter**: edit `site/data/filters.json`. Types: `multi-select`
-  (chips, optional per-option `color`), `range`, `toggle`, `distance`
-  (walking-minutes, needs the user pin). New filter *types* go in `site/js/filters.js`.
-- Validate with `jq . site/data/*.json` and `npm test`.
+- **Добавяне/корекция на кооператив**: редактирайте `site/data/places.json`.
+  Координатите са `[дължина, ширина]` (lng, lat). Непознатите полета остават `null` —
+  никога не гадайте; ползвайте `note` за уговорки и `approxLocation: true` за
+  неточни локации.
+- **Добавяне/промяна на филтър**: `site/data/filters.json`. Типове: `multi-select`
+  (чипове, по избор `color`), `range`, `toggle`, `distance` (минути пеша, изисква
+  пин). Нови *типове* филтри се добавят в `site/js/filters.js`.
+- След редакция: `jq . site/data/*.json`, `npm test` и `python3 scripts/build-pages.py`
+  (CI проверява, че генерираните страници отговарят на данните).
 
-## Contributing
+## Принос
 
-PRs welcome — most contributions are JSON edits (see above). For a new place,
-include at least one verifiable source link in the PR description. CI validates
-JSON, JS syntax and the filter tests on every push and PR.
+PR-ове са добре дошли — повечето промени са редакции на JSON (вижте по-горе). За
+ново място включете поне един проверим източник в описанието на PR-а. CI валидира
+JSON, JS синтаксиса, тестовете и актуалността на генерираните страници.
+
+## SEO страници
+
+`site/m/` (457 страници за места), `site/r/` (райони) и `sitemap.xml` се генерират
+от `python3 scripts/build-pages.py` след всяка промяна на данните. Отложена стъпка:
+верификация в Google Search Console / Bing Webmaster (DNS TXT запис) и подаване на
+`https://namerigradina.party/sitemap.xml`.
 
 ## Deploy
 
-Cloudflare Workers static assets: build command `exit 0`, deploy command
-`npx wrangler deploy` (config in `wrangler.jsonc`, assets dir `site/`). Pushes to
-`main` deploy automatically. `site/_headers` carries CSP and cache rules.
+Cloudflare Workers static assets: build команда `exit 0`, deploy команда
+`npx wrangler deploy` (конфигурация в `wrangler.jsonc`, assets директория `site/`).
+Push към `main` deploy-ва автоматично. `site/_headers` носи CSP и кеш правилата.
 
-## License
+## Лиценз
 
-Code: [MIT](LICENSE). Curated dataset: CC BY 4.0. Third-party data and bundled
-code keep their own licenses — see [LICENSE-DATA.md](LICENSE-DATA.md).
+Код: [MIT](LICENSE). Ръчно събраните данни: CC BY 4.0. Външните данни и включеният
+код запазват собствените си лицензи — вижте [LICENSE-DATA.md](LICENSE-DATA.md).
