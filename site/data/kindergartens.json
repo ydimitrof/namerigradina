@@ -4839,8 +4839,8 @@
    "type": "public",
    "name": "ДГ №131 Флора (с яслени групи)",
    "coords": [
-    23.2752,
-    42.66099
+    23.29542,
+    42.65667
    ],
    "address": "кв. Манастирски ливади, ул. \"Флора\", №17",
    "district": "triaditsa",
@@ -5448,8 +5448,8 @@
    "type": "public",
    "name": "ДГ №150 Приказни герои (с яслени групи)",
    "coords": [
-    23.24662,
-    42.72117
+    23.24936,
+    42.71817
    ],
    "address": "ж.к. \"Люлин – 3 м. р.\", ул. „309 “ № 4 (бивше 23 ОДЗ)",
    "district": "lyulin",
@@ -5462,8 +5462,7 @@
     "email": null,
     "facebook": null,
     "website": null
-   },
-   "approxLocation": true
+   }
   },
   {
    "id": "kg-dg-151-leda-mileva-s-yasleni-grupi",
