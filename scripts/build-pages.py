@@ -87,7 +87,7 @@ def page(title, desc, canonical, body, jsonld=None):
 {body}
 </main>
 <footer>«Намери Градина» е доброволен проект с отворен код ·
-<a href="/">Карта</a> · <a href="/r/index.html">Всички райони</a> ·
+<a href="/">Карта</a> · <a href="/r/">Всички райони</a> ·
 <a href="https://github.com/ydimitrof/namerigradina">GitHub</a></footer>
 </body>
 </html>
@@ -149,9 +149,9 @@ def place_page(p):
             or f"„{p['name']}“ — {tl.lower()} в {loc}."
                f"{' Адрес: ' + p['address'] + '.' if p.get('address') else ''}"
                " Контакти и местоположение на картата.")
-    crumbs = ['<a href="/">Начало</a>', '<a href="/r/index.html">Райони</a>']
+    crumbs = ['<a href="/">Начало</a>', '<a href="/r/">Райони</a>']
     if dl:
-        crumbs.append(f'<a href="/r/{e(p["district"])}.html">{e(dl)}</a>')
+        crumbs.append(f'<a href="/r/{e(p["district"])}">{e(dl)}</a>')
     body = [f'<p class="crumbs">{" › ".join(crumbs)}</p>',
             f"<h1>{e(p['name'])}</h1>",
             f'<p><span class="tag tag-{e(p["type"])}">{e(tl)}</span>']
@@ -174,7 +174,7 @@ def place_page(p):
     if p.get("note"):
         body.append(f'<p class="note">ℹ️ {e(p["note"])}</p>')
     body.append(f'<a class="cta" href="/?place={e(p["id"])}">Отвори на картата →</a>')
-    return page(title, desc[:300], f"{BASE}/m/{p['id']}.html", "\n".join(body), jsonld_for(p))
+    return page(title, desc[:300], f"{BASE}/m/{p['id']}", "\n".join(body), jsonld_for(p))
 
 
 def district_page(slug, label, members):
@@ -188,7 +188,7 @@ def district_page(slug, label, members):
             counts.append(f"{len(by_type[t])} {hdr}")
     desc = (f"Всички детски градини и родителски кооперативи в {label}, София: "
             + ", ".join(counts) + ". Адреси, контакти и карта.")
-    body = ['<p class="crumbs"><a href="/">Начало</a> › <a href="/r/index.html">Райони</a></p>',
+    body = ['<p class="crumbs"><a href="/">Начало</a> › <a href="/r/">Райони</a></p>',
             f"<h1>Детски градини и кооперативи в {e(label)}</h1>",
             f"<p>{e(', '.join(counts).capitalize())} — всички с адрес и контакти, "
             f'подредени на <a href="/">картата на Намери Градина</a>.</p>']
@@ -200,12 +200,12 @@ def district_page(slug, label, members):
         body.append(f"<h2>{hdr}</h2><ul>")
         for p in sorted(by_type[t], key=lambda x: x["name"]):
             addr = f" — {e(p['address'])}" if p.get("address") else ""
-            body.append(f'<li><a href="/m/{e(p["id"])}.html">{e(p["name"])}</a>{addr}</li>')
+            body.append(f'<li><a href="/m/{e(p["id"])}">{e(p["name"])}</a>{addr}</li>')
         body.append("</ul>")
-    others = [f'<a href="/r/{e(s)}.html">{e(l)}</a>'
+    others = [f'<a href="/r/{e(s)}">{e(l)}</a>'
               for s, l in sorted(DISTRICT.items(), key=lambda kv: kv[1]) if s != slug and s in used_districts]
     body.append('<h2>Други райони</h2><p>' + " · ".join(others) + "</p>")
-    return page(title, desc, f"{BASE}/r/{slug}.html", "\n".join(body))
+    return page(title, desc, f"{BASE}/r/{slug}", "\n".join(body))
 
 
 # ---- generate ----
@@ -232,21 +232,21 @@ index_body = ['<p class="crumbs"><a href="/">Начало</a></p>',
               '<a href="/">на картата</a>.</p><ul>']
 for slug, label in sorted(DISTRICT.items(), key=lambda kv: kv[1]):
     if slug in used_districts:
-        index_body.append(f'<li><a href="/r/{e(slug)}.html">{e(label)}</a> — {len(by_district[slug])} места</li>')
+        index_body.append(f'<li><a href="/r/{e(slug)}">{e(label)}</a> — {len(by_district[slug])} места</li>')
 orphans = [p for d, ms in by_district.items() if d not in DISTRICT for p in ms]
 if orphans:
     index_body.append("</ul><h2>Без посочен район</h2><ul>")
     for p in sorted(orphans, key=lambda x: x["name"]):
-        index_body.append(f'<li><a href="/m/{e(p["id"])}.html">{e(p["name"])}</a></li>')
+        index_body.append(f'<li><a href="/m/{e(p["id"])}">{e(p["name"])}</a></li>')
 index_body.append("</ul>")
 (ROOT / "r" / "index.html").write_text(page(
     "Детски градини в София по райони | Намери Градина",
     f"Указател на {len(PLACES)} детски градини и родителски кооперативи в София по райони.",
-    f"{BASE}/r/index.html", "\n".join(index_body)))
+    f"{BASE}/r/", "\n".join(index_body)))
 
-urls = [f"{BASE}/", f"{BASE}/r/index.html"]
-urls += [f"{BASE}/r/{s}.html" for s in sorted(used_districts)]
-urls += [f"{BASE}/m/{p['id']}.html" for p in PLACES]
+urls = [f"{BASE}/", f"{BASE}/r/"]
+urls += [f"{BASE}/r/{s}" for s in sorted(used_districts)]
+urls += [f"{BASE}/m/{p['id']}" for p in PLACES]
 sm = ['<?xml version="1.0" encoding="UTF-8"?>',
       '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
 for u in urls:
