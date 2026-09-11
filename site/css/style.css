@@ -551,7 +551,7 @@ html, body {
   .filters {
     left: 16px;
     right: auto;
-    top: 76px;
+    top: 104px;
     bottom: auto;
     width: 300px;
     border-radius: var(--radius);
@@ -560,16 +560,16 @@ html, body {
   .filters__chevron { display: none; }
   .filters__body {
     display: block;
-    max-height: calc(100vh - 200px);
+    max-height: calc(100vh - 230px);
   }
   .detail {
     left: auto;
     right: 16px;
-    top: 76px;
+    top: 104px;
     bottom: auto;
     width: 360px;
     border-radius: var(--radius);
-    max-height: calc(100vh - 120px);
+    max-height: calc(100vh - 140px);
   }
   .brand { top: 16px; left: 16px; }
 }
