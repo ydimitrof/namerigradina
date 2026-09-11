@@ -147,6 +147,32 @@
     setPin(null);
   });
 
+  const geoBtn = document.getElementById("loc-geo-btn");
+  geoBtn.addEventListener("click", () => {
+    if (!("geolocation" in navigator)) {
+      status("Браузърът не поддържа местоположение — посочете пин на картата.");
+      return;
+    }
+    geoBtn.disabled = true;
+    status("Определяне на местоположението…");
+    navigator.geolocation.getCurrentPosition(
+      (pos) => {
+        geoBtn.disabled = false;
+        const coords = [pos.coords.longitude, pos.coords.latitude];
+        const inSofia = 23.0 < coords[0] && coords[0] < 23.8 && 42.4 < coords[1] && coords[1] < 42.95;
+        status(inSofia ? "" : "Изглежда сте извън София — картата показва само места в София.");
+        setPin(coords, { pan: true });
+      },
+      (err) => {
+        geoBtn.disabled = false;
+        status(err.code === err.PERMISSION_DENIED
+          ? "Достъпът до местоположението е отказан — потърсете адрес или посочете пин."
+          : "Местоположението не можа да се определи — посочете пин на картата.");
+      },
+      { enableHighAccuracy: false, timeout: 10000, maximumAge: 60000 }
+    );
+  });
+
   /* ---- Travel times (shown in the card when a pin is set) ---- */
 
   const carCache = new Map(); // place.id -> minutes | null (null = lookup failed)
