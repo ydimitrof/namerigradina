@@ -1289,8 +1289,8 @@
    "type": "public",
    "name": "СДЯ №37 Проф. д-р Иван Митев",
    "coords": [
-    23.35644,
-    42.66851
+    23.35234,
+    42.66857
    ],
    "address": "ул. \"Вълко Раденски\" № 5",
    "district": "izgrev",
@@ -4397,8 +4397,8 @@
    "type": "public",
    "name": "ДГ №122 Синева (с яслени групи)",
    "coords": [
-    23.25265,
-    42.71162
+    23.25107,
+    42.71219
    ],
    "address": "ж.к. \"Люлин – VI\", ул. „Полковник Никола Попов“, №5",
    "district": "lyulin",
@@ -4411,8 +4411,7 @@
     "email": null,
     "facebook": null,
     "website": null
-   },
-   "approxLocation": true
+   }
   },
   {
    "id": "kg-dg-123-sharl-pero-s-yasleni-grupi",
