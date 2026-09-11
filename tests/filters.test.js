@@ -44,7 +44,7 @@ assert.ok(coopChip, "type chip exists");
 assert.ok(coopChip.style.getPropertyValue("--chip-color"), "type chip carries its color");
 coopChip.click();
 assert.strictEqual(engine.apply(places).length, 15, "15 cooperatives");
-const publicChip = chips.find((c) => c.textContent === "Общинска градина");
+const publicChip = chips.find((c) => c.textContent === "Общинска градина / ясла");
 coopChip.click(); // off
 publicChip.click();
 assert.strictEqual(engine.apply(places).length, 342, "342 municipal kindergartens");

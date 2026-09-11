@@ -1,7 +1,7 @@
 {
- "version": 3,
+ "version": 4,
  "updated": "2026-09-11",
- "attribution": "Данни за общинските градини: Столична община / ИСОДЗ (kg.sofia.bg) и arcgis.sofia.bg, извлечени 2026-09-10.",
+ "attribution": "Данни: Столична община/ИСОДЗ и arcgis.sofia.bg (общински), МОН/НЕИСПУО (частни градини), Столична РЗИ чрез kg.sofia.bg (частни ясли).",
  "places": [
   {
    "id": "kg-dg-1-chervenata-shapchitsa-s-yasleni-grupi",
@@ -1285,6 +1285,27 @@
    }
   },
   {
+   "id": "kg-sdya-37-prof-d-r-ivan-mitev",
+   "type": "public",
+   "name": "СДЯ №37 Проф. д-р Иван Митев",
+   "coords": [
+    23.35644,
+    42.66851
+   ],
+   "address": "ул. \"Вълко Раденски\" № 5",
+   "district": "izgrev",
+   "ages": [
+    0,
+    3
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": "https://dg37sofia.com/"
+   }
+  },
+  {
    "id": "kg-dg-37-valshebstvo-sgrada-2",
    "type": "public",
    "name": "ДГ №37 Вълшебство - сграда 2",
@@ -2289,7 +2310,7 @@
     "phone": "02 871 81 54",
     "email": null,
     "facebook": null,
-    "website": "https://dg65.bg/"
+    "website": null
    }
   },
   {
@@ -4372,6 +4393,28 @@
    }
   },
   {
+   "id": "kg-dg-122-sineva-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №122 Синева (с яслени групи)",
+   "coords": [
+    23.25265,
+    42.71162
+   ],
+   "address": "ж.к. \"Люлин – VI\", ул. „Полковник Никола Попов“, №5",
+   "district": "lyulin",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": "+359 884 726 758",
+    "email": null,
+    "facebook": null,
+    "website": null
+   },
+   "approxLocation": true
+  },
+  {
    "id": "kg-dg-123-sharl-pero-s-yasleni-grupi",
    "type": "public",
    "name": "ДГ №123 Шарл Перо (с яслени групи)",
@@ -4786,6 +4829,27 @@
    ],
    "contacts": {
     "phone": "02 822 36 73",
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kg-dg-131-flora-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №131 Флора (с яслени групи)",
+   "coords": [
+    23.2752,
+    42.66099
+   ],
+   "address": "кв. Манастирски ливади, ул. \"Флора\", №17",
+   "district": "triaditsa",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": null,
     "email": null,
     "facebook": null,
     "website": null
@@ -5380,6 +5444,28 @@
    }
   },
   {
+   "id": "kg-dg-150-prikazni-geroi-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №150 Приказни герои (с яслени групи)",
+   "coords": [
+    23.24662,
+    42.72117
+   ],
+   "address": "ж.к. \"Люлин – 3 м. р.\", ул. „309 “ № 4 (бивше 23 ОДЗ)",
+   "district": "lyulin",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   },
+   "approxLocation": true
+  },
+  {
    "id": "kg-dg-151-leda-mileva-s-yasleni-grupi",
    "type": "public",
    "name": "ДГ №151 Леда Милева (с яслени групи)",
@@ -5545,6 +5631,27 @@
     "email": null,
     "facebook": null,
     "website": "https://dg155.com/"
+   }
+  },
+  {
+   "id": "kg-dg-156-veseli-mishleta-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №156 Весели мишлета (с яслени групи)",
+   "coords": [
+    23.29885,
+    42.67152
+   ],
+   "address": "ул. \"Червена роза\" № 17",
+   "district": "triaditsa",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
    }
   },
   {
@@ -5881,6 +5988,27 @@
     "email": null,
     "facebook": null,
     "website": "http://dg162.net/"
+   }
+  },
+  {
+   "id": "kg-dg-163-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №163  (с яслени групи)",
+   "coords": [
+    23.24913,
+    42.67252
+   ],
+   "address": "бул. \"Никола Петков\" № 141",
+   "district": "ovcha-kupel",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
    }
   },
   {
@@ -6724,6 +6852,27 @@
    }
   },
   {
+   "id": "kg-dg-190-s-yasleni-grupi",
+   "type": "public",
+   "name": "ДГ №190  (с яслени групи)",
+   "coords": [
+    23.34245,
+    42.63797
+   ],
+   "address": "ул. „Проф. Живко Сталев“ № 21",
+   "district": "studentski",
+   "ages": [
+    1,
+    7
+   ],
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
    "id": "kg-dg-191-prikazka-bez-kray-s-yasleni-grupi",
    "type": "public",
    "name": "ДГ №191 Приказка без край (с яслени групи)",
@@ -6997,155 +7146,6 @@
    }
   },
   {
-   "id": "kg-sdya-37-prof-d-r-ivan-mitev",
-   "type": "public",
-   "name": "СДЯ №37 Проф. д-р Иван Митев",
-   "coords": [
-    23.35644,
-    42.66851
-   ],
-   "address": "ул. \"Вълко Раденски\" № 5",
-   "district": "izgrev",
-   "ages": [
-    0,
-    3
-   ],
-   "contacts": {
-    "phone": null,
-    "email": null,
-    "facebook": null,
-    "website": null
-   }
-  },
-  {
-   "id": "kg-dg-122-sineva-s-yasleni-grupi",
-   "type": "public",
-   "name": "ДГ №122 Синева (с яслени групи)",
-   "coords": [
-    23.25265,
-    42.71162
-   ],
-   "address": "ж.к. \"Люлин – VI\", ул. „Полковник Никола Попов“, №5",
-   "district": "lyulin",
-   "ages": [
-    1,
-    7
-   ],
-   "contacts": {
-    "phone": "+359 884 726 758",
-    "email": null,
-    "facebook": null,
-    "website": null
-   },
-   "approxLocation": true
-  },
-  {
-   "id": "kg-dg-131-flora-s-yasleni-grupi",
-   "type": "public",
-   "name": "ДГ №131 Флора (с яслени групи)",
-   "coords": [
-    23.2752,
-    42.66099
-   ],
-   "address": "кв. Манастирски ливади, ул. \"Флора\", №17",
-   "district": "triaditsa",
-   "ages": [
-    1,
-    7
-   ],
-   "contacts": {
-    "phone": null,
-    "email": null,
-    "facebook": null,
-    "website": null
-   }
-  },
-  {
-   "id": "kg-dg-150-prikazni-geroi-s-yasleni-grupi",
-   "type": "public",
-   "name": "ДГ №150 Приказни герои (с яслени групи)",
-   "coords": [
-    23.24662,
-    42.72117
-   ],
-   "address": "ж.к. \"Люлин – 3 м. р.\", ул. „309 “ № 4 (бивше 23 ОДЗ)",
-   "district": "lyulin",
-   "ages": [
-    1,
-    7
-   ],
-   "contacts": {
-    "phone": null,
-    "email": null,
-    "facebook": null,
-    "website": null
-   },
-   "approxLocation": true
-  },
-  {
-   "id": "kg-dg-156-veseli-mishleta-s-yasleni-grupi",
-   "type": "public",
-   "name": "ДГ №156 Весели мишлета (с яслени групи)",
-   "coords": [
-    23.29885,
-    42.67152
-   ],
-   "address": "ул. \"Червена роза\" № 17",
-   "district": "triaditsa",
-   "ages": [
-    1,
-    7
-   ],
-   "contacts": {
-    "phone": null,
-    "email": null,
-    "facebook": null,
-    "website": null
-   }
-  },
-  {
-   "id": "kg-dg-163-s-yasleni-grupi",
-   "type": "public",
-   "name": "ДГ №163  (с яслени групи)",
-   "coords": [
-    23.24913,
-    42.67252
-   ],
-   "address": "бул. \"Никола Петков\" № 141",
-   "district": "ovcha-kupel",
-   "ages": [
-    1,
-    7
-   ],
-   "contacts": {
-    "phone": null,
-    "email": null,
-    "facebook": null,
-    "website": null
-   }
-  },
-  {
-   "id": "kg-dg-190-s-yasleni-grupi",
-   "type": "public",
-   "name": "ДГ №190  (с яслени групи)",
-   "coords": [
-    23.34245,
-    42.63797
-   ],
-   "address": "ул. „Проф. Живко Сталев“ № 21",
-   "district": "studentski",
-   "ages": [
-    1,
-    7
-   ],
-   "contacts": {
-    "phone": null,
-    "email": null,
-    "facebook": null,
-    "website": null
-   }
-  },
-  {
    "id": "kg-dg-201-detelinka-s-yasleni-grupi",
    "type": "public",
    "name": "ДГ №201 Детелинка (с яслени групи)",
@@ -7248,7 +7248,7 @@
     42.70372
    ],
    "address": "Район Възраждане, ул. \"Поп Богомил\" № 47",
-   "district": null,
+   "district": "vazrazhdane",
    "contacts": {
     "phone": "0899947663",
     "email": "admin@gradinamomo.com",
@@ -7492,7 +7492,8 @@
     "email": null,
     "facebook": null,
     "website": null
-   }
+   },
+   "note": "Има и лицензирана от СРЗИ детска ясла на същия адрес."
   },
   {
    "id": "chdg-2202835",
@@ -7648,6 +7649,23 @@
    }
   },
   {
+   "id": "chdg-2213771",
+   "type": "private",
+   "name": "ЧДГ „Джани Родари“",
+   "coords": [
+    23.38102,
+    42.67959
+   ],
+   "address": "ж. к. Слатина, ул. \"Гео Милев\" № 158, ВТУ \"Т. Каблешков\", корпус 6",
+   "district": null,
+   "contacts": {
+    "phone": "02/9709490",
+    "email": "info-2213771@edu.mon.bg",
+    "facebook": null,
+    "website": "https://www.djanirodari.org"
+   }
+  },
+  {
    "id": "chdg-2216760",
    "type": "private",
    "name": "ЧДГ „Къщата На Алиса И Приятели“",
@@ -7716,6 +7734,23 @@
     "website": "https://www.wedaschule.com"
    },
    "approxLocation": true
+  },
+  {
+   "id": "chdg-2223684",
+   "type": "private",
+   "name": "ЧДГ „Детска Къща Монтесори“",
+   "coords": [
+    23.33429,
+    42.65176
+   ],
+   "address": "Район Лозенец, ж. к. Витоша, ул. Яна Язова\" № 6",
+   "district": "lozenets",
+   "contacts": {
+    "phone": "0887 923 482",
+    "email": "info-2223684@edu.mon.bg",
+    "facebook": null,
+    "website": "https://montessori-bulgaria.com"
+   }
   },
   {
    "id": "chdg-2224781",
@@ -7794,7 +7829,7 @@
     42.7085
    ],
    "address": "София, р-н Сердика, ул. \"Сулина\" № 13",
-   "district": null,
+   "district": "serdika",
    "contacts": {
     "phone": "02/02 8978997",
     "email": "kindergarten@busy-bg.com",
@@ -7854,6 +7889,23 @@
    }
   },
   {
+   "id": "chdg-2221616",
+   "type": "private",
+   "name": "ЧДГ „Доверие“",
+   "coords": [
+    23.36407,
+    42.68966
+   ],
+   "address": "ж. к. Редута, ул. \"Калиманци\" № 43",
+   "district": "slatina",
+   "contacts": {
+    "phone": "0888 985815",
+    "email": "info@doverie-bg.net",
+    "facebook": null,
+    "website": "https://www. doverie-bg.net"
+   }
+  },
+  {
    "id": "chdg-2200041",
    "type": "private",
    "name": "ЧДГ „Монтесори Къща Алис“",
@@ -7868,6 +7920,40 @@
     "email": "info-2200041@edu.mon.bg",
     "facebook": null,
     "website": null
+   }
+  },
+  {
+   "id": "chdg-2200032",
+   "type": "private",
+   "name": "ЧДГ „Пчелното Кошерче“",
+   "coords": [
+    23.28129,
+    42.65976
+   ],
+   "address": "София 1618, район Витоша, ул. Ралевица № 80А",
+   "district": "vitosha",
+   "contacts": {
+    "phone": "0882334483",
+    "email": "office@thebeehive.bg",
+    "facebook": null,
+    "website": "https://thebeehive.bg"
+   }
+  },
+  {
+   "id": "chdg-2200038",
+   "type": "private",
+   "name": "ЧДГ „Малките Принцове“",
+   "coords": [
+    23.31047,
+    42.62967
+   ],
+   "address": "София, р-н Витоша, ж.к. Драгалевци, ул. \"Бела Дона\" №8",
+   "district": "vitosha",
+   "contacts": {
+    "phone": "0884133580",
+    "email": "office@lespetitsprinces.bg",
+    "facebook": null,
+    "website": "https://www.lespetitsprinces.bg"
    }
   },
   {
@@ -7902,6 +7988,23 @@
     "email": "info-2213783@edu.mon.bg",
     "facebook": null,
     "website": "https://www.meridian22-bg.com"
+   }
+  },
+  {
+   "id": "chdg-2200035",
+   "type": "private",
+   "name": "ЧДГ „Под 1 Покрив“",
+   "coords": [
+    23.3002,
+    42.71177
+   ],
+   "address": "София, район Витоша, ж.к. Драгалевци, ул. \"Свети Горазд\" № 13",
+   "district": "vitosha",
+   "contacts": {
+    "phone": "0884509670",
+    "email": "info@under1roof.bg",
+    "facebook": null,
+    "website": "https://www.under1roof.bg"
    }
   },
   {
@@ -7973,6 +8076,23 @@
    }
   },
   {
+   "id": "chdg-2200003",
+   "type": "private",
+   "name": "ЧДГ „Усмивка“",
+   "coords": [
+    23.28965,
+    42.7088
+   ],
+   "address": "ж. к. Света Троица, бл. 306, вх. А, ет. 2, ап. 3",
+   "district": "ilinden",
+   "contacts": {
+    "phone": "0898236325",
+    "email": "elina@usmivkabg.com",
+    "facebook": null,
+    "website": "https://www.usmivkabg.com"
+   }
+  },
+  {
    "id": "chdg-2200009",
    "type": "private",
    "name": "ЧДГ „Албертино“",
@@ -7987,6 +8107,23 @@
     "email": "info@albertino.bg",
     "facebook": null,
     "website": "https://www.albertino.bg"
+   }
+  },
+  {
+   "id": "chdg-2200020",
+   "type": "private",
+   "name": "ЧДГ „Детската“",
+   "coords": [
+    23.30377,
+    42.67132
+   ],
+   "address": "ж. к. Стрелбище, бул. \"П. Ю. Тодоров\", бл. 10, вх. Ж, ет. 2, ап. 107",
+   "district": "triaditsa",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
    }
   },
   {
@@ -8007,6 +8144,23 @@
    }
   },
   {
+   "id": "chdg-2201083",
+   "type": "private",
+   "name": "ЧДГ „Йор Кидс“",
+   "coords": [
+    23.32682,
+    42.67178
+   ],
+   "address": "ул. \"Кораб планина\" № 34, ет. 3, ап. 6",
+   "district": "lozenets",
+   "contacts": {
+    "phone": "0887116834",
+    "email": "office@yourkidsbg.com",
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
    "id": "chdg-2202617",
    "type": "private",
    "name": "ЧДГ „Цветен Ден“",
@@ -8021,6 +8175,23 @@
     "email": null,
     "facebook": null,
     "website": null
+   }
+  },
+  {
+   "id": "chdg-2202670",
+   "type": "private",
+   "name": "ЧДГ „Частна Детска Градина Лиди“",
+   "coords": [
+    23.34141,
+    42.6557
+   ],
+   "address": "ул. \"Проф. Христо Вакарелски\" № 10, вх. Б, ет. 3, ап. 7",
+   "district": null,
+   "contacts": {
+    "phone": "02/9592292",
+    "email": "info@dg-lidi.com",
+    "facebook": null,
+    "website": "https://www.dg-lidi.com"
    }
   },
   {
@@ -8089,6 +8260,40 @@
     "email": "mechtatel07@abv.bg",
     "facebook": null,
     "website": null
+   }
+  },
+  {
+   "id": "chdg-2224773",
+   "type": "private",
+   "name": "ЧДГ „Пролет“",
+   "coords": [
+    23.30328,
+    42.66164
+   ],
+   "address": "ж.к. Гоце Делчев, бл. 257Аа, вх. Б, ет. 2, ап. 3",
+   "district": "triaditsa",
+   "contacts": {
+    "phone": "02/02/8685285",
+    "email": "prolet_2006_07@abv.bg",
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdg-2213680",
+   "type": "private",
+   "name": "ЧДГ „Ян Бибиян“",
+   "coords": [
+    23.37624,
+    42.62926
+   ],
+   "address": "ж.к. Младост 4, бл. 456, вх. 1, ап. 7",
+   "district": "mladost",
+   "contacts": {
+    "phone": "0884720078",
+    "email": "yanbibiyan@mail.bg",
+    "facebook": null,
+    "website": "http/janbibijan.com"
    }
   },
   {
@@ -8178,6 +8383,23 @@
    "note": "По регистъра на МОН: не провежда учебен процес през текущата година."
   },
   {
+   "id": "chdg-2201079",
+   "type": "private",
+   "name": "ЧДГ „Вълшебно Борче“",
+   "coords": [
+    23.35899,
+    42.71051
+   ],
+   "address": "ж. к. Полигона, бл. 40, партер",
+   "district": "izgrev",
+   "contacts": {
+    "phone": "0899709737",
+    "email": "team@borche.org",
+    "facebook": null,
+    "website": "https://www.Borche.org"
+   }
+  },
+  {
    "id": "chdg-2213696",
    "type": "private",
    "name": "ЧДГ „Аника“",
@@ -8226,6 +8448,23 @@
     "email": "nemoboyana@nemo-bg.com",
     "facebook": null,
     "website": "https://www.nemo-bg.com"
+   }
+  },
+  {
+   "id": "chdg-2211702",
+   "type": "private",
+   "name": "ЧДГ „Кристофър Робин“",
+   "coords": [
+    23.32878,
+    42.68477
+   ],
+   "address": "ул. \"Момин кладенец\" № 1, партер, офис 1",
+   "district": null,
+   "contacts": {
+    "phone": "0888 404 151",
+    "email": "info-2211702@edu.mon.bg",
+    "facebook": null,
+    "website": "https://c-robinkids.com"
    }
   },
   {
@@ -8331,6 +8570,40 @@
    }
   },
   {
+   "id": "chdg-2200060",
+   "type": "private",
+   "name": "Частна детска градина ''Ягодина'' ",
+   "coords": [
+    23.32174,
+    42.6977
+   ],
+   "address": "ул. \"21-ви век\" № 30, ет. 5, ап. 65",
+   "district": null,
+   "contacts": {
+    "phone": "+359894935879",
+    "email": "info@yagodina.bg",
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdg-2200048",
+   "type": "private",
+   "name": "ЧДГ „Детска Мечта“",
+   "coords": [
+    23.31325,
+    42.63034
+   ],
+   "address": "в. з. Симеоново - Драгалевци, ул. \"Проф. Боян Ничев\" № 2",
+   "district": "vitosha",
+   "contacts": {
+    "phone": "+359892333444",
+    "email": "detskamechta@gmail.com",
+    "facebook": null,
+    "website": "https://detskamechta-bg.com/"
+   }
+  },
+  {
    "id": "chdg-2200028",
    "type": "private",
    "name": "ЧДГ „Кидсвил“",
@@ -8348,6 +8621,23 @@
    }
   },
   {
+   "id": "chdg-2211752",
+   "type": "private",
+   "name": "ЧДГ „Алиса“",
+   "coords": [
+    23.32276,
+    42.67071
+   ],
+   "address": "ул. \"Кричим\" № 9, вх. Б, ет. 2, ап. 21",
+   "district": null,
+   "contacts": {
+    "phone": "0888853525",
+    "email": "detskagradina.alissa@gmail.com",
+    "facebook": null,
+    "website": "https://www.alissa-bg.com"
+   }
+  },
+  {
    "id": "chdg-2211761",
    "type": "private",
    "name": "ЧДГ „Жирафче“",
@@ -8362,6 +8652,23 @@
     "email": "info@giraffche.com",
     "facebook": null,
     "website": "https://www.giraffche.com"
+   }
+  },
+  {
+   "id": "chdg-2200063",
+   "type": "private",
+   "name": "ЧДГ „Гбс Кидс“",
+   "coords": [
+    23.24789,
+    42.66612
+   ],
+   "address": "ж.к. \"Карпузица\", ул. \"Огнеборец\" № 3",
+   "district": "vitosha",
+   "contacts": {
+    "phone": "0888010469",
+    "email": "gbs.kids@gbs-bg.com",
+    "facebook": null,
+    "website": null
    }
   },
   {
@@ -8399,6 +8706,23 @@
    }
   },
   {
+   "id": "chdg-2200067",
+   "type": "private",
+   "name": "ЧДГ „Растеж“",
+   "coords": [
+    23.3324,
+    42.68864
+   ],
+   "address": "ул. \"Юрий Венелин\" № 23, ет. 2, ап. 6",
+   "district": null,
+   "contacts": {
+    "phone": "0889336916",
+    "email": "growersdaycare@gmail.com",
+    "facebook": null,
+    "website": "https://growers.bg"
+   }
+  },
+  {
    "id": "chdg-2211655",
    "type": "private",
    "name": "ЧДГ „Фънки Мънки“",
@@ -8413,6 +8737,23 @@
     "email": "contact@funkymonkey.bg",
     "facebook": null,
     "website": "https://www.funkymonkey.bg"
+   }
+  },
+  {
+   "id": "chdg-2200046",
+   "type": "private",
+   "name": "ЧДГ „София“",
+   "coords": [
+    23.34476,
+    42.65639
+   ],
+   "address": "ул. \"Проф. Христо Данов\" № 17, ап. 46",
+   "district": null,
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
    }
   },
   {
@@ -8451,6 +8792,24 @@
    }
   },
   {
+   "id": "chdg-2211790",
+   "type": "private",
+   "name": "ЧДГ „Щастливата Къща“",
+   "coords": [
+    23.38223,
+    42.63037
+   ],
+   "address": "ж. к. Младост 4, бл. 460А, вх. 2, ет. 5, ап. 18",
+   "district": "mladost",
+   "contacts": {
+    "phone": "0888616733",
+    "email": "happy.house@abv.bg",
+    "facebook": null,
+    "website": "https:///www.happyhouse-bg.com/"
+   },
+   "note": "Има и лицензирана от СРЗИ детска ясла на същия адрес."
+  },
+  {
    "id": "chdg-2202776",
    "type": "private",
    "name": "ЧДГ „Увекинд“",
@@ -8484,6 +8843,23 @@
     "website": null
    },
    "note": "По регистъра на МОН: не провежда учебен процес през текущата година."
+  },
+  {
+   "id": "chdg-2200065",
+   "type": "private",
+   "name": "ЧДГ „Щастливи Деца“",
+   "coords": [
+    23.38066,
+    42.6552
+   ],
+   "address": "ул. \"Димитър Доспевски\" № 9А",
+   "district": "mladost",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
   },
   {
    "id": "chdg-2200070",
@@ -8520,134 +8896,20 @@
    }
   },
   {
-   "id": "chdg-2213771",
+   "id": "chdya-2229009520",
    "type": "private",
-   "name": "ЧДГ „Джани Родари“",
+   "name": "ЧДЯ „506 хлапета“",
    "coords": [
-    23.38102,
-    42.67959
+    23.32545,
+    42.6173
    ],
-   "address": "ж. к. Слатина, ул. \"Гео Милев\" № 158, ВТУ \"Т. Каблешков\", корпус 6",
-   "district": null,
-   "contacts": {
-    "phone": "02/9709490",
-    "email": "info-2213771@edu.mon.bg",
-    "facebook": null,
-    "website": "https://www.djanirodari.org"
-   }
-  },
-  {
-   "id": "chdg-2223684",
-   "type": "private",
-   "name": "ЧДГ „Детска Къща Монтесори“",
-   "coords": [
-    23.33429,
-    42.65176
-   ],
-   "address": "Район Лозенец, ж. к. Витоша, ул. Яна Язова\" № 6",
-   "district": "lozenets",
-   "contacts": {
-    "phone": "0887 923 482",
-    "email": "info-2223684@edu.mon.bg",
-    "facebook": null,
-    "website": "https://montessori-bulgaria.com"
-   }
-  },
-  {
-   "id": "chdg-2221616",
-   "type": "private",
-   "name": "ЧДГ „Доверие“",
-   "coords": [
-    23.36407,
-    42.68966
-   ],
-   "address": "ж. к. Редута, ул. \"Калиманци\" № 43",
-   "district": "slatina",
-   "contacts": {
-    "phone": "0888 985815",
-    "email": "info@doverie-bg.net",
-    "facebook": null,
-    "website": "https://www. doverie-bg.net"
-   }
-  },
-  {
-   "id": "chdg-2200032",
-   "type": "private",
-   "name": "ЧДГ „Пчелното Кошерче“",
-   "coords": [
-    23.28129,
-    42.65976
-   ],
-   "address": "София 1618, район Витоша, ул. Ралевица № 80А",
-   "district": "lozenets",
-   "contacts": {
-    "phone": "0882334483",
-    "email": "office@thebeehive.bg",
-    "facebook": null,
-    "website": "https://thebeehive.bg"
-   }
-  },
-  {
-   "id": "chdg-2200038",
-   "type": "private",
-   "name": "ЧДГ „Малките Принцове“",
-   "coords": [
-    23.31047,
-    42.62967
-   ],
-   "address": "София, р-н Витоша, ж.к. Драгалевци, ул. \"Бела Дона\" №8",
+   "address": "кв. Драгалевци, ул. \"Христо Бръзицов\" (\"506\") № 3",
    "district": "vitosha",
-   "contacts": {
-    "phone": "0884133580",
-    "email": "office@lespetitsprinces.bg",
-    "facebook": null,
-    "website": "https://www.lespetitsprinces.bg"
-   }
-  },
-  {
-   "id": "chdg-2200035",
-   "type": "private",
-   "name": "ЧДГ „Под 1 Покрив“",
-   "coords": [
-    23.3002,
-    42.71177
+   "ages": [
+    0,
+    3
    ],
-   "address": "София, район Витоша, ж.к. Драгалевци, ул. \"Свети Горазд\" № 13",
-   "district": "vitosha",
-   "contacts": {
-    "phone": "0884509670",
-    "email": "info@under1roof.bg",
-    "facebook": null,
-    "website": "https://www.under1roof.bg"
-   }
-  },
-  {
-   "id": "chdg-2200003",
-   "type": "private",
-   "name": "ЧДГ „Усмивка“",
-   "coords": [
-    23.28965,
-    42.7088
-   ],
-   "address": "ж. к. Света Троица, бл. 306, вх. А, ет. 2, ап. 3",
-   "district": "ilinden",
-   "contacts": {
-    "phone": "0898236325",
-    "email": "elina@usmivkabg.com",
-    "facebook": null,
-    "website": "https://www.usmivkabg.com"
-   }
-  },
-  {
-   "id": "chdg-2200020",
-   "type": "private",
-   "name": "ЧДГ „Детската“",
-   "coords": [
-    23.30377,
-    42.67132
-   ],
-   "address": "ж. к. Стрелбище, бул. \"П. Ю. Тодоров\", бл. 10, вх. Ж, ет. 2, ап. 107",
-   "district": "triaditsa",
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 1 група от 12 деца. Регистрирана на 09.01.2012 г.",
    "contacts": {
     "phone": null,
     "email": null,
@@ -8656,202 +8918,240 @@
    }
   },
   {
-   "id": "chdg-2201083",
+   "id": "chdya-2229029082",
    "type": "private",
-   "name": "ЧДГ „Йор Кидс“",
+   "name": "ЧДЯ „506 хлапета“",
    "coords": [
-    23.32682,
-    42.67178
+    23.33793,
+    42.62564
    ],
-   "address": "ул. \"Кораб планина\" № 34, ет. 3, ап. 6",
-   "district": "lozenets",
+   "address": "ул. \"88-ма\", № 3",
+   "district": "vitosha",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ. Регистрирана на 22.08.2025 г.",
    "contacts": {
-    "phone": "0887116834",
-    "email": "office@yourkidsbg.com",
+    "phone": null,
+    "email": null,
     "facebook": null,
     "website": null
    }
   },
   {
-   "id": "chdg-2202670",
+   "id": "chdya-2229029148",
    "type": "private",
-   "name": "Частна детска градина ЛИДИ",
+   "name": "ЧДЯ „KinderVilla“",
    "coords": [
-    23.34141,
-    42.6557
+    23.26675,
+    42.64621
    ],
-   "address": "ул. \"Проф. Христо Вакарелски\" № 10, вх. Б, ет. 3, ап. 7",
-   "district": null,
-   "contacts": {
-    "phone": "02/9592292",
-    "email": "info@dg-lidi.com",
-    "facebook": null,
-    "website": "https://www.dg-lidi.com"
-   }
-  },
-  {
-   "id": "chdg-2224773",
-   "type": "private",
-   "name": "ЧДГ „Пролет“",
-   "coords": [
-    23.30328,
-    42.66164
+   "address": "кв. \"Бояна\", ул. \"Акад. Владимир Христов\", № 20",
+   "district": "vitosha",
+   "ages": [
+    0,
+    3
    ],
-   "address": "ж.к. Гоце Делчев, бл. 257Аа, вх. Б, ет. 2, ап. 3",
-   "district": "triaditsa",
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 1 група от 15 деца. Регистрирана на 11.09.2025 г.",
    "contacts": {
-    "phone": "02/02/8685285",
-    "email": "prolet_2006_07@abv.bg",
+    "phone": null,
+    "email": null,
     "facebook": null,
     "website": null
    }
   },
   {
-   "id": "chdg-2213680",
+   "id": "chdya-2229029328",
    "type": "private",
-   "name": "ЧДГ „Ян Бибиян“",
+   "name": "ЧДЯ „Аркобалено“",
    "coords": [
-    23.37624,
-    42.62926
+    23.27469,
+    42.66905
    ],
-   "address": "ж.к. Младост 4, бл. 456, вх. 1, ап. 7",
-   "district": "mladost",
+   "address": "ул. \"Казбек\" № 24",
+   "district": "vitosha",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 1 група от 15 деца. Регистрирана на 22.10.2025 г.",
    "contacts": {
-    "phone": "0884720078",
-    "email": "yanbibiyan@mail.bg",
+    "phone": null,
+    "email": null,
     "facebook": null,
-    "website": "http/janbibijan.com"
+    "website": null
    }
   },
   {
-   "id": "chdg-2201079",
+   "id": "chdya-2229027219",
    "type": "private",
-   "name": "ЧДГ „Вълшебно Борче“",
+   "name": "ЧДЯ „Бизи Ленд“",
    "coords": [
-    23.35899,
-    42.71051
+    23.31097,
+    42.63629
    ],
-   "address": "ж. к. Полигона, бл. 40, партер",
+   "address": "бул. \"Черни връх\" № 189-Д",
+   "district": "vitosha",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 2 групи по 15 деца. Регистрирана на 29.05.2024 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229026796",
+   "type": "private",
+   "name": "ЧДЯ „Весели калинки“",
+   "coords": [
+    23.27751,
+    42.66603
+   ],
+   "address": "ул. \"Боянски възход\" № 16",
+   "district": "vitosha",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 1 група от 10 деца. Регистрирана на 31.01.2024 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229028067",
+   "type": "private",
+   "name": "ЧДЯ „Горичка“",
+   "coords": [
+    23.25504,
+    42.65987
+   ],
+   "address": "ул. \"Прохлада\", № 33",
+   "district": "vitosha",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 2 групи от 16 деца. Регистрирана на 10.12.2024 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229017688",
+   "type": "private",
+   "name": "ЧДЯ „Приятелска къща“",
+   "coords": [
+    23.27767,
+    42.65939
+   ],
+   "address": "ул. \"Българска легия\" № 17Б",
+   "district": "vitosha",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 2 групи по 16 деца. Регистрирана на 09.11.2017 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229026562",
+   "type": "private",
+   "name": "ЧДЯ „Слънчеви калинки“",
+   "coords": [
+    23.27314,
+    42.66592
+   ],
+   "address": "ул. \"Ген. А. Суворов\" № 163Б",
+   "district": "vitosha",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 1 група от 8 деца. Регистрирана на 02.11.2023 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229027612",
+   "type": "private",
+   "name": "ЧДЯ „Слънчо“",
+   "coords": [
+    23.26933,
+    42.66557
+   ],
+   "address": "ул. \"Кота 1050\" № 5",
+   "district": "vitosha",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 2 групи по 16 деца. Регистрирана на 16.08.2024 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229029081",
+   "type": "private",
+   "name": "ЧДЯ „Терекс“",
+   "coords": [
+    23.25731,
+    42.65315
+   ],
+   "address": "ул. \"Деян Гьоргов\", № 4",
+   "district": "vitosha",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ. Регистрирана на 22.08.2025 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229027453",
+   "type": "private",
+   "name": "ЧДЯ „Изследователи“",
+   "coords": [
+    23.36368,
+    42.66946
+   ],
+   "address": "ул. \"Тинтява\" № 1А",
    "district": "izgrev",
-   "contacts": {
-    "phone": "0899709737",
-    "email": "team@borche.org",
-    "facebook": null,
-    "website": "https://www.Borche.org"
-   }
-  },
-  {
-   "id": "chdg-2211702",
-   "type": "private",
-   "name": "ЧДГ „Кристофър Робин“",
-   "coords": [
-    23.32878,
-    42.68477
+   "ages": [
+    0,
+    3
    ],
-   "address": "ул. \"Момин кладенец\" № 1, партер, офис 1",
-   "district": null,
-   "contacts": {
-    "phone": "0888 404 151",
-    "email": "info-2211702@edu.mon.bg",
-    "facebook": null,
-    "website": "https://c-robinkids.com"
-   }
-  },
-  {
-   "id": "chdg-2200060",
-   "type": "private",
-   "name": "Частна детска градина ''Ягодина'' ",
-   "coords": [
-    23.32174,
-    42.6977
-   ],
-   "address": "ул. \"21-ви век\" № 30, ет. 5, ап. 65",
-   "district": null,
-   "contacts": {
-    "phone": "+359894935879",
-    "email": "info@yagodina.bg",
-    "facebook": null,
-    "website": null
-   }
-  },
-  {
-   "id": "chdg-2200048",
-   "type": "private",
-   "name": "ЧДГ „Детска Мечта“",
-   "coords": [
-    23.31325,
-    42.63034
-   ],
-   "address": "в. з. Симеоново - Драгалевци, ул. \"Проф. Боян Ничев\" № 2",
-   "district": "vitosha",
-   "contacts": {
-    "phone": "+359892333444",
-    "email": "detskamechta@gmail.com",
-    "facebook": null,
-    "website": "https://detskamechta-bg.com/"
-   }
-  },
-  {
-   "id": "chdg-2211752",
-   "type": "private",
-   "name": "ЧДГ „Алиса“",
-   "coords": [
-    23.32276,
-    42.67071
-   ],
-   "address": "ул. \"Кричим\" № 9, вх. Б, ет. 2, ап. 21",
-   "district": null,
-   "contacts": {
-    "phone": "0888853525",
-    "email": "detskagradina.alissa@gmail.com",
-    "facebook": null,
-    "website": "https://www.alissa-bg.com"
-   }
-  },
-  {
-   "id": "chdg-2200063",
-   "type": "private",
-   "name": "ЧДГ „Гбс Кидс“",
-   "coords": [
-    23.24789,
-    42.66612
-   ],
-   "address": "ж.к. \"Карпузица\", ул. \"Огнеборец\" № 3",
-   "district": "vitosha",
-   "contacts": {
-    "phone": "0888010469",
-    "email": "gbs.kids@gbs-bg.com",
-    "facebook": null,
-    "website": null
-   }
-  },
-  {
-   "id": "chdg-2200067",
-   "type": "private",
-   "name": "ЧДГ „Растеж“",
-   "coords": [
-    23.3324,
-    42.68864
-   ],
-   "address": "ул. \"Юрий Венелин\" № 23, ет. 2, ап. 6",
-   "district": null,
-   "contacts": {
-    "phone": "0889336916",
-    "email": "growersdaycare@gmail.com",
-    "facebook": null,
-    "website": "https://growers.bg"
-   }
-  },
-  {
-   "id": "chdg-2200046",
-   "type": "private",
-   "name": "ЧДГ „София“",
-   "coords": [
-    23.34476,
-    42.65639
-   ],
-   "address": "ул. \"Проф. Христо Данов\" № 17, ап. 46",
-   "district": null,
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 2 групи по 15 деца. Регистрирана на 30.07.2024 г.",
    "contacts": {
     "phone": null,
     "email": null,
@@ -8860,32 +9160,1057 @@
    }
   },
   {
-   "id": "chdg-2211790",
+   "id": "chdya-2229025184",
    "type": "private",
-   "name": "ЧДГ „Щастливата Къща“",
+   "name": "ЧДЯ „Приключенци“",
    "coords": [
-    23.38223,
-    42.63037
+    23.36133,
+    42.66806
    ],
-   "address": "ж. к. Младост 4, бл. 460А, вх. 2, ет. 5, ап. 18",
-   "district": "mladost",
+   "address": "ж.к. \"Изток\", ул. \"Д-р Любен Русев\", № 24, партер",
+   "district": "izgrev",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 1 група от 15 деца. Регистрирана на 27.05.2022 г.",
    "contacts": {
-    "phone": "0888616733",
-    "email": "happy.house@abv.bg",
+    "phone": null,
+    "email": null,
     "facebook": null,
-    "website": "https:///www.happyhouse-bg.com/"
+    "website": null
    }
   },
   {
-   "id": "chdg-2200065",
+   "id": "chdya-2229027631",
    "type": "private",
-   "name": "ЧДГ „Щастливи Деца“",
+   "name": "ЧДЯ „Приключенци“",
    "coords": [
-    23.38066,
-    42.6552
+    23.33095,
+    42.68643
    ],
-   "address": "ул. \"Димитър Доспевски\" № 9А",
+   "address": "ул. \"Тинтява\" № 12А и бул. \"Самоков\"",
+   "district": "izgrev",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ. Регистрирана на 14.10.2024 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229028806",
+   "type": "private",
+   "name": "ЧДЯ „Пчеличка Дианабад“",
+   "coords": [
+    23.3502,
+    42.66294
+   ],
+   "address": "ж.к. \"Дианабад\", бл.36",
+   "district": "izgrev",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 1 група от 15 деца. Регистрирана на 12.06.2025 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229016741",
+   "type": "private",
+   "name": "ЧДЯ „Смърфовете“",
+   "coords": [
+    23.40117,
+    42.6471
+   ],
+   "address": "ж.к. \"Дружба\", Цариградски комплекс, бл. 285, вх. Г",
+   "district": "iskar",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 1 група от 16 деца. Регистрирана на 03.06.2020 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229009769",
+   "type": "private",
+   "name": "ЧДЯ „Цветенце“",
+   "coords": [
+    23.28873,
+    42.67375
+   ],
+   "address": "ул. \"Дечко Йорданов\" № 60",
+   "district": "krasno-selo",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 1 група от 15 деца. Регистрирана на 08.09.2023 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229028747",
+   "type": "private",
+   "name": "ЧДЯ „Гъбки“",
+   "coords": [
+    23.30319,
+    42.68615
+   ],
+   "address": "ул. \"Богдановец\" № 18",
+   "district": "krasno-selo",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 1 група от 15 деца. Регистрирана на 17.08.2026 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229022953",
+   "type": "private",
+   "name": "ЧДЯ „Слънчо“",
+   "coords": [
+    23.28829,
+    42.66947
+   ],
+   "address": "ул.\"Солун\" № 55",
+   "district": "krasno-selo",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 1 група от 16 деца. Регистрирана на 29.08.2019 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229029123",
+   "type": "private",
+   "name": "ЧДЯ „Борис Арсов“",
+   "coords": [
+    23.33357,
+    42.64056
+   ],
+   "address": "ул. \"Борис Арсов\", № 1",
+   "district": "lozenets",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 1 група от 15 деца. Регистрирана на 05.09.2025 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229029066",
+   "type": "private",
+   "name": "ЧДЯ „I CAN“",
+   "coords": [
+    23.31954,
+    42.65404
+   ],
+   "address": "ул. \"Сашо Николов - Сладура\", № 5",
+   "district": "lozenets",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 1 група от 16 деца. Регистрирана на 18.08.2025 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229028818",
+   "type": "private",
+   "name": "ЧДЯ „KidsBee“",
+   "coords": [
+    23.33387,
+    42.6469
+   ],
+   "address": "ул. \"Асен Разцветников\" № 9",
+   "district": "lozenets",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 1 група от 15 деца. Регистрирана на 16.06.2025 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229028893",
+   "type": "private",
+   "name": "ЧДЯ „Бодливчета“",
+   "coords": [
+    23.33212,
+    42.64683
+   ],
+   "address": "ул. \"Емануил Поп Димитров\", № 30",
+   "district": "lozenets",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ. Регистрирана на 27.06.2025 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229029220",
+   "type": "private",
+   "name": "ЧДЯ „Весели маймунки“",
+   "coords": [
+    23.3252,
+    42.68118
+   ],
+   "address": "ул. \"Криволак\", № 49",
+   "district": "lozenets",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ. Регистрирана на 30.09.2025 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229030422",
+   "type": "private",
+   "name": "ЧДЯ „Ибу“",
+   "coords": [
+    23.22936,
+    42.68028
+   ],
+   "address": "ул. \"Димитър Шишманов\", № 3",
+   "district": "lozenets",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 1 група от 15 деца. Регистрирана на 13.07.2026 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229029136",
+   "type": "private",
+   "name": "ЧДЯ „Калинките“",
+   "coords": [
+    23.31624,
+    42.65879
+   ],
+   "address": "ул. \"Хенрих Ибсен\", № 1",
+   "district": "lozenets",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 1 група от 10 деца. Регистрирана на 10.09.2025 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229026791",
+   "type": "private",
+   "name": "ЧДЯ „Киндер Вила“",
+   "coords": [
+    23.3298,
+    42.65511
+   ],
+   "address": "ул. \"Марин Тодоров\", № 4Б, вх. Г",
+   "district": "lozenets",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 1 група от 15 деца. Регистрирана на 29.01.2024 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229014857",
+   "type": "private",
+   "name": "ЧДЯ „Бърборанчета“",
+   "coords": [
+    23.37521,
+    42.63068
+   ],
+   "address": "ж.к. \"Младост-4\", ул. \"Д-р Атанас Москов\", бл. 459, вх. 1",
    "district": "mladost",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 1 група от 16 деца. Регистрирана на 19.07.2011 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229028227",
+   "type": "private",
+   "name": "ЧДЯ „Споделено пространство“",
+   "coords": [
+    23.37986,
+    42.66603
+   ],
+   "address": "кв. \"Полигона\", бл. 13",
+   "district": "mladost",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 1 група от 15 деца. Регистрирана на 04.02.2025 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229028464",
+   "type": "private",
+   "name": "ЧДЯ „Pianeta Bambino“",
+   "coords": [
+    23.38541,
+    42.65081
+   ],
+   "address": "ж.к. \"Младост 1А\", бл. 529, вх. 2, (секция Б)",
+   "district": "mladost",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 1 група от 15 деца. Регистрирана на 26.03.2025 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229026443",
+   "type": "private",
+   "name": "ЧДЯ „Ариел“",
+   "coords": [
+    23.37654,
+    42.64733
+   ],
+   "address": "бул. \"Александър Малинов\" № 79Б",
+   "district": "mladost",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 2 групи по 15 деца. Регистрирана на 25.09.2023 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229028807",
+   "type": "private",
+   "name": "ЧДЯ „Бизиландия“",
+   "coords": [
+    23.36868,
+    42.64863
+   ],
+   "address": "ж.к. \"Младост 2\", бл.271, вх.А",
+   "district": "mladost",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 2 групи от 15 деца. Регистрирана на 12.06.2025 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229029456",
+   "type": "private",
+   "name": "ЧДЯ „Бърборанчета“",
+   "coords": [
+    23.41245,
+    42.62841
+   ],
+   "address": "кв. Горубляне, ул. \"Искър\" № 29А",
+   "district": "mladost",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 2 групи по 10 и 12 деца. Регистрирана на 19.11.2025 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229026476",
+   "type": "private",
+   "name": "ЧДЯ „Бейбиленд“",
+   "coords": [
+    23.34593,
+    42.69925
+   ],
+   "address": "ул. \"Силистра\" № 10",
+   "district": "oborishte",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 1 група от 10 деца. Регистрирана на 10.10.2023 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229028936",
+   "type": "private",
+   "name": "ЧДЯ „Бизиландия“",
+   "coords": [
+    23.34466,
+    42.69889
+   ],
+   "address": "ул. \"Тракия\" № 56",
+   "district": "oborishte",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 2 групи от 14 деца. Регистрирана на 09.07.2025 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229027651",
+   "type": "private",
+   "name": "ЧДЯ „Бизиландия“",
+   "coords": [
+    23.34493,
+    42.69891
+   ],
+   "address": "ул. \"Тракия\" № 60",
+   "district": "oborishte",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ. Регистрирана на 04.09.2024 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229028195",
+   "type": "private",
+   "name": "ЧДЯ „Бръмбазък“",
+   "coords": [
+    23.35543,
+    42.69362
+   ],
+   "address": "ул. \"Оборище\" № 78",
+   "district": "oborishte",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 2 групи по 16 деца. Регистрирана на 23.01.2025 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229030275",
+   "type": "private",
+   "name": "ЧДЯ „Smarty“",
+   "coords": [
+    23.25048,
+    42.67933
+   ],
+   "address": "ул. \"Камелия\" № 36А / ул. \"691-ва\"",
+   "district": "ovcha-kupel",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 1 група от 10 деца. Регистрирана на 11.06.2026 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   },
+   "approxLocation": true
+  },
+  {
+   "id": "chdya-2229025054",
+   "type": "private",
+   "name": "ЧДЯ „Две калинки“",
+   "coords": [
+    23.25586,
+    42.68414
+   ],
+   "address": "бул. \"Монтевидео\" № 4",
+   "district": "ovcha-kupel",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 1 група от 10 деца. Регистрирана на 15.04.2022 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229027179",
+   "type": "private",
+   "name": "ЧДЯ „Приятелска къща“",
+   "coords": [
+    23.2569,
+    42.66807
+   ],
+   "address": "ул. \"Загребска\" № 1",
+   "district": "ovcha-kupel",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ. Регистрирана на 20.05.2024 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229028066",
+   "type": "private",
+   "name": "ЧДЯ „Споделено пространство“",
+   "coords": [
+    23.25586,
+    42.68414
+   ],
+   "address": "бул. \"Монтевидео\" № 41",
+   "district": "ovcha-kupel",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 1 група от 12 деца. Регистрирана на 10.12.2024 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229029985",
+   "type": "private",
+   "name": "ЧДЯ „Слънчева усмивка“",
+   "coords": [
+    23.25586,
+    42.68414
+   ],
+   "address": "бул. \"Монтевидео\" № 6",
+   "district": "ovcha-kupel",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 2 групи по 17 деца. Регистрирана на 30.03.2026 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229022960",
+   "type": "private",
+   "name": "ЧДЯ „Терекс“",
+   "coords": [
+    23.23115,
+    42.67584
+   ],
+   "address": "кв. \"Горна баня\", ул. \"Невен\" № 3",
+   "district": "ovcha-kupel",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 2 групи по 16 деца. Регистрирана на 03.09.2019 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229027902",
+   "type": "private",
+   "name": "ЧДЯ „Обич“",
+   "coords": [
+    23.47003,
+    42.60645
+   ],
+   "address": "с. Лозен, ул. \"Съединение\" № 54",
+   "district": "pancharevo",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 2 групи по 10 деца. Регистрирана на 06.11.2024 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229026423",
+   "type": "private",
+   "name": "ЧДЯ „Бизиленд“",
+   "coords": [
+    23.38594,
+    42.70477
+   ],
+   "address": "ул. \"Летоструй\" № 90",
+   "district": "poduyane",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 2 групи по 13 деца. Регистрирана на 18.09.2023 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229016916",
+   "type": "private",
+   "name": "ЧДЯ „Мечти“",
+   "coords": [
+    23.36799,
+    42.70632
+   ],
+   "address": "ул. \"Васил Петлешков\" № 78 \"Честна детска градина",
+   "district": "poduyane",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 1 група от 16 деца. Регистрирана на 24.04.2018 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   },
+   "approxLocation": true
+  },
+  {
+   "id": "chdya-2229027211",
+   "type": "private",
+   "name": "ЧДЯ „Бизи Ленд“",
+   "coords": [
+    23.34015,
+    42.71597
+   ],
+   "address": "ж.к. \"Орландовци\", ул. \"Сулина\" № 13",
+   "district": "serdika",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 2 групи по 16 деца. Регистрирана на 27.05.2024 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229027113",
+   "type": "private",
+   "name": "ЧДЯ „Йор Кидс“",
+   "coords": [
+    23.40986,
+    42.67631
+   ],
+   "address": "ул. \"Подполковник Калитин\", бл.216",
+   "district": "serdika",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 1 група от 12 деца. Регистрирана на 30.04.2024 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229028900",
+   "type": "private",
+   "name": "ЧДЯ „Ай Стъди Тотс“",
+   "coords": [
+    23.34653,
+    42.68937
+   ],
+   "address": "ул. \"Хан Омуртаг\" № 32",
+   "district": "sredets",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 1 група от 17 деца. Регистрирана на 30.06.2025 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229024596",
+   "type": "private",
+   "name": "ЧДЯ „Смърфовете“",
+   "coords": [
+    23.35134,
+    42.65245
+   ],
+   "address": "ул. \"Жак Натан\" № 34А",
+   "district": "studentski",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 2 групи по 15 деца. Регистрирана на 21.09.2021 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   },
+   "approxLocation": true
+  },
+  {
+   "id": "chdya-2229029137",
+   "type": "private",
+   "name": "ЧДЯ „KidsBee“",
+   "coords": [
+    23.2774,
+    42.66923
+   ],
+   "address": "ул. \"Тодор Недков\", № 16",
+   "district": "studentski",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ. Регистрирана на 10.09.2025 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229024096",
+   "type": "private",
+   "name": "ЧДЯ „Drita`s Babies“",
+   "coords": [
+    23.29784,
+    42.67622
+   ],
+   "address": "ж.к. \"Стрелбище\", бул. \"България\", бл. 19, партер",
+   "district": "triaditsa",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 1 група от 15 деца. Регистрирана на 01.02.2021 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229026176",
+   "type": "private",
+   "name": "ЧДЯ „Drita`s Babies“",
+   "coords": [
+    23.29898,
+    42.67575
+   ],
+   "address": "ул. \"Дедеагач\" № 40",
+   "district": "triaditsa",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 2 групи по 15 деца. Регистрирана на 06.06.2023 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229027625",
+   "type": "private",
+   "name": "ЧДЯ „Drita`s Babies“",
+   "coords": [
+    23.28701,
+    42.66022
+   ],
+   "address": "ул. „Флора“, № 1Б",
+   "district": "triaditsa",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 2 групи по 15 деца. Регистрирана на 26.08.2024 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229030469",
+   "type": "private",
+   "name": "ЧДЯ „Бърбораните - Първи стъпки“",
+   "coords": [
+    23.29719,
+    42.65124
+   ],
+   "address": "ул. „Йордан Бакалов-Стубел\", № 21А",
+   "district": "triaditsa",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 1 група от 16 деца. Регистрирана на 27.07.2026 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229030240",
+   "type": "private",
+   "name": "ЧДЯ „Защо, Защо“",
+   "coords": [
+    23.31599,
+    42.6535
+   ],
+   "address": "ул. \"Асен Йорданов\" № 22А",
+   "district": "triaditsa",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 2229030240 групи от 11 деца. Регистрирана на 04.06.2026 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229022631",
+   "type": "private",
+   "name": "ЧДЯ „Мини Ю“",
+   "coords": [
+    23.29682,
+    42.66587
+   ],
+   "address": "ул.\"Славовица\" № 20, партер",
+   "district": "triaditsa",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 1 група от 15 деца. Регистрирана на 19.04.2022 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229029322",
+   "type": "private",
+   "name": "ЧДЯ „Слънчеви приказки“",
+   "coords": [
+    23.31709,
+    42.69333
+   ],
+   "address": "ул. \"Солунска\" № 44",
+   "district": "triaditsa",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 1 група от 10 деца. Регистрирана на 20.10.2025 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229016804",
+   "type": "private",
+   "name": "ЧДЯ „Слънчо“",
+   "coords": [
+    23.2707,
+    42.71348
+   ],
+   "address": "ж.к. \"Гоце Делчев\", бл. 10Е, вх. А, партер",
+   "district": "triaditsa",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 2 групи от 16 и 10 деца. Регистрирана на 27.05.2019 г.",
+   "contacts": {
+    "phone": null,
+    "email": null,
+    "facebook": null,
+    "website": null
+   }
+  },
+  {
+   "id": "chdya-2229027848",
+   "type": "private",
+   "name": "ЧДЯ „Терекс“",
+   "coords": [
+    23.30055,
+    42.67276
+   ],
+   "address": "ул. \"Златни врата\" № 4",
+   "district": "triaditsa",
+   "ages": [
+    0,
+    3
+   ],
+   "description": "Частна детска ясла, лицензирана от Столична РЗИ — 2 групи от 15 деца. Регистрирана на 29.10.2024 г.",
    "contacts": {
     "phone": null,
     "email": null,

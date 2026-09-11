@@ -4,7 +4,7 @@
 
 **https://namerigradina.party** — a mobile-first map of childcare options in Sofia,
 Bulgaria: родителски кооперативи (parent cooperatives), частни and общински детски
-градини — 457 places on one filterable map.
+градини и ясли — 517 places on one filterable map.
 
 Built as a static site with no backend and no build step: vanilla JS + MapLibre GL,
 free [OpenFreeMap](https://openfreemap.org/) vector tiles, and all content driven by
@@ -13,8 +13,8 @@ to `main`.
 
 ## Features
 
-- **457 places**: 15 parent cooperatives (hand-researched), 342 municipal
-  kindergartens/nurseries, 100 private kindergartens — color-coded, clustered,
+- **517 places**: 15 parent cooperatives (hand-researched), 342 municipal
+  kindergartens/nurseries, 100 private kindergartens, 60 private nurseries (СРЗИ) — color-coded, clustered,
   each with a detail card (ages, schedule, contacts, honest notes on uncertainty).
 - **Filters** (all config-driven from JSON): type, child age, yard/outdoor
   space, walking time from your address. Location is filtered spatially —
@@ -34,6 +34,7 @@ to `main`.
 | Parent cooperatives | Manual research from public sources (websites, Facebook, articles, forums) | No official register exists; entries carry honesty notes; curated in `site/data/places.json` |
 | Municipal kindergartens | Столична община — ИСОДЗ (kg.sofia.bg) + arcgis.sofia.bg | Extracted 2026-09; attribute Столична община |
 | Private kindergartens | МОН НЕИСПУО institutions register (ri.mon.bg) | Extracted 2026-09 |
+| Private nurseries | Столична РЗИ register via kg.sofia.bg | Extracted 2026-09; `scripts/build-kindergartens.py` |
 | Transit stops & lines | Център за градска мобилност GTFS (gtfs.sofiatraffic.bg) | CC BY 4.0; refresh via `scripts/build-transit.py` |
 | Map tiles & geocoding | © OpenStreetMap contributors via OpenFreeMap, Photon, Nominatim | ODbL |
 

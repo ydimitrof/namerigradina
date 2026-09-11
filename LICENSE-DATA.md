@@ -15,6 +15,7 @@ or feeds the site under its own terms, and reuse must preserve these attribution
 | Data | File | Source & license |
 |---|---|---|
 | Municipal kindergartens & nurseries | `site/data/kindergartens.json` | Столична община — ИСОДЗ (kg.sofia.bg) and arcgis.sofia.bg; open municipal data, attribute Столична община |
+| Private nurseries (частни ясли) | `site/data/kindergartens.json` | Столична РЗИ register, published via kg.sofia.bg (ИСОДЗ); attribute Столична РЗИ / Столична община |
 | Public transport stops & lines | `site/data/transit.json` | Център за градска мобилност GTFS feed (gtfs.sofiatraffic.bg), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 | Geocoded coordinates | embedded in the place files | Derived via Nominatim/Photon from © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors ([ODbL](https://opendatacommons.org/licenses/odbl/)) |
 | Map tiles (runtime) | — | [OpenFreeMap](https://openfreemap.org/) / © OpenStreetMap contributors |
