@@ -19,7 +19,13 @@ Geocoding is two-pass (Photon, then Nominatim; second pass strips
 "вх./ет./ап." apartment tails) and cached in scripts/geocode-cache.json.
 Entries whose id already exists in the current kindergartens.json keep their
 coordinates verbatim (manual fixes are never regressed); use --re-geocode to
-override.
+override. Addresses are re-derived from the source on every run, so a wrong
+register address is corrected in MON_ADDR_OVERRIDES / SRZI_ADDR_OVERRIDES
+(keyed by НЕИСПУО code / СРЗИ license), never by hand in the output file.
+After assembly every geocoded pin farther from its district's municipal
+centroid than that district's own spread allows (see far_from_district) is
+reported as "WARN far-from-district" — a geocoder mis-hit until proven
+otherwise; the report is advisory and never fails the build.
 
 Usage:
   python3 scripts/build-kindergartens.py [--mon-harvest PATH]
@@ -28,6 +34,7 @@ Usage:
 import argparse
 import io
 import json
+import math
 import re
 import time
 import urllib.parse
@@ -78,6 +85,42 @@ def get_json(url, timeout=30):
 
 def in_sofia(lng, lat):
     return 23.0 < lng < 23.8 and 42.4 < lat < 42.95
+
+
+FAR_KM = 2.5
+
+
+def km_between(a, b):
+    """Great-circle distance between two [lng, lat] points, in km."""
+    lng1, lat1, lng2, lat2 = map(math.radians, (a[0], a[1], b[0], b[1]))
+    h = (math.sin((lat2 - lat1) / 2) ** 2
+         + math.cos(lat1) * math.cos(lat2) * math.sin((lng2 - lng1) / 2) ** 2)
+    return 2 * 6371.0 * math.asin(math.sqrt(h))
+
+
+def far_from_district(places):
+    """(place, km, limit) for every geocoded (non-municipal) pin farther from
+    its district's municipal centroid than the district's own spread allows —
+    the signature of a geocoder mis-hit. Municipal pins come from arcgis and
+    define the reference: limit = max(FAR_KM, 1.25 × the farthest municipal pin
+    in that district), so village-heavy districts (Витоша, Панчарево) don't
+    flood the report while compact ones (Оборище) stay tight."""
+    by_district = {}
+    for p in places:
+        if p["type"] == "public" and p.get("coords") and p.get("district"):
+            by_district.setdefault(p["district"], []).append(p["coords"])
+    centroid = {d: [sum(c[0] for c in v) / len(v), sum(c[1] for c in v) / len(v)]
+                for d, v in by_district.items()}
+    limit = {d: max(FAR_KM, 1.25 * max(km_between(c, centroid[d]) for c in v))
+             for d, v in by_district.items()}
+    out = []
+    for p in places:
+        c = centroid.get(p.get("district"))
+        if c and p["type"] != "public" and p.get("coords"):
+            d = km_between(p["coords"], c)
+            if d > limit[p["district"]]:
+                out.append((p, d, limit[p["district"]]))
+    return sorted(out, key=lambda t: -t[1])
 
 
 # ---------------------------------------------------------------- geocoding
@@ -244,6 +287,14 @@ def display_name(rec):
     return rec.get("abbreviation") or rec.get("name")
 
 
+# Register rows whose settlementAddress is the legal seat, not the kindergarten
+# (verified against the facility's own site / a parent's report), keyed by
+# НЕИСПУО code. Keep the "район X," prefix so the district is derived from it.
+MON_ADDR_OVERRIDES = {
+    "2211752": 'район Лозенец, ул. "Вежен" № 3',   # ЧДГ „Алиса“ — alissa-bg.com; МОН lists Кричим 9 (seat)
+}
+
+
 def build_mon(path, cache, existing):
     harvest = json.loads(Path(path).expanduser().read_text())
     out = []
@@ -254,7 +305,7 @@ def build_mon(path, cache, existing):
         rec = data[0]
         code = str(rec["codeNEISPUO"])
         pid = f"chdg-{code}"
-        addr = (rec.get("settlementAddress") or "").strip()
+        addr = MON_ADDR_OVERRIDES.get(code, (rec.get("settlementAddress") or "").strip())
         m = re.match(r"(?:София[^,]*,\s*)?(?:р-н|район)\s+([^,]+)", addr, flags=re.I)
         district = RAYON_SLUG.get(m.group(1).strip()) if m else None
         website = (rec.get("website") or "").strip()
@@ -432,6 +483,9 @@ def main():
     }
     OUT.write_text(json.dumps(doc, ensure_ascii=False, indent=1) + "\n")
     save_cache(cache)
+    for p, d, lim in far_from_district(places):
+        print(f"  WARN far-from-district: {p['id']} {p['name']} — {d:.1f} km from "
+              f"{p['district']} (limit {lim:.1f})")
     types = {}
     for p in places:
         types[p["type"]] = types.get(p["type"], 0) + 1
