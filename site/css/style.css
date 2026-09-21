@@ -508,7 +508,8 @@ html, body {
   flex-wrap: wrap;
   gap: 8px;
 }
-.detail__contacts a {
+.detail__contacts a,
+.detail__contacts .detail__share {
   display: inline-flex;
   align-items: center;
   gap: 6px;
@@ -522,6 +523,14 @@ html, body {
   min-height: 40px;
 }
 .detail__contacts a.detail__contact--alt { background: var(--lilac); }
+.detail__contacts .detail__share {
+  border: 0;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  background: var(--ink-soft);
+}
+.detail__contacts .detail__share:disabled { cursor: default; opacity: 0.85; }
 .detail__photo {
   width: 100%;
   max-width: 100%;
