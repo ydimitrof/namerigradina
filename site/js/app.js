@@ -326,8 +326,12 @@
       ${place.description ? `<p class="detail__desc">${escape(place.description)}</p>` : ""}
       <div id="transit-holder"></div>
       ${approxNote}${noteHtml}
-      ${contacts.length ? `<div class="detail__contacts">${contacts.join("")}</div>` : ""}
+      <div class="detail__contacts">${contacts.join("")}<button type="button" class="detail__share"
+        data-share-url="${escape(location.origin + "/m/" + place.id)}"
+        data-share-title="${escape(place.name)}"
+        data-share-text="${addressBits.join(", ")}">🔗 Сподели</button></div>
     `;
+    PlaceShare.bind(detailContent);
     detailEl.hidden = false;
     panel.classList.remove("filters--open");
     toggleBtn.setAttribute("aria-expanded", "false");
